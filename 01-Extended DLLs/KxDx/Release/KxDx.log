@@ -1,9 +1,17 @@
-﻿Build started 1/1/2025 7:45:26 PM.
-     1>Project "C:\Users\maik\Desktop\VxKex\01-Extended DLLs\KxDx\KxDx.vcxproj" on node 6 (build target(s)).
-     1>InitializeBuildStatus:
+﻿Build started 1/2/2025 4:48:47 AM.
+     1>Project "C:\Users\maik\Desktop\VxKex\01-Extended DLLs\KxDx\KxDx.vcxproj" on node 6 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\KxDx.lastbuildstate".
+       InitializeBuildStatus:
          Creating "Release\KxDx.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
-         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\maik\Desktop\VxKex\\00-Common Headers" /Zi /nologo /W3 /WX /MP /O1 /Ob1 /Oi /Os /Oy /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D KXDX_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /MD /GS- /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gz /TC /analyze- /errorReport:prompt dcmpstub.c dllmain.c dx12stub.c factory.c forwards.c iid.c
+         dcmpstub.c
+         dllmain.c
+         dx12stub.c
+         factory.c
+         forwards.c
+         iid.c
        ResourceCompile:
          C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /I"C:\Users\maik\Desktop\VxKex\\00-Common Headers" /nologo /fo"Release\KxDx.res" KxDx.rc 
        Link:
@@ -21,8 +29,8 @@
        FinalizeBuildStatus:
          Deleting file "Release\KxDx.unsuccessfulbuild".
          Touching "Release\KxDx.lastbuildstate".
-     1>Done Building Project "C:\Users\maik\Desktop\VxKex\01-Extended DLLs\KxDx\KxDx.vcxproj" (build target(s)).
+     1>Done Building Project "C:\Users\maik\Desktop\VxKex\01-Extended DLLs\KxDx\KxDx.vcxproj" (rebuild target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.50
+Time Elapsed 00:00:07.22

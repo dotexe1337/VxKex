@@ -1,7 +1,7 @@
-﻿Build started 1/1/2025 7:45:18 PM.
+﻿Build started 1/2/2025 4:48:32 AM.
      1>Project "C:\Users\maik\Desktop\VxKex\01-Extended DLLs\KxCryp\KxCryp.vcxproj" on node 3 (build target(s)).
      1>InitializeBuildStatus:
-         Creating "Debug\KxCryp.unsuccessfulbuild" because "AlwaysCreate" was specified.
+         Touching "Debug\KxCryp.unsuccessfulbuild".
        ClCompile:
          All outputs are up-to-date.
        ResourceCompile:
@@ -22,4 +22,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:00.26
+Time Elapsed 00:00:00.19

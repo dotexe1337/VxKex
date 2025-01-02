@@ -1,9 +1,23 @@
-﻿Build started 1/1/2025 7:34:54 PM.
-     1>Project "C:\Users\maik\Desktop\VxKex\KxCfgHlp\KxCfgHlp.vcxproj" on node 3 (build target(s)).
-     1>InitializeBuildStatus:
+﻿Build started 1/2/2025 4:48:43 AM.
+     1>Project "C:\Users\maik\Desktop\VxKex\KxCfgHlp\KxCfgHlp.vcxproj" on node 3 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\KxCfgHlp.lastbuildstate".
+       InitializeBuildStatus:
          Creating "Release\KxCfgHlp.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
-         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\maik\Desktop\VxKex\\00-Common Headers" /Zi /nologo /W3 /WX /MP /O1 /Ob1 /Oi /Os /Oy /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /MD /GS- /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gz /TC /analyze- /errorReport:prompt cpiwbypa.c ctxmenu.c delcfg.c dskclnup.c elevate.c getcfg.c kexdir.c logging.c msisup.c openkey.c kxcfgp.c setcfg.c
+         cpiwbypa.c
+         ctxmenu.c
+         delcfg.c
+         dskclnup.c
+         elevate.c
+         getcfg.c
+         kexdir.c
+         logging.c
+         msisup.c
+         openkey.c
+         kxcfgp.c
+         setcfg.c
        Lib:
          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\maik\Desktop\VxKex\Release\KxCfgHlp.lib" /NOLOGO /NODEFAULTLIB /LTCG Release\cpiwbypa.obj
          Release\ctxmenu.obj
@@ -21,8 +35,8 @@
        FinalizeBuildStatus:
          Deleting file "Release\KxCfgHlp.unsuccessfulbuild".
          Touching "Release\KxCfgHlp.lastbuildstate".
-     1>Done Building Project "C:\Users\maik\Desktop\VxKex\KxCfgHlp\KxCfgHlp.vcxproj" (build target(s)).
+     1>Done Building Project "C:\Users\maik\Desktop\VxKex\KxCfgHlp\KxCfgHlp.vcxproj" (rebuild target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.10
+Time Elapsed 00:00:01.78

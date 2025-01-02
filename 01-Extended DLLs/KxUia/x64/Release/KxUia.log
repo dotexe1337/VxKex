@@ -1,7 +1,7 @@
-﻿Build started 1/1/2025 7:46:39 PM.
+﻿Build started 1/2/2025 4:50:23 AM.
      1>Project "C:\Users\maik\Desktop\VxKex\01-Extended DLLs\KxUia\KxUia.vcxproj" on node 3 (build target(s)).
      1>InitializeBuildStatus:
-         Creating "x64\Release\KxUia.unsuccessfulbuild" because "AlwaysCreate" was specified.
+         Touching "x64\Release\KxUia.unsuccessfulbuild".
        ClCompile:
          All outputs are up-to-date.
        ResourceCompile:
@@ -22,4 +22,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:00.30
+Time Elapsed 00:00:00.16

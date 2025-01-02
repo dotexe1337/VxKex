@@ -1,11 +1,34 @@
-﻿Build started 1/1/2025 7:46:40 PM.
-     1>Project "C:\Users\maik\Desktop\VxKex\01-Extended DLLs\KxBase\kxbase.vcxproj" on node 5 (build target(s)).
-     1>InitializeBuildStatus:
+﻿Build started 1/2/2025 4:50:13 AM.
+     1>Project "C:\Users\maik\Desktop\VxKex\01-Extended DLLs\KxBase\kxbase.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "x64\Release\KxBase.lastbuildstate".
+       InitializeBuildStatus:
          Creating "x64\Release\KxBase.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
-         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Users\maik\Desktop\VxKex\\00-Common Headers" /Zi /nologo /W3 /WX /MP /O2 /Oi /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D KXBASE_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /MD /GS- /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gz /TC /errorReport:prompt appmodel.c cfgmgr.c dllmain.c file.c forwards.c geoname.c heap.c misc.c module.c process.c pssapi.c security.c stubs.c support.c synch.c thread.c time.c token.c verspoof.c vmem.c wow64.c
+         appmodel.c
+         cfgmgr.c
+         dllmain.c
+         file.c
+         forwards.c
+         geoname.c
+         heap.c
+         misc.c
+         module.c
+         process.c
+         pssapi.c
+         security.c
+         stubs.c
+         support.c
+         synch.c
+         thread.c
+         time.c
+         token.c
+         verspoof.c
+         vmem.c
+         wow64.c
        ResourceCompile:
-         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /I"C:\Users\maik\Desktop\VxKex\\00-Common Headers" /nologo /fo"x64\Release\KxBase.res" KxBase.rc 
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\maik\Desktop\VxKex\x64\Release\KxBase.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\Users\maik\Desktop\VxKex\x64\Release\ /LIBPATH:"C:\Users\maik\Desktop\VxKex\\00-Import Libraries" /DEF:"kxbase.def" /MANIFEST:NO /DEBUG /PDB:"C:\Users\maik\Desktop\VxKex\x64\Release\KxBase.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /RELEASE /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\maik\Desktop\VxKex\x64\Release\KxBase.lib" /MACHINE:X64 /DLL x64\Release\KxBase.res
          x64\Release\appmodel.obj
@@ -36,8 +59,8 @@
        FinalizeBuildStatus:
          Deleting file "x64\Release\KxBase.unsuccessfulbuild".
          Touching "x64\Release\KxBase.lastbuildstate".
-     1>Done Building Project "C:\Users\maik\Desktop\VxKex\01-Extended DLLs\KxBase\kxbase.vcxproj" (build target(s)).
+     1>Done Building Project "C:\Users\maik\Desktop\VxKex\01-Extended DLLs\KxBase\kxbase.vcxproj" (rebuild target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.50
+Time Elapsed 00:00:04.95

@@ -1,11 +1,11 @@
-﻿Build started 1/1/2025 7:45:20 PM.
+﻿Build started 1/2/2025 4:48:34 AM.
      1>Project "C:\Users\maik\Desktop\VxKex\01-Extended DLLs\KxUser\KxUser.vcxproj" on node 7 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Debug\KxUser.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
          All outputs are up-to-date.
        ResourceCompile:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /I"C:\Users\maik\Desktop\VxKex\\00-Common Headers" /nologo /fo"Debug\KxUser.res" KxUser.rc 
+         All outputs are up-to-date.
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\maik\Desktop\VxKex\Debug\KxUser.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\Users\maik\Desktop\VxKex\Debug\ /LIBPATH:"C:\Users\maik\Desktop\VxKex\\00-Import Libraries" /DEF:"kxuser.def" /MANIFEST:NO /DEBUG /PDB:"C:\Users\maik\Desktop\VxKex\Debug\KxUser.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"DllMain" /RELEASE /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\maik\Desktop\VxKex\Debug\KxUser.lib" /MACHINE:X86 /DLL Debug\KxUser.res
          Debug\autorot.obj
@@ -27,4 +27,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:00.24
+Time Elapsed 00:00:00.19

@@ -1,9 +1,22 @@
-﻿Build started 1/1/2025 7:45:35 PM.
-     1>Project "C:\Users\maik\Desktop\VxKex\VxlView\VxlView.vcxproj" on node 3 (build target(s)).
-     1>InitializeBuildStatus:
+﻿Build started 1/2/2025 4:49:54 AM.
+     1>Project "C:\Users\maik\Desktop\VxKex\VxlView\VxlView.vcxproj" on node 8 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "x64\Debug\VxlView.lastbuildstate".
+       InitializeBuildStatus:
          Creating "x64\Debug\VxlView.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
-         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Users\maik\Desktop\VxKex\\00-Common Headers" /Zi /nologo /W3 /WX /MP /Od /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /MDd /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TC /errorReport:prompt backend.c backendp.c config.c details.c filters.c globals.c goto.c helpabout.c listview.c statusbar.c vxlview.c
+         backend.c
+         backendp.c
+         config.c
+         details.c
+         filters.c
+         globals.c
+         goto.c
+         helpabout.c
+         listview.c
+         statusbar.c
+         vxlview.c
        ResourceCompile:
          C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /D _UNICODE /D UNICODE /l"0x0409" /I"C:\Users\maik\Desktop\VxKex\\00-Common Headers" /nologo /fo"x64\Debug\VxlView.res" VxlView.rc 
        Link:
@@ -25,8 +38,8 @@
        FinalizeBuildStatus:
          Deleting file "x64\Debug\VxlView.unsuccessfulbuild".
          Touching "x64\Debug\VxlView.lastbuildstate".
-     1>Done Building Project "C:\Users\maik\Desktop\VxKex\VxlView\VxlView.vcxproj" (build target(s)).
+     1>Done Building Project "C:\Users\maik\Desktop\VxKex\VxlView\VxlView.vcxproj" (rebuild target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.42
+Time Elapsed 00:00:03.86

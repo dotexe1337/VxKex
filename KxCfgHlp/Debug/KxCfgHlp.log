@@ -1,6 +1,8 @@
-﻿Build started 1/1/2025 7:16:24 PM.
-     1>Project "C:\Users\maik\Desktop\VxKex\KxCfgHlp\KxCfgHlp.vcxproj" on node 5 (build target(s)).
-     1>InitializeBuildStatus:
+﻿Build started 1/2/2025 4:48:20 AM.
+     1>Project "C:\Users\maik\Desktop\VxKex\KxCfgHlp\KxCfgHlp.vcxproj" on node 5 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\KxCfgHlp.lastbuildstate".
+       InitializeBuildStatus:
          Creating "Debug\KxCfgHlp.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\maik\Desktop\VxKex\\00-Common Headers" /Zi /nologo /W3 /WX /MP /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /MDd /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gz /TC /analyze- /errorReport:prompt cpiwbypa.c ctxmenu.c delcfg.c dskclnup.c elevate.c getcfg.c kexdir.c logging.c msisup.c openkey.c kxcfgp.c setcfg.c
@@ -33,8 +35,8 @@
        FinalizeBuildStatus:
          Deleting file "Debug\KxCfgHlp.unsuccessfulbuild".
          Touching "Debug\KxCfgHlp.lastbuildstate".
-     1>Done Building Project "C:\Users\maik\Desktop\VxKex\KxCfgHlp\KxCfgHlp.vcxproj" (build target(s)).
+     1>Done Building Project "C:\Users\maik\Desktop\VxKex\KxCfgHlp\KxCfgHlp.vcxproj" (rebuild target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:01.47
+Time Elapsed 00:00:01.29

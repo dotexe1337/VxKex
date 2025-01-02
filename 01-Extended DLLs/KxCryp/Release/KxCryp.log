@@ -1,11 +1,11 @@
-﻿Build started 1/1/2025 7:45:25 PM.
-     1>Project "C:\Users\maik\Desktop\VxKex\01-Extended DLLs\KxCryp\KxCryp.vcxproj" on node 3 (build target(s)).
+﻿Build started 1/2/2025 4:49:02 AM.
+     1>Project "C:\Users\maik\Desktop\VxKex\01-Extended DLLs\KxCryp\KxCryp.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
-         Creating "Release\KxCryp.unsuccessfulbuild" because "AlwaysCreate" was specified.
+         Touching "Release\KxCryp.unsuccessfulbuild".
        ClCompile:
          All outputs are up-to-date.
        ResourceCompile:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /I"C:\Users\maik\Desktop\VxKex\\00-Common Headers" /nologo /fo"Release\kxcryp.res" kxcryp.rc 
+         All outputs are up-to-date.
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\maik\Desktop\VxKex\Release\KxCryp.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\Users\maik\Desktop\VxKex\Release\ /LIBPATH:"C:\Users\maik\Desktop\VxKex\\00-Import Libraries" /WX /DEF:"kxcryp.def" /MANIFEST:NO /DEBUG /PDB:"C:\Users\maik\Desktop\VxKex\Release\KxCryp.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /RELEASE /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\maik\Desktop\VxKex\Release\KxCryp.lib" /MACHINE:X86 /DLL Release\kxcryp.res
          Release\bcrypt.obj
@@ -24,4 +24,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:00.20
+Time Elapsed 00:00:00.21

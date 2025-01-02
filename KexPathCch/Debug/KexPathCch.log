@@ -1,7 +1,7 @@
-﻿Build started 1/1/2025 7:16:22 PM.
-     1>Project "C:\Users\maik\Desktop\VxKex\KexPathCch\KexPathCch.vcxproj" on node 2 (build target(s)).
-     1>PrepareForBuild:
-         Creating directory "C:\Users\maik\Desktop\VxKex\Debug\".
+﻿Build started 1/2/2025 4:48:18 AM.
+     1>Project "C:\Users\maik\Desktop\VxKex\KexPathCch\KexPathCch.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\KexPathCch.lastbuildstate".
        InitializeBuildStatus:
          Creating "Debug\KexPathCch.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
@@ -13,8 +13,8 @@
        FinalizeBuildStatus:
          Deleting file "Debug\KexPathCch.unsuccessfulbuild".
          Touching "Debug\KexPathCch.lastbuildstate".
-     1>Done Building Project "C:\Users\maik\Desktop\VxKex\KexPathCch\KexPathCch.vcxproj" (build target(s)).
+     1>Done Building Project "C:\Users\maik\Desktop\VxKex\KexPathCch\KexPathCch.vcxproj" (rebuild target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:01.46
+Time Elapsed 00:00:01.00

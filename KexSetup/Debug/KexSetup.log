@@ -1,11 +1,18 @@
-﻿Build started 1/1/2025 7:45:20 PM.
-     1>Project "C:\Users\maik\Desktop\VxKex\KexSetup\KexSetup.vcxproj" on node 9 (build target(s)).
-     1>InitializeBuildStatus:
+﻿Build started 1/2/2025 5:05:44 AM.
+     1>Project "C:\Users\maik\Desktop\VxKex\KexSetup\KexSetup.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\KexSetup.lastbuildstate".
+       InitializeBuildStatus:
          Creating "Debug\KexSetup.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\maik\Desktop\VxKex\\00-Common Headers" /Zi /nologo /W3 /WX /MP /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /MDd /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gz /TC /analyze- /errorReport:prompt main.c perform.c
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\maik\Desktop\VxKex\\00-Common Headers" /Zi /nologo /W3 /WX /MP /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /MDd /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gz /TC /analyze- /errorReport:prompt cmdline.c gui.c main.c perform.c prereq.c util.c version.c
+         cmdline.c
+         gui.c
          main.c
          perform.c
+         prereq.c
+         util.c
+         version.c
        ResourceCompile:
          C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /D _UNICODE /D UNICODE /l"0x0409" /I"C:\Users\maik\Desktop\VxKex\\00-Common Headers" /IC:\Users\maik\Desktop\VxKex\ /nologo /fo"Debug\KexSetup.res" KexSetup.rc 
        Link:
@@ -36,18 +43,18 @@
          7-Zip (r) 23.01 (x86) : Igor Pavlov : Public domain : 2023-06-20
          
          Scanning the drive:
-         5 folders, 78 files, 24806553 bytes (24 MiB)
+         5 folders, 78 files, 24798361 bytes (24 MiB)
          
          Creating archive: Archive.7z
          
-         Add new data to archive: 5 folders, 78 files, 24806553 bytes (24 MiB)
+         Add new data to archive: 5 folders, 78 files, 24798361 bytes (24 MiB)
          
          
          Files read from disk: 78
-         Archive size: 5334419 bytes (5210 KiB)
+         Archive size: 5344087 bytes (5219 KiB)
          Everything is Ok
-     1>Done Building Project "C:\Users\maik\Desktop\VxKex\KexSetup\KexSetup.vcxproj" (build target(s)).
+     1>Done Building Project "C:\Users\maik\Desktop\VxKex\KexSetup\KexSetup.vcxproj" (rebuild target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:02.77
+Time Elapsed 00:00:03.19

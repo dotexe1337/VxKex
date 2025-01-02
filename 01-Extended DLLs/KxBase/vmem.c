@@ -451,3 +451,7 @@ KXBASEAPI PVOID WINAPI MapViewOfFile3FromApp(
 		ExtendedParameters,
 		ParameterCount);
 }
+
+KXBASEAPI PVOID WINAPI VirtualAlloc2(IN OPTIONAL HANDLE Process, IN OPTIONAL PVOID BaseAddress, IN SIZE_T Size, IN ULONG AllocationType, IN ULONG PageProtection, IN OUT OPTIONAL MEM_EXTENDED_PARAMETER *ExtendedParameters, IN ULONG ParameterCount) {
+	return VirtualAlloc(BaseAddress, Size, AllocationType, PageProtection);
+}

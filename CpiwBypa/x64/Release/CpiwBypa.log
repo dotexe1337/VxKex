@@ -1,11 +1,14 @@
-﻿Build started 1/1/2025 7:46:39 PM.
-     1>Project "C:\Users\maik\Desktop\VxKex\CpiwBypa\CpiwBypa.vcxproj" on node 7 (build target(s)).
-     1>InitializeBuildStatus:
+﻿Build started 1/2/2025 4:50:11 AM.
+     1>Project "C:\Users\maik\Desktop\VxKex\CpiwBypa\CpiwBypa.vcxproj" on node 6 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "x64\Release\CpiwBypa.lastbuildstate".
+       InitializeBuildStatus:
          Creating "x64\Release\CpiwBypa.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
-         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Users\maik\Desktop\VxKex\\00-Common Headers" /Zi /nologo /W3 /WX /MP /O1 /Oi /Os /Oy /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D CPIWBYPA_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /GS- /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gz /TC /errorReport:prompt dllmain.c
+         dllmain.c
        ResourceCompile:
-         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /I"C:\Users\maik\Desktop\VxKex\\00-Common Headers" /nologo /fo"x64\Release\CpiwBypa.res" CpiwBypa.rc 
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\maik\Desktop\VxKex\x64\Release\CpiwBypa.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\Users\maik\Desktop\VxKex\x64\Release\ /LIBPATH:"C:\Users\maik\Desktop\VxKex\\00-Import Libraries" /MANIFEST:NO /DEBUG /PDB:"C:\Users\maik\Desktop\VxKex\x64\Release\CpiwBypa.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"DllMain" /RELEASE /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\maik\Desktop\VxKex\x64\Release\CpiwBypa.lib" /MACHINE:X64 /DLL x64\Release\CpiwBypa.res
          x64\Release\dllmain.obj
@@ -15,8 +18,8 @@
        FinalizeBuildStatus:
          Deleting file "x64\Release\CpiwBypa.unsuccessfulbuild".
          Touching "x64\Release\CpiwBypa.lastbuildstate".
-     1>Done Building Project "C:\Users\maik\Desktop\VxKex\CpiwBypa\CpiwBypa.vcxproj" (build target(s)).
+     1>Done Building Project "C:\Users\maik\Desktop\VxKex\CpiwBypa\CpiwBypa.vcxproj" (rebuild target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.61
+Time Elapsed 00:00:03.25

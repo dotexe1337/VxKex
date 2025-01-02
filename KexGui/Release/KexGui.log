@@ -1,9 +1,20 @@
-﻿Build started 1/1/2025 7:34:54 PM.
-     1>Project "C:\Users\maik\Desktop\VxKex\KexGui\KexGui.vcxproj" on node 5 (build target(s)).
-     1>InitializeBuildStatus:
+﻿Build started 1/2/2025 4:48:45 AM.
+     1>Project "C:\Users\maik\Desktop\VxKex\KexGui\KexGui.vcxproj" on node 4 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\KexGui.lastbuildstate".
+       InitializeBuildStatus:
          Creating "Release\KexGui.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
-         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\maik\Desktop\VxKex\\00-Common Headers" /Zi /nologo /W3 /WX /MP /O1 /Ob1 /Oi /Os /Oy /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D KEXGUI_EXPORTS /D _UNICODE /D UNICODE /Gm- /MD /GS- /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gz /TC /analyze- /errorReport:prompt ctlsx.c dpi.c fldrpkr.c kexgui.c locale.c msgbox.c shprops.c window.c wndx.c
+         ctlsx.c
+         dpi.c
+         fldrpkr.c
+         kexgui.c
+         locale.c
+         msgbox.c
+         shprops.c
+         window.c
+         wndx.c
        Lib:
          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\maik\Desktop\VxKex\Release\KexGui.lib" /LIBPATH:"C:\Users\maik\Desktop\VxKex\\00-Import Libraries" /NOLOGO /NODEFAULTLIB /MACHINE:X86 /LTCG Release\ctlsx.obj
          Release\dpi.obj
@@ -18,8 +29,8 @@
        FinalizeBuildStatus:
          Deleting file "Release\KexGui.unsuccessfulbuild".
          Touching "Release\KexGui.lastbuildstate".
-     1>Done Building Project "C:\Users\maik\Desktop\VxKex\KexGui\KexGui.vcxproj" (build target(s)).
+     1>Done Building Project "C:\Users\maik\Desktop\VxKex\KexGui\KexGui.vcxproj" (rebuild target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.08
+Time Elapsed 00:00:01.05

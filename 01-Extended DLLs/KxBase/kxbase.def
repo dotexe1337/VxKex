@@ -97,6 +97,7 @@ EXPORTS
 	UnmapViewOfFileEx
 	MapViewOfFile3
 	MapViewOfFile3FromApp
+	VirtualAlloc2
 
 	;; KexPathCch
 	PathAllocCanonicalize
