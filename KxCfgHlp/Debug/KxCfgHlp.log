@@ -1,0 +1,40 @@
+﻿Build started 1/1/2025 7:16:24 PM.
+     1>Project "C:\Users\maik\Desktop\VxKex\KxCfgHlp\KxCfgHlp.vcxproj" on node 5 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\KxCfgHlp.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\maik\Desktop\VxKex\\00-Common Headers" /Zi /nologo /W3 /WX /MP /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /MDd /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gz /TC /analyze- /errorReport:prompt cpiwbypa.c ctxmenu.c delcfg.c dskclnup.c elevate.c getcfg.c kexdir.c logging.c msisup.c openkey.c kxcfgp.c setcfg.c
+         cpiwbypa.c
+         ctxmenu.c
+         delcfg.c
+         dskclnup.c
+         elevate.c
+         getcfg.c
+         kexdir.c
+         logging.c
+         msisup.c
+         openkey.c
+         kxcfgp.c
+         setcfg.c
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\maik\Desktop\VxKex\Debug\KxCfgHlp.lib" /NOLOGO /NODEFAULTLIB Debug\cpiwbypa.obj
+         Debug\ctxmenu.obj
+         Debug\delcfg.obj
+         Debug\dskclnup.obj
+         Debug\elevate.obj
+         Debug\getcfg.obj
+         Debug\kexdir.obj
+         Debug\logging.obj
+         Debug\msisup.obj
+         Debug\openkey.obj
+         Debug\kxcfgp.obj
+         Debug\setcfg.obj
+         KxCfgHlp.vcxproj -> C:\Users\maik\Desktop\VxKex\Debug\KxCfgHlp.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\KxCfgHlp.unsuccessfulbuild".
+         Touching "Debug\KxCfgHlp.lastbuildstate".
+     1>Done Building Project "C:\Users\maik\Desktop\VxKex\KxCfgHlp\KxCfgHlp.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.47

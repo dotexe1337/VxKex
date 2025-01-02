@@ -1,0 +1,25 @@
+﻿Build started 1/1/2025 7:45:18 PM.
+     1>Project "C:\Users\maik\Desktop\VxKex\01-Extended DLLs\KxCryp\KxCryp.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\KxCryp.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /I"C:\Users\maik\Desktop\VxKex\\00-Common Headers" /nologo /fo"Debug\kxcryp.res" kxcryp.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\maik\Desktop\VxKex\Debug\KxCryp.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\Users\maik\Desktop\VxKex\Debug\ /LIBPATH:"C:\Users\maik\Desktop\VxKex\\00-Import Libraries" /WX /DEF:"kxcryp.def" /MANIFEST:NO /DEBUG /PDB:"C:\Users\maik\Desktop\VxKex\Debug\KxCryp.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /RELEASE /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\maik\Desktop\VxKex\Debug\KxCryp.lib" /MACHINE:X86 /DLL Debug\kxcryp.res
+         Debug\bcrypt.obj
+         Debug\dllmain.obj
+         Debug\forwards.obj
+         Debug\rng.obj
+         Debug\schannel.obj
+            Creating library C:\Users\maik\Desktop\VxKex\Debug\KxCryp.lib and object C:\Users\maik\Desktop\VxKex\Debug\KxCryp.exp
+         KxCryp.vcxproj -> C:\Users\maik\Desktop\VxKex\Debug\KxCryp.dll
+       FinalizeBuildStatus:
+         Deleting file "Debug\KxCryp.unsuccessfulbuild".
+         Touching "Debug\KxCryp.lastbuildstate".
+     1>Done Building Project "C:\Users\maik\Desktop\VxKex\01-Extended DLLs\KxCryp\KxCryp.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.26

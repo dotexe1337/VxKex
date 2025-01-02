@@ -1,0 +1,24 @@
+﻿Build started 1/1/2025 7:45:18 PM.
+     1>Project "C:\Users\maik\Desktop\VxKex\01-Extended DLLs\KxUia\KxUia.vcxproj" on node 4 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\KxUia.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\maik\Desktop\VxKex\\00-Common Headers" /Zi /nologo /W3 /WX /MP /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D KXNET_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /GF /Gm- /MDd /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gz /TC /analyze- /errorReport:prompt forwards.c
+         forwards.c
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\maik\Desktop\VxKex\Debug\KxUia.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\Users\maik\Desktop\VxKex\Debug\ /LIBPATH:"C:\Users\maik\Desktop\VxKex\\00-Import Libraries" /WX /DEF:"kxuia.def" /MANIFEST:NO /DEBUG /PDB:"C:\Users\maik\Desktop\VxKex\Debug\KxUia.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /RELEASE /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\maik\Desktop\VxKex\Debug\KxUia.lib" /MACHINE:X86 /DLL Debug\kxuia.res
+         Debug\dllmain.obj
+         Debug\forwards.obj
+         Debug\uia.obj
+            Creating library C:\Users\maik\Desktop\VxKex\Debug\KxUia.lib and object C:\Users\maik\Desktop\VxKex\Debug\KxUia.exp
+         KxUia.vcxproj -> C:\Users\maik\Desktop\VxKex\Debug\KxUia.dll
+       FinalizeBuildStatus:
+         Deleting file "Debug\KxUia.unsuccessfulbuild".
+         Touching "Debug\KxUia.lastbuildstate".
+     1>Done Building Project "C:\Users\maik\Desktop\VxKex\01-Extended DLLs\KxUia\KxUia.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.27

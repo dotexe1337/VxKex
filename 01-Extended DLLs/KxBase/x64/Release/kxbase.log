@@ -1,0 +1,43 @@
+﻿Build started 1/1/2025 7:46:40 PM.
+     1>Project "C:\Users\maik\Desktop\VxKex\01-Extended DLLs\KxBase\kxbase.vcxproj" on node 5 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\Release\KxBase.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\maik\Desktop\VxKex\x64\Release\KxBase.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\Users\maik\Desktop\VxKex\x64\Release\ /LIBPATH:"C:\Users\maik\Desktop\VxKex\\00-Import Libraries" /DEF:"kxbase.def" /MANIFEST:NO /DEBUG /PDB:"C:\Users\maik\Desktop\VxKex\x64\Release\KxBase.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /RELEASE /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\maik\Desktop\VxKex\x64\Release\KxBase.lib" /MACHINE:X64 /DLL x64\Release\KxBase.res
+         x64\Release\appmodel.obj
+         x64\Release\cfgmgr.obj
+         x64\Release\dllmain.obj
+         x64\Release\file.obj
+         x64\Release\forwards.obj
+         x64\Release\geoname.obj
+         x64\Release\heap.obj
+         x64\Release\misc.obj
+         x64\Release\module.obj
+         x64\Release\process.obj
+         x64\Release\pssapi.obj
+         x64\Release\security.obj
+         x64\Release\stubs.obj
+         x64\Release\support.obj
+         x64\Release\synch.obj
+         x64\Release\thread.obj
+         x64\Release\time.obj
+         x64\Release\token.obj
+         x64\Release\verspoof.obj
+         x64\Release\vmem.obj
+         x64\Release\wow64.obj
+            Creating library C:\Users\maik\Desktop\VxKex\x64\Release\KxBase.lib and object C:\Users\maik\Desktop\VxKex\x64\Release\KxBase.exp
+         Generating code
+         Finished generating code
+         kxbase.vcxproj -> C:\Users\maik\Desktop\VxKex\x64\Release\KxBase.dll
+       FinalizeBuildStatus:
+         Deleting file "x64\Release\KxBase.unsuccessfulbuild".
+         Touching "x64\Release\KxBase.lastbuildstate".
+     1>Done Building Project "C:\Users\maik\Desktop\VxKex\01-Extended DLLs\KxBase\kxbase.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.50

@@ -1,0 +1,25 @@
+﻿Build started 1/1/2025 7:45:19 PM.
+     1>Project "C:\Users\maik\Desktop\VxKex\01-Extended DLLs\KxNet\KxNet.vcxproj" on node 9 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\KxNet.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /I"C:\Users\maik\Desktop\VxKex\\00-Common Headers" /nologo /fo"Debug\kxnet.res" kxnet.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\maik\Desktop\VxKex\Debug\KxNet.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\Users\maik\Desktop\VxKex\Debug\ /LIBPATH:"C:\Users\maik\Desktop\VxKex\\00-Import Libraries" /WX /DEF:"kxnet.def" /MANIFEST:NO /DEBUG /PDB:"C:\Users\maik\Desktop\VxKex\Debug\KxNet.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /RELEASE /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\maik\Desktop\VxKex\Debug\KxNet.lib" /MACHINE:X86 /DLL Debug\kxnet.res
+         Debug\dllmain.obj
+         Debug\dns.obj
+         Debug\forwards.obj
+         Debug\winhttp.obj
+         Debug\winsock.obj
+            Creating library C:\Users\maik\Desktop\VxKex\Debug\KxNet.lib and object C:\Users\maik\Desktop\VxKex\Debug\KxNet.exp
+         KxNet.vcxproj -> C:\Users\maik\Desktop\VxKex\Debug\KxNet.dll
+       FinalizeBuildStatus:
+         Deleting file "Debug\KxNet.unsuccessfulbuild".
+         Touching "Debug\KxNet.lastbuildstate".
+     1>Done Building Project "C:\Users\maik\Desktop\VxKex\01-Extended DLLs\KxNet\KxNet.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.33

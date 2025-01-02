@@ -1,0 +1,28 @@
+﻿Build started 1/1/2025 7:34:11 PM.
+     1>Project "C:\Users\maik\Desktop\VxKex\KxCfgHlp\KxCfgHlp.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\Release\KxCfgHlp.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Users\maik\Desktop\VxKex\x64\Release\KxCfgHlp.lib" /NOLOGO /NODEFAULTLIB /LTCG x64\Release\cpiwbypa.obj
+         x64\Release\ctxmenu.obj
+         x64\Release\delcfg.obj
+         x64\Release\dskclnup.obj
+         x64\Release\elevate.obj
+         x64\Release\getcfg.obj
+         x64\Release\kexdir.obj
+         x64\Release\logging.obj
+         x64\Release\msisup.obj
+         x64\Release\openkey.obj
+         x64\Release\kxcfgp.obj
+         x64\Release\setcfg.obj
+         KxCfgHlp.vcxproj -> C:\Users\maik\Desktop\VxKex\x64\Release\KxCfgHlp.lib
+       FinalizeBuildStatus:
+         Deleting file "x64\Release\KxCfgHlp.unsuccessfulbuild".
+         Touching "x64\Release\KxCfgHlp.lastbuildstate".
+     1>Done Building Project "C:\Users\maik\Desktop\VxKex\KxCfgHlp\KxCfgHlp.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.13

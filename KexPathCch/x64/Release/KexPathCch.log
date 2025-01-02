@@ -1,0 +1,19 @@
+﻿Build started 1/1/2025 7:34:11 PM.
+     1>Project "C:\Users\maik\Desktop\VxKex\KexPathCch\KexPathCch.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "C:\Users\maik\Desktop\VxKex\x64\Release\".
+       InitializeBuildStatus:
+         Creating "x64\Release\KexPathCch.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Users\maik\Desktop\VxKex\x64\Release\KexPathCch.lib" /NOLOGO /LTCG x64\Release\pathcch.obj
+         KexPathCch.vcxproj -> C:\Users\maik\Desktop\VxKex\x64\Release\KexPathCch.lib
+       FinalizeBuildStatus:
+         Deleting file "x64\Release\KexPathCch.unsuccessfulbuild".
+         Touching "x64\Release\KexPathCch.lastbuildstate".
+     1>Done Building Project "C:\Users\maik\Desktop\VxKex\KexPathCch\KexPathCch.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.12

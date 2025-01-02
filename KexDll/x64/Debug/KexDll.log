@@ -1,0 +1,63 @@
+﻿Build started 1/1/2025 7:45:34 PM.
+     1>Project "C:\Users\maik\Desktop\VxKex\KexDll\KexDll.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\Debug\KexDll.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       _MASM:
+       Skipping target "_MASM" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Users\maik\Desktop\VxKex\\00-Common Headers" /Zi /nologo /W3 /WX /MP /Od /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D KEXDLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /GF /Gm- /MDd /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gz /TC /errorReport:prompt dllmain.c
+         dllmain.c
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /I"C:\Users\maik\Desktop\VxKex\\00-Common Headers" /nologo /fo"x64\Debug\KexDll.res" KexDll.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\maik\Desktop\VxKex\x64\Debug\KexDll.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\maik\Desktop\VxKex\\00-Import Libraries" /LIBPATH:C:\Users\maik\Desktop\VxKex\x64\Debug\ /NODEFAULTLIB:delayimp.lib /DEF:"KexDll.def" /MANIFEST:NO /DEBUG /PDB:"C:\Users\maik\Desktop\VxKex\x64\Debug\KexDll.pdb" /SUBSYSTEM:NATIVE /TLBID:1 /ENTRY:"DllMain" /RELEASE /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\maik\Desktop\VxKex\x64\Debug\KexDll.lib" /MACHINE:X64 /DLL x64\Debug\KexDll.res
+         x64\Debug\apiset.obj
+         x64\Debug\ash.obj
+         x64\Debug\ashcrsup.obj
+         x64\Debug\ashselec.obj
+         x64\Debug\avrf.obj
+         x64\Debug\cpiwbypa.obj
+         x64\Debug\dload.obj
+         x64\Debug\dllmain.obj
+         x64\Debug\dllnotif.obj
+         x64\Debug\dllpath.obj
+         x64\Debug\dllrewrt.obj
+         x64\Debug\etw.obj
+         x64\Debug\except.obj
+         x64\Debug\kexdata.obj
+         x64\Debug\kexhe.obj
+         x64\Debug\kexhk.obj
+         x64\Debug\kexldr.obj
+         x64\Debug\kexrtl.obj
+         x64\Debug\logging.obj
+         x64\Debug\ntjob.obj
+         x64\Debug\ntpriv.obj
+         x64\Debug\ntps.obj
+         x64\Debug\ntreg.obj
+         x64\Debug\ntsect.obj
+         x64\Debug\ntthread.obj
+         x64\Debug\propagte.obj
+         x64\Debug\rtlrng.obj
+         x64\Debug\rtlwoa.obj
+         x64\Debug\rtlwow64.obj
+         x64\Debug\status.obj
+         x64\Debug\strmap.obj
+         x64\Debug\syscal32.obj
+         x64\Debug\verspoof.obj
+         x64\Debug\vxlopcl.obj
+         x64\Debug\vxlpriv.obj
+         x64\Debug\vxlquery.obj
+         x64\Debug\vxlread.obj
+         x64\Debug\vxlsever.obj
+         x64\Debug\vxlwrite.obj
+         x64\Debug\syscal64.obj
+            Creating library C:\Users\maik\Desktop\VxKex\x64\Debug\KexDll.lib and object C:\Users\maik\Desktop\VxKex\x64\Debug\KexDll.exp
+         KexDll.vcxproj -> C:\Users\maik\Desktop\VxKex\x64\Debug\KexDll.dll
+       FinalizeBuildStatus:
+         Deleting file "x64\Debug\KexDll.unsuccessfulbuild".
+         Touching "x64\Debug\KexDll.lastbuildstate".
+     1>Done Building Project "C:\Users\maik\Desktop\VxKex\KexDll\KexDll.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.50

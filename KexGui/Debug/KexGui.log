@@ -1,0 +1,34 @@
+﻿Build started 1/1/2025 7:16:26 PM.
+     1>Project "C:\Users\maik\Desktop\VxKex\KexGui\KexGui.vcxproj" on node 7 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\KexGui.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\maik\Desktop\VxKex\\00-Common Headers" /Zi /nologo /W3 /WX /MP /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D KEXGUI_EXPORTS /D _UNICODE /D UNICODE /Gm- /MDd /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gz /TC /analyze- /errorReport:prompt ctlsx.c dpi.c fldrpkr.c kexgui.c locale.c msgbox.c shprops.c window.c wndx.c
+         ctlsx.c
+         dpi.c
+         fldrpkr.c
+         kexgui.c
+         locale.c
+         msgbox.c
+         shprops.c
+         window.c
+         wndx.c
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\maik\Desktop\VxKex\Debug\KexGui.lib" /LIBPATH:"C:\Users\maik\Desktop\VxKex\\00-Import Libraries" /NOLOGO /NODEFAULTLIB /MACHINE:X86 Debug\ctlsx.obj
+         Debug\dpi.obj
+         Debug\fldrpkr.obj
+         Debug\kexgui.obj
+         Debug\locale.obj
+         Debug\msgbox.obj
+         Debug\shprops.obj
+         Debug\window.obj
+         Debug\wndx.obj
+         KexGui.vcxproj -> C:\Users\maik\Desktop\VxKex\Debug\KexGui.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\KexGui.unsuccessfulbuild".
+         Touching "Debug\KexGui.lastbuildstate".
+     1>Done Building Project "C:\Users\maik\Desktop\VxKex\KexGui\KexGui.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.92

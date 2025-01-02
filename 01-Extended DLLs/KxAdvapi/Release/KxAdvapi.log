@@ -1,0 +1,24 @@
+﻿Build started 1/1/2025 7:45:26 PM.
+     1>Project "C:\Users\maik\Desktop\VxKex\01-Extended DLLs\KxAdvapi\KxAdvapi.vcxproj" on node 4 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\KxAdvapi.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /I"C:\Users\maik\Desktop\VxKex\\00-Common Headers" /nologo /fo"Release\kxadvapi.res" kxadvapi.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\maik\Desktop\VxKex\Release\KxAdvapi.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\Users\maik\Desktop\VxKex\Release\ /LIBPATH:"C:\Users\maik\Desktop\VxKex\\00-Import Libraries" /WX /DEF:"kxadvapi.def" /MANIFEST:NO /DEBUG /PDB:"C:\Users\maik\Desktop\VxKex\Release\KxAdvapi.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /RELEASE /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\maik\Desktop\VxKex\Release\KxAdvapi.lib" /MACHINE:X86 /DLL Release\kxadvapi.res
+         Release\dllmain.obj
+         Release\forwards.obj
+            Creating library C:\Users\maik\Desktop\VxKex\Release\KxAdvapi.lib and object C:\Users\maik\Desktop\VxKex\Release\KxAdvapi.exp
+         Generating code
+         Finished generating code
+         KxAdvapi.vcxproj -> C:\Users\maik\Desktop\VxKex\Release\KxAdvapi.dll
+       FinalizeBuildStatus:
+         Deleting file "Release\KxAdvapi.unsuccessfulbuild".
+         Touching "Release\KxAdvapi.lastbuildstate".
+     1>Done Building Project "C:\Users\maik\Desktop\VxKex\01-Extended DLLs\KxAdvapi\KxAdvapi.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.30

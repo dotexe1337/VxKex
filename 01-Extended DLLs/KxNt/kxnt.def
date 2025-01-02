@@ -1,0 +1,46 @@
+LIBRARY KxNt
+EXPORTS
+
+	LdrResolveDelayLoadedAPI					= KexDll.KexLdrResolveDelayLoadedAPI
+	LdrGetDllFullName							= KexDll.KexLdrGetDllFullName
+
+	LdrLoadDll									= KexDll.KexLdrLoadDll
+	LdrGetDllHandle								= KexDll.KexLdrGetDllHandle
+	LdrGetDllHandleEx							= KexDll.KexLdrGetDllHandleEx
+	LdrGetProcedureAddress						= KexDll.KexLdrGetProcedureAddress
+	LdrGetProcedureAddressEx					= KexDll.KexLdrGetProcedureAddressEx
+
+	RtlWaitOnAddress							= KexDll.KexRtlWaitOnAddress
+	RtlWakeAddressAll							= KexDll.KexRtlWakeAddressAll
+	RtlWakeAddressSingle						= KexDll.KexRtlWakeAddressSingle
+	RtlWow64GetProcessMachines					= KexDll.KexRtlWow64GetProcessMachines
+	RtlSetBit									= KexDll.KexRtlSetBit
+	RtlClearBit									= KexDll.KexRtlClearBit
+	RtlQueryPackageIdentity						= KexDll.KexRtlQueryPackageIdentity
+	RtlQueryPackageIdentityEx					= KexDll.KexRtlQueryPackageIdentityEx
+	RtlCheckPortableOperatingSystem				= KexDll.KexRtlCheckPortableOperatingSystem
+	RtlUnsubscribeWnfStateChangeNotification	= KexDll.KexRtlUnsubscribeWnfStateChangeNotification
+	RtlQueryWnfStateData						= KexDll.KexRtlQueryWnfStateData
+	RtlPublishWnfStateData						= KexDll.KexRtlPublishWnfStateData
+	RtlSubscribeWnfStateChangeNotification		= KexDll.KexRtlSubscribeWnfStateChangeNotification
+	RtlAddGrowableFunctionTable					= KexDll.KexRtlAddGrowableFunctionTable
+
+	ApiSetQueryApiSetPresence					= KexDll.ApiSetQueryApiSetPresence
+
+	EtwEventSetInformation						= KexDll.KexEtwEventSetInformation
+
+	NtQueryInformationThread					= KexDll.Ext_NtQueryInformationThread
+	NtSetInformationThread						= KexDll.Ext_NtSetInformationThread
+	NtQueryInformationProcess					= KexDll.Ext_NtQueryInformationProcess
+	NtNotifyChangeKey							= KexDll.Ext_NtNotifyChangeKey
+	NtNotifyChangeMultipleKeys					= KexDll.Ext_NtNotifyChangeMultipleKeys
+	NtCreateSection								= KexDll.Ext_NtCreateSection
+	NtAssignProcessToJobObject					= KexDll.Ext_NtAssignProcessToJobObject
+
+	ZwQueryInformationThread					= KexDll.Ext_NtQueryInformationThread
+	ZwSetInformationThread						= KexDll.Ext_NtSetInformationThread
+	ZwQueryInformationProcess					= KexDll.Ext_NtQueryInformationProcess
+	ZwNotifyChangeKey							= KexDll.Ext_NtNotifyChangeKey
+	ZwNotifyChangeMultipleKeys					= KexDll.Ext_NtNotifyChangeMultipleKeys
+	ZwCreateSection								= KexDll.Ext_NtCreateSection
+	ZwAssignProcessToJobObject					= KexDll.Ext_NtAssignProcessToJobObject
