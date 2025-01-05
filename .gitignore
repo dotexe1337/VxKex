@@ -1,0 +1,11 @@
+*.tlog
+*.log
+*.obj
+*.pdb
+Release
+x64
+*/Release
+*/x64
+*.zip
+ipch
+KexSetup*.exe

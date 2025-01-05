@@ -15,6 +15,9 @@ EXPORTS
 	D3D12SerializeRootSignature						@115
 	D3D12SerializeVersionedRootSignature			@116
 
+	;; dx11.c
+	D3D11On12CreateDevice
+
 	;; dcmpstub.c
 	DCompositionCreateDevice
 	DCompositionCreateDevice2

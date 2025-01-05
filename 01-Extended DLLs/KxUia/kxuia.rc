@@ -30,7 +30,7 @@ BEGIN
     BEGIN
         BLOCK "040904b0"
         BEGIN
-            VALUE "FileDescription", "VxKex UI Automation ALL"
+            VALUE "FileDescription", "VxKex UI Automation DLL"
             VALUE "FileVersion", "1.1.2.1433"
             VALUE "InternalName", "KxUia"
             VALUE "LegalCopyright", "https://github.com/dotexe1337/VxKex"

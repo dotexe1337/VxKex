@@ -100,8 +100,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ModuleDefinitionFile>kxdx.def</ModuleDefinitionFile>
       <AdditionalLibraryDirectories>$(TargetDir);$(SolutionDir)\00-Import Libraries</AdditionalLibraryDirectories>
-      <AdditionalDependencies>
-      </AdditionalDependencies>
+      <AdditionalDependencies> D3D11.lib</AdditionalDependencies>
       <EntryPointSymbol>DllMain</EntryPointSymbol>
       <SetChecksum>true</SetChecksum>
     </Link>
@@ -131,8 +130,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ModuleDefinitionFile>kxdx.def</ModuleDefinitionFile>
       <AdditionalLibraryDirectories>$(TargetDir);$(SolutionDir)\00-Import Libraries</AdditionalLibraryDirectories>
-      <AdditionalDependencies>
-      </AdditionalDependencies>
+      <AdditionalDependencies> D3D11.lib</AdditionalDependencies>
       <EntryPointSymbol>DllMain</EntryPointSymbol>
       <SetChecksum>true</SetChecksum>
     </Link>
@@ -169,8 +167,7 @@
       <OptimizeReferences>true</OptimizeReferences>
       <ModuleDefinitionFile>kxdx.def</ModuleDefinitionFile>
       <AdditionalLibraryDirectories>$(TargetDir);$(SolutionDir)\00-Import Libraries</AdditionalLibraryDirectories>
-      <AdditionalDependencies>
-      </AdditionalDependencies>
+      <AdditionalDependencies> D3D11.lib</AdditionalDependencies>
       <EntryPointSymbol>DllMain</EntryPointSymbol>
       <SetChecksum>true</SetChecksum>
     </Link>
@@ -207,8 +204,7 @@
       <OptimizeReferences>true</OptimizeReferences>
       <ModuleDefinitionFile>kxdx.def</ModuleDefinitionFile>
       <AdditionalLibraryDirectories>$(TargetDir);$(SolutionDir)\00-Import Libraries</AdditionalLibraryDirectories>
-      <AdditionalDependencies>
-      </AdditionalDependencies>
+      <AdditionalDependencies>D3D11.lib</AdditionalDependencies>
       <EntryPointSymbol>DllMain</EntryPointSymbol>
       <SetChecksum>true</SetChecksum>
     </Link>
@@ -223,6 +219,7 @@
   <ItemGroup>
     <ClCompile Include="dcmpstub.c" />
     <ClCompile Include="dllmain.c" />
+    <ClCompile Include="dx11.c" />
     <ClCompile Include="dx12stub.c" />
     <ClCompile Include="factory.c" />
     <ClCompile Include="forwards.c" />

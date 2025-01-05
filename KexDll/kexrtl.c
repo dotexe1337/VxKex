@@ -964,3 +964,22 @@ KEXAPI NTSTATUS NTAPI KexRtlAddGrowableFunctionTable(
 	return STATUS_NOT_IMPLEMENTED;
 #endif
 }
+
+KEXAPI VOID NTAPI KexRtlDeleteGrowableFunctionTable(
+	IN PVOID DynamicTable)
+{
+#ifdef _M_X64
+	RtlDeleteFunctionTable(DynamicTable);
+#else
+	ASSERT (FALSE);
+	return;
+#endif
+}
+
+KEXAPI VOID NTAPI KexRtlGrowFunctionTable(
+	PVOID DynamicTable,
+	IN DWORD NewEntryCount)
+{
+	//TODO: Implement
+	return;
+}

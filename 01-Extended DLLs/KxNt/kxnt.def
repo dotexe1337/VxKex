@@ -24,6 +24,8 @@ EXPORTS
 	RtlPublishWnfStateData						= KexDll.KexRtlPublishWnfStateData
 	RtlSubscribeWnfStateChangeNotification		= KexDll.KexRtlSubscribeWnfStateChangeNotification
 	RtlAddGrowableFunctionTable					= KexDll.KexRtlAddGrowableFunctionTable
+	RtlGrowFunctionTable						= KexDll.KexRtlGrowFunctionTable
+	RtlDeleteGrowableFunctionTable				= KexDll.KexRtlDeleteGrowableFunctionTable
 
 	ApiSetQueryApiSetPresence					= KexDll.ApiSetQueryApiSetPresence
 

@@ -26,6 +26,7 @@ STATIC CONST UNICODE_STRING DllRedirects[][2] = {
 
 	DLL_REDIRECT("msvcrt",										"kxcrt"				)
 	
+	DLL_REDIRECT("d3d11",										"kxdx"				)
 	DLL_REDIRECT("d3d12",										"kxdx"				)
 	DLL_REDIRECT("dcomp",										"kxdx"				)
 	DLL_REDIRECT("dxgi",										"kxdx"				)
@@ -43,7 +44,7 @@ STATIC CONST UNICODE_STRING DllRedirects[][2] = {
 
 	DLL_REDIRECT("advapi32",									"kxadvapi"			)
 
-	DLL_REDIRECT("UIAutomationCore",                        "kxuia"             )
+	DLL_REDIRECT("UIAutomationCore",							"kxuia"				)
 
 	//
 	// The DLL rewriting routine strips the -lX-Y-Z suffix from the API set name to

@@ -31,6 +31,8 @@ EXPORTS
 	KexRtlNullTerminateUnicodeString
 	KexRtlCreateUntrustedDirectoryObject
 	KexRtlGenerateRandomData
+	KexRtlGrowFunctionTable
+	KexRtlDeleteGrowableFunctionTable
 
 	KexRtlWow64GetProcessMachines
 	KexRtlSetBit
