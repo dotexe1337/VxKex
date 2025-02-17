@@ -192,6 +192,8 @@ STATIC CONST UNICODE_STRING DllRedirects[][2] = {
 	DLL_REDIRECT("ext-ms-win-rtcore-gdi-rgn",					"gdi32"				)
 	DLL_REDIRECT("ext-ms-win-rtcore-ntuser-sysparams",			"kxuser"			)
 	DLL_REDIRECT("ext-ms-win-uiacore",							"uiautomationcore"	)
+
+	DLL_REDIRECT("Windows.System.Launcher",						"kxcom"				)
 };
 
 #undef DLL_REDIRECT

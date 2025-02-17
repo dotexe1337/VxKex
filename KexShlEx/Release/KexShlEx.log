@@ -1,0 +1,27 @@
+﻿Build started 2/17/2025 2:00:38 PM.
+     1>Project "C:\Users\maik\Desktop\VxKex-main\KexShlEx\KexShlEx.vcxproj" on node 5 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\KexShlEx.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /I"C:\Users\maik\Desktop\VxKex-main\\00-Common Headers" /nologo /fo"Release\KexShlEx.res" KexShlEx.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\maik\Desktop\VxKex-main\Release\KexShlEx.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\maik\Desktop\VxKex-main\\00-Import Libraries" /LIBPATH:"C:\Users\maik\Desktop\VxKex-main\Release\\" /DEF:"KexShlEx.def" /MANIFEST:NO /DEBUG /PDB:"C:\Users\maik\Desktop\VxKex-main\Release\KexShlEx.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /RELEASE /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\maik\Desktop\VxKex-main\Release\KexShlEx.lib" /MACHINE:X86 /DLL Release\KexShlEx.res
+         Release\ckxshlex.obj
+         Release\clsfctry.obj
+         Release\dllmain.obj
+         Release\gui.obj
+         Release\lnkfile.obj
+            Creating library C:\Users\maik\Desktop\VxKex-main\Release\KexShlEx.lib and object C:\Users\maik\Desktop\VxKex-main\Release\KexShlEx.exp
+         Generating code
+         Finished generating code
+         KexShlEx.vcxproj -> C:\Users\maik\Desktop\VxKex-main\Release\KexShlEx.dll
+       FinalizeBuildStatus:
+         Deleting file "Release\KexShlEx.unsuccessfulbuild".
+         Touching "Release\KexShlEx.lastbuildstate".
+     1>Done Building Project "C:\Users\maik\Desktop\VxKex-main\KexShlEx\KexShlEx.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.30

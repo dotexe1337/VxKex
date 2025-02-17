@@ -1,0 +1,25 @@
+﻿Build started 2/17/2025 2:00:47 PM.
+     1>Project "C:\Users\maik\Desktop\VxKex-main\KexCfg\KexCfg.vcxproj" on node 4 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\Debug\KexCfg.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /I"C:\Users\maik\Desktop\VxKex-main\\00-Common Headers" /nologo /fo"x64\Debug\KexCfg.res" KexCfg.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\maik\Desktop\VxKex-main\x64\Debug\KexCfg.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\maik\Desktop\VxKex-main\x64\Debug\\" /LIBPATH:"C:\Users\maik\Desktop\VxKex-main\\00-Import Libraries" Delayimp.lib /DELAYLOAD:wtsapi32.dll /DELAYLOAD:uxtheme.dll /DELAYLOAD:user32.dll /DELAYLOAD:shell32.dll /DELAYLOAD:ole32.dll /DELAYLOAD:oleaut32.dll /DELAYLOAD:comctl32.dll /DELAYLOAD:comdlg32.dll /MANIFEST /ManifestFile:"x64\Debug\KexCfg.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\maik\Desktop\VxKex-main\x64\Debug\KexCfg.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"EntryPoint" /RELEASE /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\maik\Desktop\VxKex-main\x64\Debug\KexCfg.lib" /MACHINE:X64 x64\Debug\KexCfg.res
+         x64\Debug\cmdline.obj
+         x64\Debug\gui.obj
+         x64\Debug\main.obj
+         x64\Debug\util.obj
+         KexCfg.vcxproj -> C:\Users\maik\Desktop\VxKex-main\x64\Debug\KexCfg.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\maik\Desktop\VxKex-main\x64\Debug\KexCfg.exe;#1" /manifest x64\Debug\KexCfg.exe.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         Deleting file "x64\Debug\KexCfg.unsuccessfulbuild".
+         Touching "x64\Debug\KexCfg.lastbuildstate".
+     1>Done Building Project "C:\Users\maik\Desktop\VxKex-main\KexCfg\KexCfg.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.24

@@ -1,0 +1,39 @@
+﻿Build started 2/17/2025 2:01:06 PM.
+     1>Project "C:\Users\maik\Desktop\VxKex-main\KexSetup\KexSetup.vcxproj" on node 10 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\KexSetup.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         KexSetup.vcxproj -> C:\Users\maik\Desktop\VxKex-main\Release\KexSetup.exe
+       Manifest:
+         All outputs are up-to-date.
+       FinalizeBuildStatus:
+         Deleting file "Release\KexSetup.unsuccessfulbuild".
+         Touching "Release\KexSetup.lastbuildstate".
+       CustomBuildStep:
+         Description: Building Self-Extracting Executable (SFX)
+         "C:\Users\maik\Desktop\VxKex-main\\01-Development Utilities\7zSfx\makesfx.bat" /Release
+         :VCEnd
+         
+         7-Zip (r) 23.01 (x86) : Igor Pavlov : Public domain : 2023-06-20
+         
+         Scanning the drive:
+         5 folders, 43 files, 12944025 bytes (13 MiB)
+         
+         Creating archive: Archive.7z
+         
+         Add new data to archive: 5 folders, 43 files, 12944025 bytes (13 MiB)
+         
+         
+         Files read from disk: 43
+         Archive size: 4094804 bytes (3999 KiB)
+         Everything is Ok
+     1>Done Building Project "C:\Users\maik\Desktop\VxKex-main\KexSetup\KexSetup.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.52

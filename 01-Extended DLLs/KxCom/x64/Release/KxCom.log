@@ -1,0 +1,38 @@
+﻿Build started 2/17/2025 2:01:05 PM.
+     1>Project "C:\Users\maik\Desktop\VxKex-main\01-Extended DLLs\KxCom\KxCom.vcxproj" on node 9 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\Release\KxCom.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\maik\Desktop\VxKex-main\x64\Release\KxCom.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\maik\Desktop\VxKex-main\x64\Release\\" /LIBPATH:"C:\Users\maik\Desktop\VxKex-main\\00-Import Libraries" Delayimp.lib /DEF:"kxcom.def" /DELAYLOAD:urlmon.dll /DELAYLOAD:shell32.dll /MANIFEST:NO /DEBUG /PDB:"C:\Users\maik\Desktop\VxKex-main\x64\Release\KxCom.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"DllMain" /RELEASE /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\maik\Desktop\VxKex-main\x64\Release\KxCom.lib" /MACHINE:X64 /DLL x64\Release\KxCom.res
+         x64\Release\actfact.obj
+         x64\Release\firefox_fix.obj
+         x64\Release\glprstat.obj
+         x64\Release\dllmain.obj
+         x64\Release\forwards.obj
+         x64\Release\launcher.obj
+         x64\Release\mta.obj
+         x64\Release\roapi.obj
+         x64\Release\robuffer.obj
+         x64\Release\roerror.obj
+         x64\Release\rofactry.obj
+         x64\Release\roinit.obj
+         x64\Release\uisettings.obj
+         x64\Release\uiview.obj
+         x64\Release\uri.obj
+         x64\Release\winrt.obj /ignore:4104 
+            Creating library C:\Users\maik\Desktop\VxKex-main\x64\Release\KxCom.lib and object C:\Users\maik\Desktop\VxKex-main\x64\Release\KxCom.exp
+         Generating code
+         Finished generating code
+         KxCom.vcxproj -> C:\Users\maik\Desktop\VxKex-main\x64\Release\KxCom.dll
+       FinalizeBuildStatus:
+         Deleting file "x64\Release\KxCom.unsuccessfulbuild".
+         Touching "x64\Release\KxCom.lastbuildstate".
+     1>Done Building Project "C:\Users\maik\Desktop\VxKex-main\01-Extended DLLs\KxCom\KxCom.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.25

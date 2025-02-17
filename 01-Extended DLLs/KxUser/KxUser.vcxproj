@@ -221,27 +221,26 @@
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\00-Common Headers\KxUser.h" />
-    <ClInclude Include="buildcfg.h" />
-    <ClInclude Include="kxuserp.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="autorot.c" />
-    <ClCompile Include="blutooth.c" />
-    <ClCompile Include="dllmain.c" />
-    <ClCompile Include="misc.c" />
-    <ClCompile Include="pointer.c" />
-    <ClCompile Include="pwrnotfy.c" />
-    <ClCompile Include="scaling.c" />
-    <ClCompile Include="forwards.c" />
-    <ClCompile Include="sysmetrc.c" />
-    <ClCompile Include="timer.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="kxuser.def" />
-  </ItemGroup>
-  <ItemGroup>
     <ResourceCompile Include="KxUser.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\VxKex-NEXT-main\01-Extended DLLs\KxUser\autorot.c" />
+    <ClCompile Include="..\..\..\VxKex-NEXT-main\01-Extended DLLs\KxUser\blutooth.c" />
+    <ClCompile Include="..\..\..\VxKex-NEXT-main\01-Extended DLLs\KxUser\dllmain.c" />
+    <ClCompile Include="..\..\..\VxKex-NEXT-main\01-Extended DLLs\KxUser\forwards.c" />
+    <ClCompile Include="..\..\..\VxKex-NEXT-main\01-Extended DLLs\KxUser\misc.c" />
+    <ClCompile Include="..\..\..\VxKex-NEXT-main\01-Extended DLLs\KxUser\pointer.c" />
+    <ClCompile Include="..\..\..\VxKex-NEXT-main\01-Extended DLLs\KxUser\pwrnotfy.c" />
+    <ClCompile Include="..\..\..\VxKex-NEXT-main\01-Extended DLLs\KxUser\scaling.c" />
+    <ClCompile Include="..\..\..\VxKex-NEXT-main\01-Extended DLLs\KxUser\sysmetrc.c" />
+    <ClCompile Include="..\..\..\VxKex-NEXT-main\01-Extended DLLs\KxUser\timer.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\VxKex-NEXT-main\01-Extended DLLs\KxUser\buildcfg.h" />
+    <ClInclude Include="..\..\..\VxKex-NEXT-main\01-Extended DLLs\KxUser\kxuserp.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\VxKex-NEXT-main\01-Extended DLLs\KxUser\kxuser.def" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

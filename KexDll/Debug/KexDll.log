@@ -1,0 +1,60 @@
+﻿Build started 2/17/2025 2:01:25 PM.
+     1>Project "C:\Users\maik\Desktop\VxKex-main\KexDll\KexDll.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\KexDll.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       _MASM:
+       Skipping target "_MASM" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\maik\Desktop\VxKex-main\\00-Common Headers" /Zi /nologo /W3 /WX /MP /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D KEXDLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /GF /Gm- /MDd /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gz /TC /analyze- /errorReport:prompt dllmain.c
+         dllmain.c
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /I"C:\Users\maik\Desktop\VxKex-main\\00-Common Headers" /nologo /fo"Debug\KexDll.res" KexDll.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\maik\Desktop\VxKex-main\Debug\KexDll.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\maik\Desktop\VxKex-main\\00-Import Libraries" /LIBPATH:"C:\Users\maik\Desktop\VxKex-main\Debug\\" /NODEFAULTLIB:delayimp.lib /DEF:"KexDll.def" /MANIFEST:NO /DEBUG /PDB:"C:\Users\maik\Desktop\VxKex-main\Debug\KexDll.pdb" /SUBSYSTEM:NATIVE /TLBID:1 /ENTRY:"DllMain" /RELEASE /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\maik\Desktop\VxKex-main\Debug\KexDll.lib" /MACHINE:X86 /DLL Debug\KexDll.res
+         Debug\apiset.obj
+         Debug\ash.obj
+         Debug\ashcrsup.obj
+         Debug\ashselec.obj
+         Debug\avrf.obj
+         Debug\cpiwbypa.obj
+         Debug\dload.obj
+         Debug\dllmain.obj
+         Debug\dllnotif.obj
+         Debug\dllpath.obj
+         Debug\dllrewrt.obj
+         Debug\etw.obj
+         Debug\except.obj
+         Debug\kexdata.obj
+         Debug\kexhe.obj
+         Debug\kexhk.obj
+         Debug\kexldr.obj
+         Debug\kexrtl.obj
+         Debug\logging.obj
+         Debug\ntjob.obj
+         Debug\ntpriv.obj
+         Debug\ntps.obj
+         Debug\ntreg.obj
+         Debug\ntsect.obj
+         Debug\ntthread.obj
+         Debug\propagte.obj
+         Debug\rtlrng.obj
+         Debug\rtlwoa.obj
+         Debug\rtlwow64.obj
+         Debug\status.obj
+         Debug\strmap.obj
+         Debug\syscal32.obj
+         Debug\verspoof.obj
+         Debug\vxlopcl.obj
+         Debug\vxlpriv.obj
+         Debug\vxlquery.obj
+         Debug\vxlread.obj
+         Debug\vxlsever.obj
+         Debug\vxlwrite.obj
+         Debug\syscal64.obj
+            Creating library C:\Users\maik\Desktop\VxKex-main\Debug\KexDll.lib and object C:\Users\maik\Desktop\VxKex-main\Debug\KexDll.exp
+     1>LINK : fatal error LNK1104: cannot open file 'C:\Users\maik\Desktop\VxKex-main\Debug\KexDll.lib'
+     1>Done Building Project "C:\Users\maik\Desktop\VxKex-main\KexDll\KexDll.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.32

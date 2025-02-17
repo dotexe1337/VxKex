@@ -1,0 +1,26 @@
+﻿Build started 2/17/2025 1:55:33 PM.
+     1>Project "C:\Users\maik\Desktop\VxKex-main\KexW32ML\KexW32ML.vcxproj" on node 5 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\KexW32ML.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release\KexW32ML.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\maik\Desktop\VxKex-main\\00-Common Headers" /Zi /nologo /W3 /WX /MP /O1 /Ob1 /Oi /Os /Oy /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D KEXW32ML_EXPORTS /D _UNICODE /D UNICODE /Gm- /MD /GS- /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gz /TC /analyze- /errorReport:prompt file.c kexw32ml.c registry.c txapi.c
+         file.c
+         kexw32ml.c
+         registry.c
+         txapi.c
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\maik\Desktop\VxKex-main\Release\KexW32ML.lib" /LIBPATH:"C:\Users\maik\Desktop\VxKex-main\\00-Import Libraries" /NOLOGO /NODEFAULTLIB /LTCG Release\file.obj
+         Release\kexw32ml.obj
+         Release\registry.obj
+         Release\txapi.obj
+         KexW32ML.vcxproj -> C:\Users\maik\Desktop\VxKex-main\Release\KexW32ML.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\KexW32ML.unsuccessfulbuild".
+         Touching "Release\KexW32ML.lastbuildstate".
+     1>Done Building Project "C:\Users\maik\Desktop\VxKex-main\KexW32ML\KexW32ML.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.29

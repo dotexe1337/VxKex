@@ -1,0 +1,37 @@
+﻿Build started 2/17/2025 1:55:05 PM.
+     1>Project "C:\Users\maik\Desktop\VxKex-main\KexGui\KexGui.vcxproj" on node 6 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\KexGui.lastbuildstate".
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppClean.targets(74,5): warning : The process cannot access the file 'C:\USERS\MAIK\DESKTOP\VXKEX-MAIN\DEBUG\KEXGUI.LIB' because it is being used by another process.
+       InitializeBuildStatus:
+         Creating "Debug\KexGui.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\maik\Desktop\VxKex-main\\00-Common Headers" /Zi /nologo /W3 /WX /MP /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D KEXGUI_EXPORTS /D _UNICODE /D UNICODE /Gm- /MDd /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gz /TC /analyze- /errorReport:prompt ctlsx.c dpi.c fldrpkr.c kexgui.c locale.c msgbox.c shprops.c window.c wndx.c
+         ctlsx.c
+         dpi.c
+         fldrpkr.c
+         kexgui.c
+         locale.c
+         msgbox.c
+         shprops.c
+         window.c
+         wndx.c
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\maik\Desktop\VxKex-main\Debug\KexGui.lib" /LIBPATH:"C:\Users\maik\Desktop\VxKex-main\\00-Import Libraries" /NOLOGO /NODEFAULTLIB /MACHINE:X86 Debug\ctlsx.obj
+         Debug\dpi.obj
+         Debug\fldrpkr.obj
+         Debug\kexgui.obj
+         Debug\locale.obj
+         Debug\msgbox.obj
+         Debug\shprops.obj
+         Debug\window.obj
+         Debug\wndx.obj
+         KexGui.vcxproj -> C:\Users\maik\Desktop\VxKex-main\Debug\KexGui.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\KexGui.unsuccessfulbuild".
+         Touching "Debug\KexGui.lastbuildstate".
+     1>Done Building Project "C:\Users\maik\Desktop\VxKex-main\KexGui\KexGui.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.60

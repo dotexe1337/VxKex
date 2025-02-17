@@ -400,6 +400,19 @@ typedef struct _PROCESS_MITIGATION_DEP_POLICY {
 	BOOLEAN			Permanent;
 } TYPEDEF_TYPE_NAME(PROCESS_MITIGATION_DEP_POLICY);
 
+typedef struct _PROCESS_MITIGATION_SYSTEM_CALL_DISABLE_POLICY {
+	union {
+		DWORD	Flags;
+		struct {
+			DWORD	DisallowWin32kSystemCalls : 1;
+			DWORD	AuditDisallowWin32kSystemCalls : 1;
+			DWORD	DisallowFsctlSystemCalls : 1;
+			DWORD	AuditDisallowFsctlSystemCalls : 1;
+			DWORD	ReservedFlags : 28;
+		} DUMMYSTRUCTNAME;
+	} DUMMYUNIONNAME;
+} TYPEDEF_TYPE_NAME(PROCESS_MITIGATION_SYSTEM_CALL_DISABLE_POLICY);
+
 DECLARE_HANDLE(HPSS);
 DECLARE_HANDLE(HPSSWALK);
 GEN_STD_TYPEDEFS(HPSS);
@@ -622,6 +635,19 @@ KXBASEAPI BOOL WINAPI GetThreadSelectedCpuSetMasks(
 	OUT	PGROUP_AFFINITY	CpuSetMasks,
 	IN	ULONG			CpuSetMaskArraySize,
 	OUT	PULONG			ReturnCount);
+
+KXBASEAPI BOOL WINAPI SetThreadpoolTimerEx(
+	IN	OUT	PTP_TIMER	pti,
+	IN		PFILETIME	pftDueTime		OPTIONAL,
+	IN		DWORD		msPeriod,
+	IN		DWORD		msWindowLength	OPTIONAL);
+
+KXBASEAPI BOOL WINAPI GetSystemCpuSetInformation(
+	PVOID		Information,
+	ULONG		BufferLength,
+	PULONG		ReturnedLength,
+	HANDLE		Process,
+	ULONG		Flags);
 
 //
 // process.c

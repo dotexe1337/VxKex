@@ -230,6 +230,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="actfact.c" />
+    <ClCompile Include="firefox_fix.c" />
     <ClCompile Include="glprstat.c" />
     <ClCompile Include="dllmain.c" />
     <ClCompile Include="forwards.c" />

@@ -1,0 +1,26 @@
+﻿Build started 2/17/2025 2:01:26 PM.
+     1>Project "C:\Users\maik\Desktop\VxKex-main\01-Extended DLLs\KxMi\KxMi.vcxproj" on node 5 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\KxMi.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /I"C:\Users\maik\Desktop\VxKex-main\\00-Common Headers" /nologo /fo"Debug\kxmi.res" kxmi.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\maik\Desktop\VxKex-main\Debug\KxMi.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\maik\Desktop\VxKex-main\Debug\\" /LIBPATH:"C:\Users\maik\Desktop\VxKex-main\\00-Import Libraries" /WX /DEF:"kxmi.def" /MANIFEST:NO /DEBUG /PDB:"C:\Users\maik\Desktop\VxKex-main\Debug\KxMi.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /RELEASE /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\maik\Desktop\VxKex-main\Debug\KxMi.lib" /MACHINE:X86 /DLL Debug\kxmi.res
+         Debug\dllmain.obj
+         Debug\forwards.obj
+         Debug\powrprof.obj
+         Debug\userenv.obj
+         Debug\verspoof.obj
+         Debug\wldp.obj
+            Creating library C:\Users\maik\Desktop\VxKex-main\Debug\KxMi.lib and object C:\Users\maik\Desktop\VxKex-main\Debug\KxMi.exp
+         KxMi.vcxproj -> C:\Users\maik\Desktop\VxKex-main\Debug\KxMi.dll
+       FinalizeBuildStatus:
+         Deleting file "Debug\KxMi.unsuccessfulbuild".
+         Touching "Debug\KxMi.lastbuildstate".
+     1>Done Building Project "C:\Users\maik\Desktop\VxKex-main\01-Extended DLLs\KxMi\KxMi.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.17

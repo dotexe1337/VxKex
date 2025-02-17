@@ -205,11 +205,22 @@ HRESULT STDMETHODCALLTYPE CKexShlEx_Initialize(
 		// If it's not .EXE or .MSI, we won't display a property page.
 		//
 
-		if (!StringEqualI(FileExtension, L".EXE") &&
-			!StringEqualI(FileExtension, L".MSI")) {
+		if (StringEqualI(FileExtension, L".EXE") ||
+			StringEqualI(FileExtension, L".MSI")) {
+				
+			WCHAR WinDir[MAX_PATH];
+			WCHAR KexDir[MAX_PATH];
+			
+			GetWindowsDirectory(WinDir, ARRAYSIZE(WinDir));
+			unless (!KxCfgGetKexDir(KexDir, ARRAYSIZE(KexDir)) ||
+				PathIsPrefix(WinDir, This->ExeFullPath) ||
+				PathIsPrefix(KexDir, This->ExeFullPath)) {
+				ShowPropertiesDialog(This->ExeFullPath, SW_SHOW);
+			}
 
-			return E_NOTIMPL;
 		}
+
+		return E_NOTIMPL;
 	}
 
 	return S_OK;

@@ -1,0 +1,22 @@
+﻿Build started 2/17/2025 2:01:26 PM.
+     1>Project "C:\Users\maik\Desktop\VxKex-main\01-Extended DLLs\KxNt\KxNt.vcxproj" on node 4 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\KxNt.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /I"C:\Users\maik\Desktop\VxKex-main\\00-Common Headers" /nologo /fo"Debug\KxNt.res" KxNt.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\maik\Desktop\VxKex-main\Debug\KxNt.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\maik\Desktop\VxKex-main\Debug\\" /LIBPATH:"C:\Users\maik\Desktop\VxKex-main\\00-Import Libraries" /WX KexDll.lib /DEF:"kxnt.def" /MANIFEST:NO /DEBUG /PDB:"C:\Users\maik\Desktop\VxKex-main\Debug\KxNt.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"DllMain" /RELEASE /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\maik\Desktop\VxKex-main\Debug\KxNt.lib" /MACHINE:X86 /DLL Debug\KxNt.res
+         Debug\dllmain.obj
+         Debug\forwards.obj
+            Creating library C:\Users\maik\Desktop\VxKex-main\Debug\KxNt.lib and object C:\Users\maik\Desktop\VxKex-main\Debug\KxNt.exp
+         KxNt.vcxproj -> C:\Users\maik\Desktop\VxKex-main\Debug\KxNt.dll
+       FinalizeBuildStatus:
+         Deleting file "Debug\KxNt.unsuccessfulbuild".
+         Touching "Debug\KxNt.lastbuildstate".
+     1>Done Building Project "C:\Users\maik\Desktop\VxKex-main\01-Extended DLLs\KxNt\KxNt.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.16

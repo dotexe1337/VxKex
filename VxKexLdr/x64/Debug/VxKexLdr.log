@@ -1,0 +1,24 @@
+﻿Build started 2/17/2025 2:00:46 PM.
+     1>Project "C:\Users\maik\Desktop\VxKex-main\VxKexLdr\VxKexLdr.vcxproj" on node 10 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\Debug\VxKexLdr.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /I"C:\Users\maik\Desktop\VxKex-main\\00-Common Headers" /nologo /fo"x64\Debug\VxKexLdr.res" VxKexLdr.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\maik\Desktop\VxKex-main\x64\Debug\VxKexLdr.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\maik\Desktop\VxKex-main\x64\Debug\\" /LIBPATH:"C:\Users\maik\Desktop\VxKex-main\\00-Import Libraries" Delayimp.lib /DELAYLOAD:ole32.dll /DELAYLOAD:comdlg32.dll /DELAYLOAD:user32.dll /DELAYLOAD:shell32.dll /DELAYLOAD:comctl32.dll /DELAYLOAD:gdi32.dll /MANIFEST /ManifestFile:"x64\Debug\VxKexLdr.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\maik\Desktop\VxKex-main\x64\Debug\VxKexLdr.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /RELEASE /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\maik\Desktop\VxKex-main\x64\Debug\VxKexLdr.lib" /MACHINE:X64 x64\Debug\VxKexLdr.res
+         x64\Debug\creaproc.obj
+         x64\Debug\gui.obj
+         x64\Debug\main.obj
+         VxKexLdr.vcxproj -> C:\Users\maik\Desktop\VxKex-main\x64\Debug\VxKexLdr.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\maik\Desktop\VxKex-main\x64\Debug\VxKexLdr.exe;#1" /manifest x64\Debug\VxKexLdr.exe.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         Deleting file "x64\Debug\VxKexLdr.unsuccessfulbuild".
+         Touching "x64\Debug\VxKexLdr.lastbuildstate".
+     1>Done Building Project "C:\Users\maik\Desktop\VxKex-main\VxKexLdr\VxKexLdr.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.22

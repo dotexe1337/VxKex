@@ -15,56 +15,53 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="buildcfg.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="kxuserp.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\00-Common Headers\KxUser.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="dllmain.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="forwards.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="scaling.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="sysmetrc.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="pointer.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="autorot.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="timer.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="blutooth.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="pwrnotfy.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="misc.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="kxuser.def">
-      <Filter>Source Files</Filter>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
     <ResourceCompile Include="KxUser.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\VxKex-NEXT-main\01-Extended DLLs\KxUser\scaling.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\VxKex-NEXT-main\01-Extended DLLs\KxUser\sysmetrc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\VxKex-NEXT-main\01-Extended DLLs\KxUser\timer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\VxKex-NEXT-main\01-Extended DLLs\KxUser\autorot.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\VxKex-NEXT-main\01-Extended DLLs\KxUser\blutooth.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\VxKex-NEXT-main\01-Extended DLLs\KxUser\dllmain.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\VxKex-NEXT-main\01-Extended DLLs\KxUser\forwards.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\VxKex-NEXT-main\01-Extended DLLs\KxUser\misc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\VxKex-NEXT-main\01-Extended DLLs\KxUser\pointer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\VxKex-NEXT-main\01-Extended DLLs\KxUser\pwrnotfy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\VxKex-NEXT-main\01-Extended DLLs\KxUser\buildcfg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\VxKex-NEXT-main\01-Extended DLLs\KxUser\kxuserp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\VxKex-NEXT-main\01-Extended DLLs\KxUser\kxuser.def">
+      <Filter>Source Files</Filter>
+    </None>
   </ItemGroup>
 </Project>

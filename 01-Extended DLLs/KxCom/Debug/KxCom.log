@@ -1,0 +1,36 @@
+﻿Build started 2/17/2025 2:01:26 PM.
+     1>Project "C:\Users\maik\Desktop\VxKex-main\01-Extended DLLs\KxCom\KxCom.vcxproj" on node 7 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\KxCom.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /I"C:\Users\maik\Desktop\VxKex-main\\00-Common Headers" /nologo /fo"Debug\KxCom.res" KxCom.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\maik\Desktop\VxKex-main\Debug\KxCom.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\maik\Desktop\VxKex-main\Debug\\" /LIBPATH:"C:\Users\maik\Desktop\VxKex-main\\00-Import Libraries" Delayimp.lib /DEF:"kxcom.def" /DELAYLOAD:urlmon.dll /DELAYLOAD:shell32.dll /MANIFEST:NO /DEBUG /PDB:"C:\Users\maik\Desktop\VxKex-main\Debug\KxCom.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"DllMain" /RELEASE /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\maik\Desktop\VxKex-main\Debug\KxCom.lib" /MACHINE:X86 /DLL Debug\KxCom.res
+         Debug\actfact.obj
+         Debug\firefox_fix.obj
+         Debug\glprstat.obj
+         Debug\dllmain.obj
+         Debug\forwards.obj
+         Debug\launcher.obj
+         Debug\mta.obj
+         Debug\roapi.obj
+         Debug\robuffer.obj
+         Debug\roerror.obj
+         Debug\rofactry.obj
+         Debug\roinit.obj
+         Debug\uisettings.obj
+         Debug\uiview.obj
+         Debug\uri.obj
+         Debug\winrt.obj /ignore:4104 
+            Creating library C:\Users\maik\Desktop\VxKex-main\Debug\KxCom.lib and object C:\Users\maik\Desktop\VxKex-main\Debug\KxCom.exp
+         KxCom.vcxproj -> C:\Users\maik\Desktop\VxKex-main\Debug\KxCom.dll
+       FinalizeBuildStatus:
+         Deleting file "Debug\KxCom.unsuccessfulbuild".
+         Touching "Debug\KxCom.lastbuildstate".
+     1>Done Building Project "C:\Users\maik\Desktop\VxKex-main\01-Extended DLLs\KxCom\KxCom.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.20
