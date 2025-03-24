@@ -1,29 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     syscal32.c
-//
-// Abstract:
-//
-//     32-bit Unhooked System Call Stubs (native & WOW64).
-//     TLDR: Tons of macros
-//
-// Author:
-//
-//     vxiiduu (23-Oct-2022)
-//
-// Environment:
-//
-//   Early process creation ONLY. For reasons of simplicity these functions
-//   are not thread safe at all.
-//
-// Revision History:
-//
-//     vxiiduu              23-Oct-2022  Initial creation.
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #include "buildcfg.h"
 #include "kexdllp.h"
 

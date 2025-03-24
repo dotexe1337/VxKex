@@ -1,28 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     ctlsx.c
-//
-// Abstract:
-//
-//     Convenience functions for interacting with Windows controls.
-//
-// Author:
-//
-//     vxiiduu (01-Oct-2022)
-//
-// Environment:
-//
-//     Win32
-//
-// Revision History:
-//
-//     vxiiduu               01-Oct-2022  Initial creation.
-//     vxiiduu               05-Feb-2024  Add Button_SetShield()
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #include "buildcfg.h"
 #include <KexComm.h>
 #include <KexGui.h>

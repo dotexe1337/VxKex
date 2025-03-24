@@ -1,27 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     KexTypes.h
-//
-// Abstract:
-//
-//     Type definitions and associated macros.
-//
-// Author:
-//
-//     vxiiduu (26-Sep-2022)
-//
-// Environment:
-//
-//     Any environment.
-//
-// Revision History:
-//
-//     vxiiduu               26-Sep-2022  Initial creation.
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #pragma once
 
 #include <Limits.h>

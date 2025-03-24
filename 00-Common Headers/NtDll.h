@@ -1,33 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     NtDll.h
-//
-// Abstract:
-//
-//     Windows NT Native API
-//
-//     PSA: If you try and use this header file outside of VxKex, keep in mind
-//     that many of the structures in here are defined for Windows 7 only. No
-//     attempt is made to make anything compatible with anything other than
-//     Windows 7.
-//
-// Author:
-//
-//     vxiiduu (26-Mar-2022)
-//
-// Environment:
-//
-//     Any environment.
-//
-// Revision History:
-//
-//     vxiiduu               26-Mar-2022  Initial creation.
-//     vxiiduu               26-Sep-2022  Add header.
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #pragma once
 #include <KexTypes.h>
 #include <WinIoCtl.h>
@@ -489,6 +459,8 @@
 #define MEM_EXTENDED_PARAMETER_NUMA_NODE_MANDATORY      MINLONG64
 
 #define MEM_REPLACE_PLACEHOLDER 0x4000
+#define MEM_RESERVE_PLACEHOLDER 0x00040000
+#define MEM_64K_PAGES 0x20400000
 
 // win10+ only - NtMapViewOfSectionEx
 typedef enum _MEM_EXTENDED_PARAMETER_TYPE {
@@ -3936,6 +3908,11 @@ NTSYSAPI VOID NTAPI RtlFreeUnicodeString(
 NTSYSAPI BOOLEAN NTAPI RtlEqualUnicodeString(
 	IN	PCUNICODE_STRING	String1,
 	IN	PCUNICODE_STRING	String2,
+	IN	BOOLEAN				CaseInsensitive);
+
+NTSYSAPI BOOLEAN NTAPI RtlEqualString(
+	IN	PSTRING	String1,
+	IN	PSTRING	String2,
 	IN	BOOLEAN				CaseInsensitive);
 
 NTSYSAPI LONG NTAPI RtlCompareUnicodeString(

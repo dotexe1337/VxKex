@@ -1,38 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     propagte.c
-//
-// Abstract:
-//
-//     Implements functionality required to propagate VxKex to child processes.
-//     The basic gist of it is that we will hook NtCreateUserProcess. When
-//     our NtCreateUserProcess hook is called, it will create the child process
-//     and then install hooks on NtOpenKey/NtOpenKeyEx.
-//
-//     When the NtOpenKey/NtOpenKeyEx hooks are called, they will rewrite any
-//     attempt to access IFEO keys to a virtualized key. This will cause the
-//     loader to load KexDll and then the rest of the initialization proceeds
-//     as usual.
-//
-// Author:
-//
-//     vxiiduu (23-Oct-2022)
-//
-// Revision History:
-//
-//     vxiiduu              23-Oct-2022  Initial creation.
-//     vxiiduu              05-Nov-2022  Propagation working for 64 bit.
-//     vxiiduu              05-Jan-2023  Convert to user friendly NTSTATUS
-//     vxiiduu              12-Feb-2024  Fix propagation on WOW64
-//     vxiiduu              03-Mar-2024  Fix propagation for 32-bit OSes
-//     vxiiduu              21-Mar-2024  Fix propagation again for 32-bit
-//	   vxiiduu				20-May-2024  Remove useless fallback code in
-//										 Ext_NtCreateUserProcess.
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #include "buildcfg.h"
 #include "kexdllp.h"
 

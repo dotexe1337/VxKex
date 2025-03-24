@@ -1,27 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     dllnotif.c
-//
-// Abstract:
-//
-//     Contains a routine which is called after a DLL is mapped into the
-//     process, but before its imports are resolved. This is the opportune
-//     moment to rewrite DLL imports.
-//
-// Author:
-//
-//     vxiiduu (18-Oct-2022)
-//
-// Revision History:
-//
-//     vxiiduu              18-Oct-2022  Initial creation.
-//     vxiiduu              23-Feb-2024  Change wording from "loaded" to "mapped"
-//                                       in order to better reflect reality.
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #include "buildcfg.h"
 #include "kexdllp.h"
 

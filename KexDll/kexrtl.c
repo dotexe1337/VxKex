@@ -1,24 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     kexrtl.c
-//
-// Abstract:
-//
-//     Various useful run-time routines.
-//
-// Author:
-//
-//     vxiiduu (17-Oct-2022)
-//
-// Revision History:
-//
-//     vxiiduu              17-Oct-2022  Initial creation.
-//     vxiiduu              29-Oct-2022  Fix bug in KexRtlPathFindFileName
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #include "buildcfg.h"
 #include "kexdllp.h"
 

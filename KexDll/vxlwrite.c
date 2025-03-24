@@ -1,23 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     vxlwrite.c
-//
-// Abstract:
-//
-//     Contains the function that is used to write an entry to a log file.
-//
-// Author:
-//
-//     vxiiduu
-//
-// Revision History:
-//
-//     vxiiduu              08-Jan-2023  Move from critical section to SRW lock
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #include "buildcfg.h"
 #include "kexdllp.h"
 

@@ -1,30 +1,13 @@
-﻿Build started 2/17/2025 2:00:46 PM.
-     1>Project "C:\Users\maik\Desktop\VxKex-main\01-Extended DLLs\KxCom\KxCom.vcxproj" on node 7 (build target(s)).
+﻿Build started 3/10/2025 3:03:44 AM.
+     1>Project "C:\Users\maik\Desktop\VxKex-main\01-Extended DLLs\KxCom\KxCom.vcxproj" on node 3 (build target(s)).
      1>InitializeBuildStatus:
          Creating "x64\Debug\KxCom.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
          All outputs are up-to-date.
        ResourceCompile:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /I"C:\Users\maik\Desktop\VxKex-main\\00-Common Headers" /nologo /fo"x64\Debug\KxCom.res" KxCom.rc 
+         All outputs are up-to-date.
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\maik\Desktop\VxKex-main\x64\Debug\KxCom.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\maik\Desktop\VxKex-main\x64\Debug\\" /LIBPATH:"C:\Users\maik\Desktop\VxKex-main\\00-Import Libraries" Delayimp.lib /DEF:"kxcom.def" /DELAYLOAD:urlmon.dll /DELAYLOAD:shell32.dll /MANIFEST:NO /DEBUG /PDB:"C:\Users\maik\Desktop\VxKex-main\x64\Debug\KxCom.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"DllMain" /RELEASE /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\maik\Desktop\VxKex-main\x64\Debug\KxCom.lib" /MACHINE:X64 /DLL x64\Debug\KxCom.res
-         x64\Debug\actfact.obj
-         x64\Debug\firefox_fix.obj
-         x64\Debug\glprstat.obj
-         x64\Debug\dllmain.obj
-         x64\Debug\forwards.obj
-         x64\Debug\launcher.obj
-         x64\Debug\mta.obj
-         x64\Debug\roapi.obj
-         x64\Debug\robuffer.obj
-         x64\Debug\roerror.obj
-         x64\Debug\rofactry.obj
-         x64\Debug\roinit.obj
-         x64\Debug\uisettings.obj
-         x64\Debug\uiview.obj
-         x64\Debug\uri.obj
-         x64\Debug\winrt.obj /ignore:4104 
-            Creating library C:\Users\maik\Desktop\VxKex-main\x64\Debug\KxCom.lib and object C:\Users\maik\Desktop\VxKex-main\x64\Debug\KxCom.exp
+         All outputs are up-to-date.
          KxCom.vcxproj -> C:\Users\maik\Desktop\VxKex-main\x64\Debug\KxCom.dll
        FinalizeBuildStatus:
          Deleting file "x64\Debug\KxCom.unsuccessfulbuild".
@@ -33,4 +16,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:00.23
+Time Elapsed 00:00:00.06

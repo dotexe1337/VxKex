@@ -1,31 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     dllrewrt.c
-//
-// Abstract:
-//
-//     Contains routines related to DLL rewriting - more precisely, rewriting
-//     the names of DLLs imported from a PE image (which itself may be an EXE
-//     or a DLL).
-//
-// Author:
-//
-//     vxiiduu (18-Oct-2022)
-//
-// Revision History:
-//
-//     vxiiduu              18-Oct-2022  Initial creation.
-//     vxiiduu              22-Oct-2022  Bound imports are now erased
-//     vxiiduu              03-Nov-2022  Optimize KexRewriteImageImportDirectory
-//     vxiiduu              05-Jan-2023  Convert to user friendly NTSTATUS.
-//     vxiiduu              11-Feb-2024  Refactor DLL rewrite lookup code.
-//     vxiiduu              13-Mar-2024  Move DLL redirects into a static table
-//                                       instead of reading them from registry.
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #include "buildcfg.h"
 #include "kexdllp.h"
 

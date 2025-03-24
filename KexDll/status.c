@@ -1,24 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     status.c
-//
-// Abstract:
-//
-//     Contains routines for translating NTSTATUS codes into human-readable
-//     text.
-//
-// Author:
-//
-//     vxiiduu (01-Jan-2023)
-//
-// Revision History:
-//
-//     vxiiduu              01-Jan-2023  Initial creation.
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #include "buildcfg.h"
 #include "kexdllp.h"
 

@@ -1,27 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     kexw32ml.c
-//
-// Abstract:
-//
-//     VxKex Win32-mode General Library
-//
-// Author:
-//
-//     vxiiduu (01-Oct-2022)
-//
-// Environment:
-//
-//     Win32
-//
-// Revision History:
-//
-//     vxiiduu               01-Oct-2022  Initial creation.
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #include "buildcfg.h"
 #include <KexComm.h>
 #include <KexW32ML.h>

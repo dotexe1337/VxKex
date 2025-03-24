@@ -1,25 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     vxlsever.c
-//
-// Abstract:
-//
-//     Contains a routine to convert a VXLSEVERITY enumeration value into a
-//     human-readable string.
-//
-// Author:
-//
-//     vxiiduu (30-Sep-2022)
-//
-// Revision History:
-//
-//     vxiiduu	            30-Sep-2022  Initial creation.
-//     vxiiduu              12-Nov-2022  Move into KexDll
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #include "buildcfg.h"
 #include "kexdllp.h"
 

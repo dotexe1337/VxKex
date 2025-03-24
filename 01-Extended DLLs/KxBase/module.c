@@ -1,35 +1,6 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     module.c
-//
-// Abstract:
-//
-//     Thjs file contains functions related to DLL loading.
-//     The main purpose of the files in here is to rewrite the names of DLLs
-//     which the application requests to dynamically load.
-//
-// Author:
-//
-//     Author (10-Feb-2024)
-//
-// Environment:
-//
-//     Win32 mode.
-//
-// Revision History:
-//
-//     vxiiduu              10-Feb-2024    Initial creation.
-//     vxiiduu              02-Mar-2024    Fix GetModuleHandleExW logging when
-//										   GET_MODULE_HANDLE_EX_FLAG_FROM_ADDRESS
-//										   flag is passed.
-//     vxiiduu              13-Mar-2024    Move most of the code here to kexldr.
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #include "buildcfg.h"
 #include "kxbasep.h"
+#include "KexDll.h"
 #include <KexW32ML.h>
 #include <Shlwapi.h>
 
@@ -74,6 +45,33 @@ KXBASEAPI HMODULE WINAPI Ext_GetModuleHandleA(
 	InterceptedKernelBaseLoaderCallReturn(ReEntrant);
 
 	return ModuleHandle;
+}
+
+KXBASEAPI FARPROC WINAPI Ext_GetProcAddress(
+	IN  HMODULE hModule,
+	IN  LPCSTR lpProcName)
+{
+	NTSTATUS Status;
+	PPEB Peb;
+	Peb = NtCurrentPeb();
+
+	//
+	// APPSPECIFICHACK: Our VirtualAlloc2 cannot yet handle the AllocationType(s) needed
+	// by the Chromium V8 sandbox, and Chromium is incapable of gracefully handling
+	// the error, so we will return NULL if this function is requested.
+	//
+	Status = AshPerformChromiumDetectionFromModuleExports(Peb->ImageBaseAddress);
+
+	if(Status == STATUS_SUCCESS) {
+		if((unsigned)lpProcName > 0xFFFF) {
+			if(!lstrcmpA(lpProcName, "VirtualAlloc2")) {
+				SetLastError(STATUS_DLL_NOT_FOUND);
+				return NULL;
+			}
+		}
+	}
+
+	return GetProcAddress(hModule, lpProcName);
 }
 
 KXBASEAPI HMODULE WINAPI Ext_GetModuleHandleW(

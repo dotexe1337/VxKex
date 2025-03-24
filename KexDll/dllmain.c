@@ -1,34 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     dllmain.c
-//
-// Abstract:
-//
-//     Main file for KexDll.
-//
-//     KexDll is loaded at process initialization of every kex process and
-//     is what makes it a kex process (by rewriting dlls, etc.).
-//
-// Author:
-//
-//     vxiiduu (17-Oct-2022)
-//
-// Environment:
-//
-//     Native mode.
-//     This DLL is loaded before kernel32, and it can only import from NTDLL.
-//
-// Revision History:
-//
-//     vxiiduu              17-Oct-2022  Initial creation.
-//     vxiiduu              05-Jan-2023  Convert to user friendly NTSTATUS.
-//     vxiiduu              23-Feb-2024  Remove support for advanced logging.
-//     vxiiduu              23-Feb-2024  Remove unneeded debug logging
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #define NEED_VERSION_DEFS
 #include "buildcfg.h"
 #include "kexdllp.h"
@@ -214,7 +183,12 @@ BOOL WINAPI DllMain(
 			}
 
 			// APPSPECIFICHACK: Detect Chromium based on EXE exports.
-			AshPerformChromiumDetectionFromModuleExports(Peb->ImageBaseAddress);
+			Status = AshPerformChromiumDetectionFromModuleExports(Peb->ImageBaseAddress);
+
+			if(Status == STATUS_SUCCESS) {
+				Status = AshpSetIsChromiumProcess();
+				ASSERT (NT_SUCCESS(Status));
+			}
 		}
 
 		//

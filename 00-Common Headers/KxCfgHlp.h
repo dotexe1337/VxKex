@@ -1,27 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     KxCfgHlp.h
-//
-// Abstract:
-//
-//     Main header file for the VxKex Configuration Helper library.
-//
-// Author:
-//
-//     vxiiduu (02-Feb-2024)
-//
-// Environment:
-//
-//     Win32 mode.
-//
-// Revision History:
-//
-//     vxiiduu              02-Feb-2024  Initial creation.
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #pragma once
 #include <KexComm.h>
 #include <KexDll.h>

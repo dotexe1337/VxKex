@@ -1,27 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     support.c
-//
-// Abstract:
-//
-//     Contains miscellaneous support routines used by KXBASE.
-//
-// Author:
-//
-//     vxiiduu (11-Feb-2022)
-//
-// Environment:
-//
-//     Win32 mode.
-//
-// Revision History:
-//
-//     vxiiduu              11-Feb-2022  Initial creation.
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #include "buildcfg.h"
 #include "kxbasep.h"
 

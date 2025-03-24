@@ -1,23 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     KexComp.h
-//
-// Abstract:
-//
-//     Defines compiler settings for VxKex projects.
-//
-// Author:
-//
-//     vxiiduu (30-Sep-2022)
-//
-// Revision History:
-//
-//     vxiiduu               30-Sep-2022  Initial creation.
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #pragma once
 
 #ifdef _DEBUG

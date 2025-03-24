@@ -1,27 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     ash.c
-//
-// Abstract:
-//
-//     This file contains helper routines for app-specific hacks.
-//
-// Author:
-//
-//     vxiiduu (16-Feb-2024)
-//
-// Environment:
-//
-//     Native mode
-//
-// Revision History:
-//
-//     vxiiduu              16-Feb-2024  Initial creation.
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #include "buildcfg.h"
 #include "kexdllp.h"
 

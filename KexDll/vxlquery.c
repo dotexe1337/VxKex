@@ -1,24 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     vxlquery.c
-//
-// Abstract:
-//
-//     Contains the public routines for querying log file information.
-//
-// Author:
-//
-//     vxiiduu (30-Sep-2022)
-//
-// Revision History:
-//
-//     vxiiduu	            30-Sep-2022  Initial creation.
-//     vxiiduu              12-Nov-2022  Convert to v3 + native API
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #include "buildcfg.h"
 #include "kexdllp.h"
 

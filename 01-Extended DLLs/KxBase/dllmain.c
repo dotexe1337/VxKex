@@ -1,30 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     dllmain.c
-//
-// Abstract:
-//
-//     Main file for KXBASE.
-//     The DLLs "kernel32" and "kernelbase" are redirected to this DLL.
-//
-// Author:
-//
-//     vxiiduu (07-Nov-2022)
-//
-// Environment:
-//
-//     Win32 mode.
-//     This module can import from NTDLL, KERNEL32, and KERNELBASE.
-//
-// Revision History:
-//
-//     vxiiduu              07-Nov-2022  Initial creation.
-//     vxiiduu              10-Feb-2024  Rename to KXBASE (from kernel33).
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #include "buildcfg.h"
 #include "kxbasep.h"
 #include <KexW32ML.h>

@@ -1,26 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     opnclose.c
-//
-// Abstract:
-//
-//     Contains the public routines for opening and closing log files.
-//
-// Author:
-//
-//     vxiiduu (30-Sep-2022)
-//
-// Revision History:
-//
-//     vxiiduu	            30-Sep-2022  Initial creation.
-//     vxiiduu              15-Oct-2022  Convert to v2 format.
-//     vxiiduu              12-Nov-2022  Convert to v3 + native API
-//     vxiiduu              08-Jan-2023  Set compressed attribute on vxl files
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #include "buildcfg.h"
 #include "kexdllp.h"
 

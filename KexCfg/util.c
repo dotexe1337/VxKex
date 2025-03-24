@@ -1,28 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     util.c
-//
-// Abstract:
-//
-//     Miscellaneous utility functions for KexCfg
-//
-// Author:
-//
-//     vxiiduu (09-Feb-2024)
-//
-// Environment:
-//
-//     Win32 mode. Sometimes this program is run as Administrator, sometimes
-//     as a standard account, sometimes as the local SYSTEM account.
-//
-// Revision History:
-//
-//     vxiiduu              09-Feb-2024  Initial creation.
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #include "buildcfg.h"
 #include <KexComm.h>
 #include <WtsApi32.h>

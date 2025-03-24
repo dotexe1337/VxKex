@@ -1,28 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     ashcrsup.c
-//
-// Abstract:
-//
-//     This file contains routines which detect Chromium-based browsers and
-//     frameworks.
-//
-// Author:
-//
-//     vxiiduu (16-Mar-2024)
-//
-// Environment:
-//
-//     Native mode
-//
-// Revision History:
-//
-//     vxiiduu              16-Mar-2024  Initial creation.
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #include "buildcfg.h"
 #include "kexdllp.h"
 
@@ -30,7 +5,7 @@
 // This function is called when we reach a conclusion that the current process
 // either is Chromium/Electron, or has loaded a Chromium-based framework.
 //
-STATIC NTSTATUS AshpSetIsChromiumProcess(
+NTSTATUS AshpSetIsChromiumProcess(
 	VOID)
 {
 	NTSTATUS Status;
@@ -159,12 +134,5 @@ NTSTATUS AshPerformChromiumDetectionFromModuleExports(
 		return Status;
 	}
 
-	//
-	// Both functions found. This is a chromium process.
-	//
-
-	Status = AshpSetIsChromiumProcess();
-	ASSERT (NT_SUCCESS(Status));
-
-	return Status;
+	return STATUS_SUCCESS;
 }

@@ -1,28 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     wndx.c
-//
-// Abstract:
-//
-//     Various miscellaneous convenience functions involving the creation
-//     of tooltips, menus, etc.
-//
-// Author:
-//
-//     vxiiduu (01-Oct-2022)
-//
-// Environment:
-//
-//     Win32
-//
-// Revision History:
-//
-//     vxiiduu               01-Oct-2022  Initial creation.
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #include "buildcfg.h"
 #include <KexComm.h>
 #include <KexGui.h>

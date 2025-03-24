@@ -1,28 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     cmdline.c
-//
-// Abstract:
-//
-//     Contains functions related to parsing the command-line arguments of the
-//     installer program.
-//
-// Author:
-//
-//     vxiiduu (01-Feb-2024)
-//
-// Environment:
-//
-//     Win32, without any vxkex support components
-//
-// Revision History:
-//
-//     vxiiduu               01-Feb-2024  Initial creation.
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #include "kexsetup.h"
 
 VOID DisplayHelpMessage(

@@ -1,17 +1,13 @@
-﻿Build started 2/17/2025 2:00:46 PM.
+﻿Build started 3/10/2025 3:03:44 AM.
      1>Project "C:\Users\maik\Desktop\VxKex-main\01-Extended DLLs\KxCrt\KxCrt.vcxproj" on node 8 (build target(s)).
      1>InitializeBuildStatus:
          Creating "x64\Debug\KxCrt.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
          All outputs are up-to-date.
        ResourceCompile:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /I"C:\Users\maik\Desktop\VxKex-main\\00-Common Headers" /nologo /fo"x64\Debug\KxCrt.res" KxCrt.rc 
+         All outputs are up-to-date.
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\maik\Desktop\VxKex-main\x64\Debug\KxCrt.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\maik\Desktop\VxKex-main\x64\Debug\\" /LIBPATH:"C:\Users\maik\Desktop\VxKex-main\\00-Import Libraries" /DEF:"kxcrt.def" /MANIFEST:NO /DEBUG /PDB:"C:\Users\maik\Desktop\VxKex-main\x64\Debug\KxCrt.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /RELEASE /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\maik\Desktop\VxKex-main\x64\Debug\KxCrt.lib" /MACHINE:X64 /DLL x64\Debug\KxCrt.res
-         x64\Debug\dllmain.obj
-         x64\Debug\forwards.obj
-         x64\Debug\wcsftime.obj /ignore:4102 
-            Creating library C:\Users\maik\Desktop\VxKex-main\x64\Debug\KxCrt.lib and object C:\Users\maik\Desktop\VxKex-main\x64\Debug\KxCrt.exp
+         All outputs are up-to-date.
          KxCrt.vcxproj -> C:\Users\maik\Desktop\VxKex-main\x64\Debug\KxCrt.dll
        FinalizeBuildStatus:
          Deleting file "x64\Debug\KxCrt.unsuccessfulbuild".
@@ -20,4 +16,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:00.20
+Time Elapsed 00:00:00.06

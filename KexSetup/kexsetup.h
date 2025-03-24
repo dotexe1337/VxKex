@@ -1,27 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     kexsetup.h
-//
-// Abstract:
-//
-//     Main header file for KexSetup
-//
-// Author:
-//
-//     vxiiduu (01-Feb-2024)
-//
-// Environment:
-//
-//     Win32, without any vxkex support components
-//
-// Revision History:
-//
-//     vxiiduu               01-Feb-2024  Initial creation.
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #pragma once
 
 #include "buildcfg.h"

@@ -1,29 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     file.ext
-//
-// Abstract:
-//
-//     Forwarder stubs that do nothing except for calling the original function.
-//     These exist because some stupid software such as Chromium is not
-//     compatible with export forwarders.
-//
-// Author:
-//
-//     vxiiduu (09-Mar-2024)
-//
-// Environment:
-//
-//     Win32
-//
-// Revision History:
-//
-//     vxiiduu              09-Mar-2024  Initial creation.
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #include "buildcfg.h"
 #include "kxbasep.h"
 

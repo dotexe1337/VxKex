@@ -1,31 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     KexAssert.h
-//
-// Abstract:
-//
-//     ASSERT and ASSUME macros.
-//
-// Author:
-//
-//     vxiiduu (26-Sep-2022)
-//
-// Environment:
-//
-//     ASSERT displays an error box when compiling for an EXE target.
-//     Otherwise, it will simply cause a breakpoint in the current process.
-//
-//     ASSUME can be used anywhere.
-//
-// Revision History:
-//
-//     vxiiduu               26-Sep-2022  Initial creation.
-//     vxiiduu               22-Feb-2022  Remove obsolete CHECKED macro.
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #pragma once
 
 //

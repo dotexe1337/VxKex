@@ -1,24 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     vxlpriv.c
-//
-// Abstract:
-//
-//     Contains miscellaneous private routines.
-//
-// Author:
-//
-//     vxiiduu (30-Sep-2022)
-//
-// Revision History:
-//
-//     vxiiduu	            30-Sep-2022  Initial creation.
-//     vxiiduu              15-Oct-2022  Convert to v2 format.
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #include "buildcfg.h"
 #include "kexdllp.h"
 

@@ -1,35 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     ckxshlex.c
-//
-// Abstract:
-//
-//     Implements the IKexShlEx (i.e. IShellExtInit and IShellPropSheetExt)
-//     interfaces.
-//
-//     Ignore the standard COM crap at the top of the file, the functions of
-//     interest are:
-//
-//       CKexShlEx_Initialize
-//       CKexShlEx_AddPages
-//
-// Author:
-//
-//     vxiiduu (08-Feb-2024)
-//
-// Environment:
-//
-//     Inside explorer.exe
-//
-// Revision History:
-//
-//     vxiiduu              08-Feb-2024  Initial creation.
-//     vxiiduu              14-Mar-2024  Fix a multiselect-related bug.
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #include "buildcfg.h"
 #include "KexShlEx.h"
 #include "resource.h"

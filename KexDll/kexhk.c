@@ -1,38 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     kexhk.c
-//
-// Abstract:
-//
-//     Routines for hooking code.
-//
-//     Intended for usage only during early process initialization, e.g. to
-//     hook Nt* functions permanently, or temporarily hook functions while
-//     running in a strictly single-threaded environment.
-//
-//     The only situation where you can safely keep Basic hooks active when
-//     multiple threads are running is when you never unhook or hook anything
-//     else. In other terms, only if you have a complete re-implementation of
-//     the function you are hooking (which is easy for Nt* syscall stubs).
-//
-// Author:
-//
-//     vxiiduu (23-Oct-2022)
-//
-// Environment:
-//
-//   Early process creation ONLY. For reasons of simplicity these functions
-//   are not thread safe at all.
-//
-// Revision History:
-//
-//     vxiiduu              23-Oct-2022  Initial creation.
-//     vxiiduu              22-Feb-2024  Add some assertions.
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #include "buildcfg.h"
 #include "kexdllp.h"
 

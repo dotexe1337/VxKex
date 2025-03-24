@@ -1,9 +1,11 @@
-﻿Build started 2/17/2025 2:01:26 PM.
-     1>Project "C:\Users\maik\Desktop\VxKex-main\01-Extended DLLs\KxDx\KxDx.vcxproj" on node 6 (build target(s)).
+﻿Build started 3/10/2025 3:03:27 AM.
+     1>Project "C:\Users\maik\Desktop\VxKex-main\01-Extended DLLs\KxDx\KxDx.vcxproj" on node 7 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Debug\KxDx.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
-         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\maik\Desktop\VxKex-main\\00-Common Headers" /Zi /nologo /W3 /WX /MP /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D KXDX_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /MDd /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gz /TC /analyze- /errorReport:prompt iid.c mfplat.c
+         iid.c
+         mfplat.c
        ResourceCompile:
          C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /I"C:\Users\maik\Desktop\VxKex-main\\00-Common Headers" /nologo /fo"Debug\KxDx.res" KxDx.rc 
        Link:
@@ -25,4 +27,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:00.17
+Time Elapsed 00:00:00.84

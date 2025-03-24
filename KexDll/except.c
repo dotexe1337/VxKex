@@ -1,25 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     except.c
-//
-// Abstract:
-//
-//     Contains the exception filter for general protected functions in KexDll.
-//
-// Author:
-//
-//     vxiiduu (30-Oct-2022)
-//
-// Revision History:
-//
-//     vxiiduu              30-Oct-2022  Initial creation.
-//     vxiiduu              23-Feb-2024  VxlWriteLogEx is no longer a protected
-//                                       function - remove extra SEH wrapping
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #include "buildcfg.h"
 #include "kexdllp.h"
 

@@ -1,28 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     ashselec.c
-//
-// Abstract:
-//
-//     This file contains routines which dynamically select between different
-//     implementations of DLLs by changing the DLL rewrite entries.
-//
-// Author:
-//
-//     vxiiduu (16-Mar-2024)
-//
-// Environment:
-//
-//     Native mode
-//
-// Revision History:
-//
-//     vxiiduu              16-Mar-2024  Initial creation.
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #include "buildcfg.h"
 #include "kexdllp.h"
 

@@ -89,3 +89,18 @@ KXNETAPI DNS_STATUS WINAPI DnsQueryEx(
 
 	return DnsStatus;
 }
+
+KXNETAPI DNS_STATUS WINAPI DnsServiceBrowse(
+	enum PDNS_SERVICE_BROWSE_REQUEST pRequest,
+	enum PDNS_SERVICE_CANCEL pCancel)
+{
+	KexLogWarningEvent(L"Unimplemented DNSAPI function called");
+	return ERROR_INVALID_PARAMETER;
+}
+
+KXNETAPI DNS_STATUS WINAPI DnsServiceBrowseCancel(
+	enum PDNS_SERVICE_CANCEL pCancelHandle)
+{
+	KexLogWarningEvent(L"Unimplemented DNSAPI function called");
+	return ERROR_INVALID_PARAMETER;
+}

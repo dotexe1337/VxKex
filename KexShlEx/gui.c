@@ -1,27 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     gui.c
-//
-// Abstract:
-//
-//     Implements the user interface logic of the shell extension.
-//
-// Author:
-//
-//     vxiiduu (08-Feb-2024)
-//
-// Environment:
-//
-//     Inside explorer.exe
-//
-// Revision History:
-//
-//     vxiiduu              08-Feb-2024  Initial creation.
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #include "buildcfg.h"
 #include "KexShlEx.h"
 #include "resource.h"

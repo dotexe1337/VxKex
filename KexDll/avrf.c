@@ -1,25 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     avrf.c
-//
-// Abstract:
-//
-//     Functions for dealing with Application Verifier.
-//
-// Author:
-//
-//     vxiiduu (03-Nov-2022)
-//
-// Revision History:
-//
-//     vxiiduu              03-Nov-2022  Initial creation.
-//     vxiiduu              05-Jan-2023  Convert to user friendly NTSTATUS.
-//     vxiiduu              16-Mar-2024  Add more assertions.
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #include "buildcfg.h"
 #include "kexdllp.h"
 

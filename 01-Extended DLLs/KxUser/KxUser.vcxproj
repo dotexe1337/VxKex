@@ -240,7 +240,7 @@
     <ClInclude Include="..\..\..\VxKex-NEXT-main\01-Extended DLLs\KxUser\kxuserp.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\..\VxKex-NEXT-main\01-Extended DLLs\KxUser\kxuser.def" />
+    <None Include="kxuser.def" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

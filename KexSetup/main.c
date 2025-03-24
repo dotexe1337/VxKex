@@ -1,27 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     main.c
-//
-// Abstract:
-//
-//     KexSetup, the VxKex installer (and uninstaller) program.
-//
-// Author:
-//
-//     vxiiduu (31-Jan-2024)
-//
-// Environment:
-//
-//     Win32, without any vxkex support components
-//
-// Revision History:
-//
-//     vxiiduu               31-Jan-2024  Initial creation.
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #define NEED_VERSION_DEFS
 #include "kexsetup.h"
 

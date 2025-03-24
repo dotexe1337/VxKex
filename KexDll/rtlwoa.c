@@ -1,24 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     rtlwoa.c
-//
-// Abstract:
-//
-//     Implementation of WaitOnAddress and friends.
-//
-// Author:
-//
-//     vxiiduu (11-Feb-2024)
-//
-// Revision History:
-//
-//     vxiiduu              11-Feb-2024  Initial creation.
-//     vxiiduu              15-Feb-2024  Fix a typing error.
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #include "buildcfg.h"
 #include "kexdllp.h"
 

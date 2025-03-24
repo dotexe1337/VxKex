@@ -1,9 +1,10 @@
-﻿Build started 2/17/2025 2:01:05 PM.
-     1>Project "C:\Users\maik\Desktop\VxKex-main\01-Extended DLLs\KxUia\KxUia.vcxproj" on node 3 (build target(s)).
+﻿Build started 3/24/2025 12:12:26 AM.
+     1>Project "C:\Users\maik\Desktop\VxKex-main\01-Extended DLLs\KxUia\KxUia.vcxproj" on node 6 (build target(s)).
      1>InitializeBuildStatus:
          Creating "x64\Release\KxUia.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
-         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Users\maik\Desktop\VxKex-main\\00-Common Headers" /Zi /nologo /W3 /WX /MP /O1 /Ob1 /Oi /Os /Oy /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D KXNET_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /GF /Gm- /MD /GS- /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gz /TC /errorReport:prompt dllmain.c
+         dllmain.c
        ResourceCompile:
          All outputs are up-to-date.
        Link:
@@ -22,4 +23,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:00.14
+Time Elapsed 00:00:03.42

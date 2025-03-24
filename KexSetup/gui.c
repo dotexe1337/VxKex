@@ -1,28 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     gui.c
-//
-// Abstract:
-//
-//     This file contains functions which deal with the user interface (i.e.
-//     gathering information interactively from the user).
-//
-// Author:
-//
-//     vxiiduu (02-Feb-2024)
-//
-// Environment:
-//
-//     Win32, without any vxkex support components
-//
-// Revision History:
-//
-//     vxiiduu               02-Feb-2024  Initial creation.
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #include "kexsetup.h"
 #include <ShlObj.h>
 

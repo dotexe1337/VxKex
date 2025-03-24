@@ -1,23 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     BaseDll.h
-//
-// Abstract:
-//
-//     Win32 base API (i.e. kernel32 and kernelbase)
-//
-// Author:
-//
-//     vxiiduu (07-Nov-2022)
-//
-// Revision History:
-//
-//     vxiiduu               07-Nov-2022  Initial creation.
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #pragma once
 
 #include <KexComm.h>

@@ -1,9 +1,24 @@
-﻿Build started 2/17/2025 2:00:39 PM.
-     1>Project "C:\Users\maik\Desktop\VxKex-main\01-Extended DLLs\KxCom\KxCom.vcxproj" on node 7 (build target(s)).
+﻿Build started 3/24/2025 12:13:18 AM.
+     1>Project "C:\Users\maik\Desktop\VxKex-main\01-Extended DLLs\KxCom\KxCom.vcxproj" on node 5 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Release\KxCom.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
-         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\maik\Desktop\VxKex-main\\00-Common Headers" /Zi /nologo /W3 /WX /MP /O1 /Ob1 /Oi /Os /Oy /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D KXCOM_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /MD /GS- /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gz /TC /analyze- /errorReport:prompt actfact.c dllmain.c firefox_fix.c glprstat.c launcher.c mta.c roapi.c robuffer.c roerror.c rofactry.c roinit.c uisettings.c uiview.c uri.c winrt.c
+         actfact.c
+         dllmain.c
+         firefox_fix.c
+         glprstat.c
+         launcher.c
+         mta.c
+         roapi.c
+         robuffer.c
+         roerror.c
+         rofactry.c
+         roinit.c
+         uisettings.c
+         uiview.c
+         uri.c
+         winrt.c
        ResourceCompile:
          C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /I"C:\Users\maik\Desktop\VxKex-main\\00-Common Headers" /nologo /fo"Release\KxCom.res" KxCom.rc 
        Link:
@@ -35,4 +50,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:00.54
+Time Elapsed 00:00:03.27

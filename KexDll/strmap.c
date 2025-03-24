@@ -1,34 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     strmap.c
-//
-// Abstract:
-//
-//     This module contains the String Mapper API.
-//
-//     A string mapper is a data structure that lets you map one string to
-//     another. In VxKex it is used as part of the mechanism that rewrites
-//     the import directory of an image file.
-//
-// Author:
-//
-//     vxiiduu (21-Oct-2022)
-//
-// Environment:
-//
-//     String mappers can be used after the RTL heap system is initialized and
-//     the process heap has been created.
-//
-// Revision History:
-//
-//     vxiiduu              21-Oct-2022  Initial creation.
-//     vxiiduu              16-Mar-2024  Remove erroneous OPTIONAL qualifier on
-//                                       the 2nd argument to InsertEntry.
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #include "buildcfg.h"
 #include "kexdllp.h"
 

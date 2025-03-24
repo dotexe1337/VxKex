@@ -1,27 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     window.c
-//
-// Abstract:
-//
-//     Convenience functions for dealing with windows.
-//
-// Author:
-//
-//     vxiiduu (01-Oct-2022)
-//
-// Environment:
-//
-//     Win32
-//
-// Revision History:
-//
-//     vxiiduu               01-Oct-2022  Initial creation.
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #include "buildcfg.h"
 #include <KexComm.h>
 #include <KexGui.h>

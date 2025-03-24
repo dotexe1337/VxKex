@@ -174,7 +174,7 @@
       <AdditionalDependencies>
       </AdditionalDependencies>
       <SetChecksum>true</SetChecksum>
-      <TreatLinkerWarningAsErrors>true</TreatLinkerWarningAsErrors>
+      <TreatLinkerWarningAsErrors>false</TreatLinkerWarningAsErrors>
       <ModuleDefinitionFile>kxnet.def</ModuleDefinitionFile>
     </Link>
     <ResourceCompile>
@@ -213,7 +213,7 @@
       <AdditionalDependencies>
       </AdditionalDependencies>
       <SetChecksum>true</SetChecksum>
-      <TreatLinkerWarningAsErrors>true</TreatLinkerWarningAsErrors>
+      <TreatLinkerWarningAsErrors>false</TreatLinkerWarningAsErrors>
       <ModuleDefinitionFile>kxnet.def</ModuleDefinitionFile>
     </Link>
     <ResourceCompile>

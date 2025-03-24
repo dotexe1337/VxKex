@@ -1,39 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     elevate.c
-//
-// Abstract:
-//
-//     Functions related to elevation of privileges necessary to set VxKex
-//     settings as a non-elevated user.
-//
-//     We want users to be able to change VxKex configuration without accepting
-//     a UAC prompt every time. However, normal users and non-elevated admins
-//     cannot write to the IFEO key, which we need to do.
-//
-//     The solution we have chosen is to set up a scheduled task which runs
-//     as the local SYSTEM account. This scheduled task starts a helper
-//     process, KexCfg.exe, with command-line arguments which indicate which
-//     program to change VxKex configuration for and the configuration itself.
-//
-// Author:
-//
-//     vxiiduu (03-Feb-2024)
-//
-// Environment:
-//
-//     Win32 mode. This code must be able to run under the LOCAL SYSTEM
-//     account.
-//
-// Revision History:
-//
-//     vxiiduu              03-Feb-2024  Initial creation.
-//     vxiiduu              22-Feb-2024  Use SafeRelease instead of if statement.
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #include "buildcfg.h"
 #include <KexComm.h>
 #include <KxCfgHlp.h>

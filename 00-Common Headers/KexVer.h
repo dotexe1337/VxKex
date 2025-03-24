@@ -1,29 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     KexVer.h
-//
-// Abstract:
-//
-//     Contains version information and other strings/constants for file
-//     metadata across many VxKex components.
-//
-// Author:
-//
-//     vxiiduu (26-Sep-2022)
-//
-// Environment:
-//
-//     N/A
-//
-// Revision History:
-//
-//     vxiiduu               26-Sep-2022  Initial creation
-//     vxiiduu               04-Feb-2024  Implement autoincrement build number
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #pragma once
 
 // vautogen is a utility in 01-Development Utilities\vautogen.

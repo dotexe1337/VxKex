@@ -1,23 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     kexdllp.h
-//
-// Abstract:
-//
-//     Private header file for KexDll.
-//
-// Author:
-//
-//     vxiiduu (18-Oct-2022)
-//
-// Revision History:
-//
-//     vxiiduu              18-Oct-2022  Initial creation.
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #pragma once
 
 #include "buildcfg.h"
@@ -92,6 +72,9 @@ NTSTATUS AshPerformChromiumDetectionFromLoadedDll(
 
 NTSTATUS AshPerformChromiumDetectionFromModuleExports(
 	IN	PVOID	ModuleBase);
+
+NTSTATUS AshpSetIsChromiumProcess(
+	VOID);
 
 //
 // ashselec.c

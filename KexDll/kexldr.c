@@ -1,30 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     kexldr.c
-//
-// Abstract:
-//
-//     Functions for dealing with PE images and the loader subsystem.
-//
-// Author:
-//
-//     vxiiduu (06-Nov-2022)
-//
-// Revision History:
-//
-//     vxiiduu              06-Nov-2022  Initial creation.
-//     vxiiduu              06-Nov-2022  Rework KexLdrGetDllFullNameFromAddress
-//     vxiiduu              22-Feb-2024  Add some asserts.
-//     vxiiduu              27-Feb-2024  Improve efficiency of routines which
-//                                       find NTDLL base addresses.
-//     vxiiduu              29-Feb-2024  Revert previous change (wrong assumption).
-//     vxiiduu              21-Mar-2024  Properly handle situations where an empty
-//                                       DLL name is passed to KexLdrLoadDll
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #include "buildcfg.h"
 #include "kexdllp.h"
 

@@ -1,5 +1,5 @@
-﻿Build started 2/17/2025 1:56:17 PM.
-     1>Project "C:\Users\maik\Desktop\VxKex-main\KexW32ML\KexW32ML.vcxproj" on node 4 (build target(s)).
+﻿Build started 3/24/2025 12:12:28 AM.
+     1>Project "C:\Users\maik\Desktop\VxKex-main\KexW32ML\KexW32ML.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "x64\Release\KexW32ML.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
@@ -21,4 +21,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:00.31
+Time Elapsed 00:00:01.22

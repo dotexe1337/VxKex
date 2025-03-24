@@ -1,5 +1,5 @@
-﻿Build started 2/17/2025 2:01:26 PM.
-     1>Project "C:\Users\maik\Desktop\VxKex-main\01-Extended DLLs\KxCom\KxCom.vcxproj" on node 7 (build target(s)).
+﻿Build started 3/10/2025 3:03:27 AM.
+     1>Project "C:\Users\maik\Desktop\VxKex-main\01-Extended DLLs\KxCom\KxCom.vcxproj" on node 8 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Debug\KxCom.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
@@ -33,4 +33,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:00.20
+Time Elapsed 00:00:00.62

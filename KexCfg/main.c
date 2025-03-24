@@ -1,28 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     main.c
-//
-// Abstract:
-//
-//     Main file for KexCfg.
-//
-// Author:
-//
-//     vxiiduu (09-Feb-2024)
-//
-// Environment:
-//
-//     Win32 mode. Sometimes this program is run as Administrator, sometimes
-//     as a standard account, sometimes as the local SYSTEM account.
-//
-// Revision History:
-//
-//     vxiiduu              09-Feb-2024  Initial creation.
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #include "kexcfg.h"
 #include <WtsApi32.h>
 

@@ -1,35 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     main.c
-//
-// Abstract:
-//
-//     For the rewrite we're bringing back this classic VxKex component that
-//     used to be the core of VxKex. But this time, it's serving a purpose which
-//     is very different, yet very similar.
-//
-//     This loader application is invoked mainly by Windows Explorer when the
-//     user clicks on VxKex options in either the normal context menu or the
-//     extended context menu. But there is a GUI as well, for if users disable
-//     VxKex integration into the context menus.
-//
-// Author:
-//
-//     vxiiduu (29-Feb-2024)
-//
-// Environment:
-//
-//     Win32
-//
-// Revision History:
-//
-//     vxiiduu              29-Feb-2024  Initial creation.
-//     vxiiduu              19-Mar-2024  Patch CPIW version check as well.
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #include "buildcfg.h"
 #include "vxkexldr.h"
 

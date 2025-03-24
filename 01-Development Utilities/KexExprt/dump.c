@@ -1,23 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     dump.c
-//
-// Abstract:
-//
-//     Main code that is run when the user clicks "Generate"
-//
-// Author:
-//
-//     vxiiduu (29-Oct-2022)
-//
-// Revision History:
-//
-//     vxiiduu               29-Oct-2022  Initial creation.
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #include "buildcfg.h"
 #include <KexComm.h>
 #include "resource.h"

@@ -1,13 +1,52 @@
-﻿Build started 2/17/2025 2:00:54 PM.
+﻿Build started 3/24/2025 12:12:25 AM.
      1>Project "C:\Users\maik\Desktop\VxKex-main\KexDll\KexDll.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
-         Touching "x64\Release\KexDll.unsuccessfulbuild".
+         Creating "x64\Release\KexDll.unsuccessfulbuild" because "AlwaysCreate" was specified.
        _MASM:
        Skipping target "_MASM" because all output files are up-to-date with respect to the input files.
        ClCompile:
-         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Users\maik\Desktop\VxKex-main\\00-Common Headers" /Zi /nologo /W3 /WX /MP /O1 /Ob2 /Oi /Os /Oy /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D KEXDLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /GF /Gm- /MD /GS- /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gz /TC /errorReport:prompt apiset.c ash.c ashcrsup.c ashselec.c avrf.c cpiwbypa.c dllmain.c dllnotif.c dllpath.c dllrewrt.c dload.c etw.c except.c kexdata.c kexhe.c kexhk.c kexldr.c kexrtl.c logging.c ntjob.c ntpriv.c ntps.c ntreg.c ntsect.c ntthread.c propagte.c rtlrng.c rtlwoa.c rtlwow64.c status.c strmap.c syscal32.c verspoof.c vxlopcl.c vxlpriv.c vxlquery.c vxlread.c vxlsever.c vxlwrite.c
+         apiset.c
+         ash.c
+         ashcrsup.c
+         ashselec.c
+         avrf.c
+         cpiwbypa.c
+         dllmain.c
+         dllnotif.c
+         dllpath.c
+         dllrewrt.c
+         dload.c
+         etw.c
+         except.c
+         kexdata.c
+         kexhe.c
+         kexhk.c
+         kexldr.c
+         kexrtl.c
+         logging.c
+         ntjob.c
+         ntpriv.c
+         ntps.c
+         ntreg.c
+         ntsect.c
+         ntthread.c
+         propagte.c
+         rtlrng.c
+         rtlwoa.c
+         rtlwow64.c
+         status.c
+         strmap.c
+         syscal32.c
+         verspoof.c
+         vxlopcl.c
+         vxlpriv.c
+         vxlquery.c
+         vxlread.c
+         vxlsever.c
+         vxlwrite.c
        ResourceCompile:
-         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /I"C:\Users\maik\Desktop\VxKex-main\\00-Common Headers" /nologo /fo"x64\Release\KexDll.res" KexDll.rc 
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\maik\Desktop\VxKex-main\x64\Release\KexDll.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\maik\Desktop\VxKex-main\\00-Import Libraries" /LIBPATH:"C:\Users\maik\Desktop\VxKex-main\x64\Release\\" /NODEFAULTLIB:delayimp.lib /DEF:"KexDll.def" /MANIFEST:NO /DEBUG /PDB:"C:\Users\maik\Desktop\VxKex-main\x64\Release\KexDll.pdb" /SUBSYSTEM:NATIVE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"DllMain" /RELEASE /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\maik\Desktop\VxKex-main\x64\Release\KexDll.lib" /MACHINE:X64 /DLL x64\Release\KexDll.res
          x64\Release\apiset.obj
@@ -61,4 +100,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:00.65
+Time Elapsed 00:00:05.98

@@ -1,36 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     kexhe.c
-//
-// Abstract:
-//
-//     Hard Error handler.
-//
-//     TODO: long term, perhaps add some more user friendly UI like in
-//     0.0.0.3? however, in the absence of kexsrv this might be difficult.
-//
-// Author:
-//
-//     vxiiduu (29-Oct-2022)
-//
-// Environment:
-//
-//     During static import resolution. The hard error handler in this file
-//     is specifically tailored for the subset of NTSTATUS values that can be
-//     passed by NTDLL while loading static imports.
-//
-// Revision History:
-//
-//     vxiiduu              29-Oct-2022  Initial creation.
-//     vxiiduu              05-Nov-2022  Remove ability to remove the HE hook.
-//     vxiiduu              06-Nov-2022  KEXDLL init failure message now works
-//                                       even if KexSrv is not running.
-//     vxiiduu              05-Jan-2023  Convert to user friendly NTSTATUS.
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #include "buildcfg.h"
 #include "kexdllp.h"
 

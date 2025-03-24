@@ -1,25 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     verspoof.c
-//
-// Abstract:
-//
-//     Contains routines for spoofing Windows version.
-//
-// Author:
-//
-//     vxiiduu (06-Nov-2022)
-//
-// Revision History:
-//
-//     vxiiduu              06-Nov-2022  Initial creation.
-//     vxiiduu              07-Nov-2022  Increase resilience of KexApplyVersionSpoof
-//     vxiiduu              05-Jan-2023  Convert to user friendly NTSTATUS.
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #include "buildcfg.h"
 #include "kexdllp.h"
 

@@ -1,11 +1,22 @@
-﻿Build started 2/17/2025 2:01:05 PM.
-     1>Project "C:\Users\maik\Desktop\VxKex-main\VxlView\VxlView.vcxproj" on node 8 (build target(s)).
+﻿Build started 3/24/2025 12:12:34 AM.
+     1>Project "C:\Users\maik\Desktop\VxKex-main\VxlView\VxlView.vcxproj" on node 7 (build target(s)).
      1>InitializeBuildStatus:
          Creating "x64\Release\VxlView.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
-         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Users\maik\Desktop\VxKex-main\\00-Common Headers" /Zi /nologo /W3 /WX /MP /O1 /Ob1 /Oi /Os /Oy /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /MD /GS- /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TC /errorReport:prompt backend.c backendp.c config.c details.c filters.c globals.c goto.c helpabout.c listview.c statusbar.c vxlview.c
+         backend.c
+         backendp.c
+         config.c
+         details.c
+         filters.c
+         globals.c
+         goto.c
+         helpabout.c
+         listview.c
+         statusbar.c
+         vxlview.c
        ResourceCompile:
-         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /I"C:\Users\maik\Desktop\VxKex-main\\00-Common Headers" /nologo /fo"x64\Release\VxlView.res" VxlView.rc 
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\maik\Desktop\VxKex-main\x64\Release\VxlView.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\maik\Desktop\VxKex-main\x64\Release\\" /LIBPATH:"C:\Users\maik\Desktop\VxKex-main\\00-Import Libraries" Delayimp.lib /DELAYLOAD:comdlg32.dll /MANIFEST /ManifestFile:"x64\Release\VxlView.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\maik\Desktop\VxKex-main\x64\Release\VxlView.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /RELEASE /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\maik\Desktop\VxKex-main\x64\Release\VxlView.lib" /MACHINE:X64 x64\Release\VxlView.res
          x64\Release\backend.obj
@@ -31,4 +42,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:00.30
+Time Elapsed 00:00:03.24

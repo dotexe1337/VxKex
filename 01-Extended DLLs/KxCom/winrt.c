@@ -1,27 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     winrt.c
-//
-// Abstract:
-//
-//     Implements the Windows Runtime HSTRING functions.
-//
-// Author:
-//
-//     vxiiduu (11-Feb-2024)
-//
-// Environment:
-//
-//     Win32 mode
-//
-// Revision History:
-//
-//     vxiiduu              11-Feb-2024  Initial creation.
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #include "buildcfg.h"
 #include "kxcomp.h"
 

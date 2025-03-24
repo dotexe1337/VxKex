@@ -27,9 +27,9 @@ VOID KexSetupWriteUninstallEntry(
 		GetDateFormat(LOCALE_INVARIANT, 0, NULL, L"yyyyMMdd", FormattedDate, ARRAYSIZE(FormattedDate));
 		StringCchPrintf(UninstallString, ARRAYSIZE(UninstallString), L"%s\\KexSetup.exe /UNINSTALL", KexDir);
 
-		KexSetupRegWriteString(KeyHandle, L"DisplayName",		L"VxKex API Extensions for Windows® 7");
+		KexSetupRegWriteString(KeyHandle, L"DisplayName",		L"VxKex API Extensions for Windows");
 		KexSetupRegWriteString(KeyHandle, L"DisplayVersion",	_L(KEX_VERSION_STR));
-		KexSetupRegWriteString(KeyHandle, L"Publisher",			L"vxiiduu");
+		KexSetupRegWriteString(KeyHandle, L"Publisher",			L"dotexe1337");
 		KexSetupRegWriteString(KeyHandle, L"InstallDate",		FormattedDate);
 		KexSetupRegWriteString(KeyHandle, L"InstallLocation",	KexDir);
 		KexSetupRegWriteString(KeyHandle, L"UninstallString",	UninstallString);
@@ -125,7 +125,7 @@ VOID KexSetupAddKexCfgScheduledTask(
 			L"<?xml version='1.0' encoding='UTF-16'?>\r\n"
 			L"<Task version='1.3' xmlns='http://schemas.microsoft.com/windows/2004/02/mit/task'>\r\n"
 			L"  <RegistrationInfo>\r\n"
-			L"    <Author>vxiiduu</Author>\r\n"
+			L"    <Author>dotexe1337</Author>\r\n"
 			L"    <Source>VxKex</Source>\r\n"
 			L"    <Description>\r\n"
 			L"This scheduled task is run on-demand by VxKex components and utilities (for example, "

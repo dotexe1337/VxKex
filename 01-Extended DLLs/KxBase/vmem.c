@@ -1,5 +1,6 @@
 #include "buildcfg.h"
 #include "kxbasep.h"
+#include "KexDll.h"
 
 STATIC ULONG OfferVirtualMemoryInternal(
 	IN	PVOID			VirtualAddress,
@@ -462,6 +463,13 @@ KXBASEAPI PVOID WINAPI VirtualAlloc2(
 	IN ULONG ParameterCount)
 {
 	if(Process == NULL) Process = GetCurrentProcess();
+
+	if(AllocationType & (MEM_REPLACE_PLACEHOLDER | MEM_RESERVE_PLACEHOLDER | MEM_64K_PAGES)) {
+		//TODO: support this
+		KexLogWarningEvent(L"Unsupported AllocationType was specified to VirtualAlloc2");
+		BaseSetLastNTError(STATUS_INVALID_PARAMETER);
+		return NULL;
+	}
 
 	if(ExtendedParameters) {
 		ULONG Index;

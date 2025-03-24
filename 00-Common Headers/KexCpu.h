@@ -1,28 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     KexCpu.h
-//
-// Abstract:
-//
-//     Contains structure definitions for CPU-related bit flags and
-//     registers.
-//
-// Author:
-//
-//     vxiiduu (30-Sep-2022)
-//
-// Environment:
-//
-//     Any environment.
-//
-// Revision History:
-//
-//     vxiiduu               30-Sep-2022  Initial creation.
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #pragma once
 #include <KexTypes.h>
 

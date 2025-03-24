@@ -151,6 +151,8 @@ EXPORTS
 	AddDllDirectory						= Ext_AddDllDirectory
 	RemoveDllDirectory					= Ext_RemoveDllDirectory
 	SetDefaultDllDirectories			= Ext_SetDefaultDllDirectories
+	SetDefaultDllDirectoriesW			= Ext_SetDefaultDllDirectories
+	GetProcAddress						= Ext_GetProcAddress
 
 	;; security.c
 	CreateWellKnownSid					= Ext_CreateWellKnownSid
@@ -163,3 +165,6 @@ EXPORTS
 
 	;; heap.c
 	HeapCreate							= Ext_HeapCreate
+
+	;; ORIGINAL DLL
+	GetEnvironmentVariable				= GetEnvironmentVariableW

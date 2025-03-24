@@ -1,4 +1,4 @@
-﻿Build started 2/17/2025 2:01:25 PM.
+﻿Build started 3/10/2025 3:03:26 AM.
      1>Project "C:\Users\maik\Desktop\VxKex-main\KexDll\KexDll.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Debug\KexDll.unsuccessfulbuild" because "AlwaysCreate" was specified.
@@ -52,9 +52,12 @@
          Debug\vxlwrite.obj
          Debug\syscal64.obj
             Creating library C:\Users\maik\Desktop\VxKex-main\Debug\KexDll.lib and object C:\Users\maik\Desktop\VxKex-main\Debug\KexDll.exp
-     1>LINK : fatal error LNK1104: cannot open file 'C:\Users\maik\Desktop\VxKex-main\Debug\KexDll.lib'
-     1>Done Building Project "C:\Users\maik\Desktop\VxKex-main\KexDll\KexDll.vcxproj" (build target(s)) -- FAILED.
+         KexDll.vcxproj -> C:\Users\maik\Desktop\VxKex-main\Debug\KexDll.dll
+       FinalizeBuildStatus:
+         Deleting file "Debug\KexDll.unsuccessfulbuild".
+         Touching "Debug\KexDll.lastbuildstate".
+     1>Done Building Project "C:\Users\maik\Desktop\VxKex-main\KexDll\KexDll.vcxproj" (build target(s)).
 
-Build FAILED.
+Build succeeded.
 
-Time Elapsed 00:00:00.32
+Time Elapsed 00:00:00.53

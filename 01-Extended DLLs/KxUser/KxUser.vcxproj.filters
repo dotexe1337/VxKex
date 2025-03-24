@@ -60,7 +60,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\..\VxKex-NEXT-main\01-Extended DLLs\KxUser\kxuser.def">
+    <None Include="kxuser.def">
       <Filter>Source Files</Filter>
     </None>
   </ItemGroup>

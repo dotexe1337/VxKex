@@ -1,23 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     vxlread.c
-//
-// Abstract:
-//
-//     Contains the public routines for reading entries from a log file.
-//
-// Author:
-//
-//     vxiiduu (19-Nov-2022)
-//
-// Revision History:
-//
-//     vxiiduu	            19-Nov-2022  Initial creation.
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #include "buildcfg.h"
 #include "kexdllp.h"
 

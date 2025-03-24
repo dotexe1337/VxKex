@@ -1,29 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     rtlrng.c
-//
-// Abstract:
-//
-//     This file implements an interface to the kernel security driver for
-//     the purpose of generating random bytes. Various VxKex components require
-//     the ability to generate random identifiers for things.
-//
-// Author:
-//
-//     vxiiduu (21-Mar-2024)
-//
-// Environment:
-//
-//     Native mode. Access to the KsecDD device object is required.
-//
-// Revision History:
-//
-//     vxiiduu              21-Mar-2024   Initial creation.
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #include "buildcfg.h"
 #include "kexdllp.h"
 

@@ -1,37 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     glprstat.c
-//
-// Abstract:
-//
-//     Implementation of IGlobalizationPreferencesStatics and all the other
-//     crappy boilerplate interfaces and functions that go along with it. Some Qt
-//     applications require this interface and will crash if it's not available.
-//
-//     Can't emphasize how much I hate COM, WinRT, and C++ bullshit
-//     STOP USING THESE FUCKING CLASSES
-//     FUCKING NIGGERS
-//     GetUserPreferredUILanguages IS RIGHT THERE DIPSHIT! USE IT!
-//
-// Author:
-//
-//     vxiiduu (18-Feb-2024)
-//
-// Environment:
-//
-//     inside some bloatware c++ junk
-//
-// Revision History:
-//
-//     vxiiduu              18-Feb-2024  Initial creation.
-//     vxiiduu              03-Mar-2024  Increase the level of implementation
-//                                       so that this interface is no longer for
-//                                       ASH usage only.
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #include "buildcfg.h"
 #include "kxcomp.h"
 

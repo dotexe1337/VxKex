@@ -1,28 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     kxcfgp.c
-//
-// Abstract:
-//
-//     Utility functions for KxCfgHlp.
-//
-// Author:
-//
-//     vxiiduu (03-Feb-2024)
-//
-// Environment:
-//
-//     Win32 mode. This code must be able to run without KexDll, as it is used
-//     in KexSetup. This code must function properly when run under WOW64.
-//
-// Revision History:
-//
-//     vxiiduu              03-Feb-2024  Initial creation.
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #include "buildcfg.h"
 #include <KxCfgHlp.h>
 #include <KexW32ML.h>

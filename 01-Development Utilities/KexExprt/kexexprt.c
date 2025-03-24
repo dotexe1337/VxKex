@@ -1,28 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     kexexprt.c
-//
-// Abstract:
-//
-//     DLL export dumper for creating .def files or #pragma directives.
-//     The differences from the utility of the same name in previous versions
-//     of VxKex include:
-//       - minor GUI enhancements
-//       - ability to operate on DLL files of any bitness, no matter the bitness
-//         of the tool
-//
-// Author:
-//
-//     vxiiduu (29-Oct-2022)
-//
-// Revision History:
-//
-//     vxiiduu               29-Oct-2022  Initial creation.
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #include "buildcfg.h"
 #include <KexComm.h>
 #include "kexexprt.h"

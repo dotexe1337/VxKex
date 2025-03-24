@@ -1,29 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     msgbox.c
-//
-// Abstract:
-//
-//     Message box variadic functions.
-//
-// Author:
-//
-//     vxiiduu (01-Oct-2022)
-//
-// Environment:
-//
-//     Win32
-//
-// Revision History:
-//
-//     vxiiduu               01-Oct-2022  Initial creation.
-//     vxiiduu               03-Oct-2022  Convert message boxes to task dialogs
-//     vxiiduu               22-Feb-2024  Delete stub ReportAssertionFailure
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #include "buildcfg.h"
 #include <KexComm.h>
 #include <KexGui.h>

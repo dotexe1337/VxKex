@@ -1,35 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     pssapi.c
-//
-// Abstract:
-//
-//     This file contains the kxbase-side implementation of the Process
-//     Snapshots API introduced in Windows 8.1. These APIs are used by Python.
-//
-//     Currently these APIs are all stubs. It is, however, possible to fully
-//     implement them under Windows 7 if it is found that programs are making
-//     significant use of them.
-//
-//     As of 15-Mar-2024 the Python issue has been alleviated by this pull
-//     request I made: https://github.com/python/cpython/issues/116195
-//
-// Author:
-//
-//     vxiiduu (01-Mar-2024)
-//
-// Environment:
-//
-//     WHERE CAN THIS PROGRAM/LIBRARY/CODE RUN?
-//
-// Revision History:
-//
-//     vxiiduu              01-Mar-2024  Initial creation.
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #include "buildcfg.h"
 #include "kxbasep.h"
 

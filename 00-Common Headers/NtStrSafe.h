@@ -1,12 +1,3 @@
-/******************************************************************
-*                                                                 *
-*  ntstrsafe.h -- This module defines safer C library string      *
-*                 routine replacements for drivers. These are     *
-*                 meant to make C a bit more safe in reference    *
-*                 to security and robustness. A similar file,     *
-*                 strsafe.h, is available for applications.       *
-*                                                                 *
-******************************************************************/
 #ifndef _NTSTRSAFE_H_INCLUDED_
 #define _NTSTRSAFE_H_INCLUDED_
 #if (_MSC_VER > 1000)

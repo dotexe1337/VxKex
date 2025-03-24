@@ -1,31 +1,9 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     test.c
-//
-// Abstract:
-//
-//     Utility for testing VXLL and creating large log files to test the
-//     performance of VxlView.
-//
-// Author:
-//
-//     vxiiduu (14-Oct-2022)
-//
-// Revision History:
-//
-//     vxiiduu              14-Oct-2022  Initial creation.
-//     vxiiduu              05-Jan-2023  Convert to user friendly NTSTATUS.
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #define KEX_TARGET_TYPE_EXE
 #define KEX_COMPONENT L"LoggingTest"
 #include <KexComm.h>
 #include <KexDll.h>
 
-#define TEST_LOG_FILE_NAME L"\\??\\C:\\Users\\vxiiduu\\Desktop\\Test.vxl"
+#define TEST_LOG_FILE_NAME L"\\??\\C:\\Users\\maik\\Desktop\\Test.vxl"
 VXLHANDLE LogHandle;
 
 NTSTATUS NTAPI ThreadProc(

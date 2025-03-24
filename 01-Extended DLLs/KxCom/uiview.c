@@ -1,27 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     uiview.c
-//
-// Abstract:
-//
-//     IUIViewSettingsInterop and IUIViewSettings.
-//
-// Author:
-//
-//     vxiiduu (06-Mar-2024)
-//
-// Environment:
-//
-//     inside some bloatware c++ junk
-//
-// Revision History:
-//
-//     vxiiduu              06-Mar-2024  Initial creation.
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #include "buildcfg.h"
 #include "kxcomp.h"
 

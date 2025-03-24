@@ -581,7 +581,7 @@
 #pragma comment(linker, "/EXPORT:GetPrivateProfileStringW=kernel32.GetPrivateProfileStringW")
 #pragma comment(linker, "/EXPORT:GetPrivateProfileStructA=kernel32.GetPrivateProfileStructA")
 #pragma comment(linker, "/EXPORT:GetPrivateProfileStructW=kernel32.GetPrivateProfileStructW")
-#pragma comment(linker, "/EXPORT:GetProcAddress=kernel32.GetProcAddress")
+//#pragma comment(linker, "/EXPORT:GetProcAddress=kernel32.GetProcAddress")
 #pragma comment(linker, "/EXPORT:GetProcessAffinityMask=kernel32.GetProcessAffinityMask")
 #pragma comment(linker, "/EXPORT:GetProcessDEPPolicy=kernel32.GetProcessDEPPolicy")
 #pragma comment(linker, "/EXPORT:GetProcessGroupAffinity=kernel32.GetProcessGroupAffinity")

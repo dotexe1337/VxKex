@@ -1,29 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     dload.c
-//
-// Abstract:
-//
-//     Implements the LdrResolveDelayLoadedAPI function, which is found on
-//     Windows 8 and above. This function is required by many Windows 8 DLLs.
-//
-// Author:
-//
-//     vxiiduu (14-Feb-2024)
-//
-// Environment:
-//
-//     At any time when other DLLs are present.
-//
-// Revision History:
-//
-//     vxiiduu              14-Feb-2024   Initial creation.
-//     vxiiduu              23-Feb-2024   Rework DLL load part of the function.
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #include "buildcfg.h"
 #include "kexdllp.h"
 

@@ -1,28 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     clsfctry.c
-//
-// Abstract:
-//
-//     Implements the IClassFactory interface.
-//     All just COM boilerplate crap, nothing to see here.
-//
-// Author:
-//
-//     vxiiduu (08-Feb-2024)
-//
-// Environment:
-//
-//     Inside explorer.exe
-//
-// Revision History:
-//
-//     vxiiduu              08-Feb-2024  Initial creation.
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #include "buildcfg.h"
 #include "KexShlEx.h"
 

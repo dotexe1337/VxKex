@@ -1,27 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     logging.c
-//
-// Abstract:
-//
-//     Logging-related utility functions.
-//
-// Author:
-//
-//     vxiiduu (23-Feb-2024)
-//
-// Environment:
-//
-//     During initialization.
-//
-// Revision History:
-//
-//     vxiiduu              23-Feb-2024  Initial creation.
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #include "buildcfg.h"
 #include "kexdllp.h"
 

@@ -1,34 +1,11 @@
-﻿Build started 2/17/2025 1:56:05 PM.
+﻿Build started 3/10/2025 3:03:44 AM.
      1>Project "C:\Users\maik\Desktop\VxKex-main\KxCfgHlp\KxCfgHlp.vcxproj" on node 5 (build target(s)).
      1>InitializeBuildStatus:
          Creating "x64\Debug\KxCfgHlp.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Users\maik\Desktop\VxKex-main\\00-Common Headers" /Zi /nologo /W3 /WX /MP /Od /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /MDd /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gz /TC /errorReport:prompt cpiwbypa.c ctxmenu.c delcfg.c dskclnup.c elevate.c getcfg.c kexdir.c kxcfgp.c logging.c msisup.c openkey.c setcfg.c
-         cpiwbypa.c
-         ctxmenu.c
-         delcfg.c
-         dskclnup.c
-         elevate.c
-         getcfg.c
-         kexdir.c
-         kxcfgp.c
-         logging.c
-         msisup.c
-         openkey.c
-         setcfg.c
+         All outputs are up-to-date.
        Lib:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Users\maik\Desktop\VxKex-main\x64\Debug\KxCfgHlp.lib" /NOLOGO /NODEFAULTLIB x64\Debug\cpiwbypa.obj
-         x64\Debug\ctxmenu.obj
-         x64\Debug\delcfg.obj
-         x64\Debug\dskclnup.obj
-         x64\Debug\elevate.obj
-         x64\Debug\getcfg.obj
-         x64\Debug\kexdir.obj
-         x64\Debug\logging.obj
-         x64\Debug\msisup.obj
-         x64\Debug\openkey.obj
-         x64\Debug\kxcfgp.obj
-         x64\Debug\setcfg.obj
+         All outputs are up-to-date.
          KxCfgHlp.vcxproj -> C:\Users\maik\Desktop\VxKex-main\x64\Debug\KxCfgHlp.lib
        FinalizeBuildStatus:
          Deleting file "x64\Debug\KxCfgHlp.unsuccessfulbuild".
@@ -37,4 +14,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:00.68
+Time Elapsed 00:00:00.07

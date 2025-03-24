@@ -1,28 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     KexComm.h
-//
-// Abstract:
-//
-//     VxKex common header file. Every project which is a part of VxKex must
-//     include this file unless there is a very good reason not to.
-//
-// Author:
-//
-//     vxiiduu (30-Sep-2022)
-//
-// Environment:
-//
-//     Refer to included header files for information about their contents.
-//
-// Revision History:
-//
-//     vxiiduu               30-Sep-2022  Initial creation.
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #pragma once
 
 #if !defined(KEX_ARCH_X64) && !defined(KEX_ARCH_X86)

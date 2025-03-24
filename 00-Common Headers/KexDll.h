@@ -1,24 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     KexDll.h
-//
-// Abstract:
-//
-//     VxKex base API
-//
-// Author:
-//
-//     vxiiduu (11-Oct-2022)
-//
-// Revision History:
-//
-//     vxiiduu               11-Oct-2022  Initial creation.
-//     vxiiduu               06-Nov-2022  Refactor and create KexLdr* section
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #pragma once
 #include <KexComm.h>
 
@@ -568,6 +547,9 @@ KEXAPI BOOLEAN NTAPI AshModuleBaseNameIs(
 
 KEXAPI BOOLEAN NTAPI AshModuleIsWindowsModule(
 	IN	PVOID	AddressInsideModule);
+
+NTSTATUS AshPerformChromiumDetectionFromModuleExports(
+	IN  PVOID  ModuleBase);
 
 #pragma endregion
 

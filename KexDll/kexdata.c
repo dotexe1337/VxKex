@@ -1,27 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     kexdata.c
-//
-// Abstract:
-//
-//     Contains a definition and an initialization routine for the
-//     KEX_PROCESS_DATA structure.
-//
-// Author:
-//
-//     vxiiduu (18-Oct-2022)
-//
-// Revision History:
-//
-//     vxiiduu              18-Oct-2022  Initial creation.
-//     vxiiduu              06-Nov-2022  Add IFEO parameter reading.
-//     vxiiduu              07-Nov-2022  Remove spurious range check.
-//     vxiiduu              23-Feb-2024  Add setting to disable logging.
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #include "buildcfg.h"
 #include "kexdllp.h"
 

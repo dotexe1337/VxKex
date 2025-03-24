@@ -1,31 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     dllmain.c
-//
-// Abstract:
-//
-//     Main file for the shell extension.
-//
-//     To be honest, this file is mostly just full of COM boilerplate slop,
-//     and you don't need to look in here unless there's a bug. The other files
-//     in this project might contain more interesting code.
-//
-// Author:
-//
-//     vxiiduu (08-Feb-2024)
-//
-// Environment:
-//
-//     Inside explorer.exe
-//
-// Revision History:
-//
-//     vxiiduu              08-Feb-2024  Initial creation.
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #include "buildcfg.h"
 #include "KexShlEx.h"
 #include "resource.h"

@@ -5,3 +5,6 @@ EXPORTS
 
 	;; Forwarders to KxBase
 	CreateWellKnownSid			= KxBase.CreateWellKnownSid
+
+	;; ORIGINAL DLL
+	RegOpenKeyEx				= RegOpenKeyExW

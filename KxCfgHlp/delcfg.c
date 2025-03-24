@@ -1,28 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     delcfg.c
-//
-// Abstract:
-//
-//     Contains functions for deleting VxKex configuration for a program.
-//
-// Author:
-//
-//     vxiiduu (02-Feb-2024)
-//
-// Environment:
-//
-//     Win32 mode. This code must be able to run without KexDll, as it is used
-//     in KexSetup. This code must function properly when run under WOW64.
-//
-// Revision History:
-//
-//     vxiiduu              02-Feb-2024  Initial creation.
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #include "buildcfg.h"
 #include <KexComm.h>
 #include <KxCfgHlp.h>

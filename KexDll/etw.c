@@ -1,28 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     etw.c
-//
-// Abstract:
-//
-//     Contains implementations of some ETW (Event Tracing for Windows)
-//     functions.
-//
-// Author:
-//
-//     vxiiduu (16-Mar-2024)
-//
-// Environment:
-//
-//     Native mode.
-//
-// Revision History:
-//
-//     vxiiduu              16-Mar-2024  Initial creation.
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #include "buildcfg.h"
 #include "kexdllp.h"
 #include <evntprov.h>

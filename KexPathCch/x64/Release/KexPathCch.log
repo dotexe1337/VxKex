@@ -1,5 +1,5 @@
-﻿Build started 2/17/2025 1:56:16 PM.
-     1>Project "C:\Users\maik\Desktop\VxKex-main\KexPathCch\KexPathCch.vcxproj" on node 2 (build target(s)).
+﻿Build started 3/24/2025 12:12:25 AM.
+     1>Project "C:\Users\maik\Desktop\VxKex-main\KexPathCch\KexPathCch.vcxproj" on node 3 (build target(s)).
      1>InitializeBuildStatus:
          Creating "x64\Release\KexPathCch.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
@@ -15,4 +15,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:00.43
+Time Elapsed 00:00:02.04

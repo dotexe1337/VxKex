@@ -1,27 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     util.c
-//
-// Abstract:
-//
-//     This file contains miscellaneous utility functions for VxKex.
-//
-// Author:
-//
-//     vxiiduu (02-Feb-2024)
-//
-// Environment:
-//
-//     Win32, without any vxkex support components
-//
-// Revision History:
-//
-//     vxiiduu               02-Feb-2024  Initial creation.
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #include "kexsetup.h"
 #include <AclAPI.h>
 

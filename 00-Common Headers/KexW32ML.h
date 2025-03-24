@@ -1,29 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     KexW32ML.h
-//
-// Abstract:
-//
-//     VxKex Win32-mode General Library Header file
-//
-// Author:
-//
-//     vxiiduu (02-Oct-2022)
-//
-// Environment:
-//
-//     This header is automatically included in EXE targets.
-//     It may be used in DLLs which are to be loaded in kex processes.
-//     Do not use in native DLLs.
-//
-// Revision History:
-//
-//     vxiiduu               02-Oct-2022  Initial creation.
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #pragma once
 
 #ifdef KEX_ENV_NATIVE

@@ -1,29 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     KexGui.h
-//
-// Abstract:
-//
-//     Convenience functions and macros for GUI applications.
-//
-// Author:
-//
-//     vxiiduu (01-Oct-2022)
-//
-// Environment:
-//
-//     This header is automatically included in all EXE targets.
-//     You may include the header in DLL projects manually if required; however,
-//     do not use it in any DLLs to be loaded in a kex process.
-//
-// Revision History:
-//
-//     vxiiduu               01-Oct-2022  Initial creation.
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #pragma once
 
 #ifdef KEX_ENV_NATIVE

@@ -1,23 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     ntthread.c
-//
-// Abstract:
-//
-//     Extended functions for dealing with threads.
-//
-// Author:
-//
-//     vxiiduu (07-Nov-2022)
-//
-// Revision History:
-//
-//     vxiiduu               07-Nov-2022  Initial creation.
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #include "buildcfg.h"
 #include "kexdllp.h"
 

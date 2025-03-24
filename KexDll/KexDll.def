@@ -82,6 +82,7 @@ EXPORTS
 	AshExeBaseNameIs
 	AshModuleBaseNameIs
 	AshModuleIsWindowsModule
+	AshPerformChromiumDetectionFromModuleExports
 
 	VxlOpenLog
 	VxlCloseLog

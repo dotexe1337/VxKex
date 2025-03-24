@@ -1,24 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     NtDll.h
-//
-// Abstract:
-//
-//     Defines linker settings for VxKex projects.
-//
-// Author:
-//
-//     vxiiduu (30-Sep-2022)
-//
-// Revision History:
-//
-//     vxiiduu               30-Sep-2022  Initial creation.
-//     vxiiduu               31-Oct-2022  Fix 32-bit SEH.
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #pragma once
 
 //

@@ -1,27 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     util.c
-//
-// Abstract:
-//
-//     Implements the main GUI of KexCfg.
-//
-// Author:
-//
-//     vxiiduu (09-Feb-2024)
-//
-// Environment:
-//
-//     Win32 mode. This part of the program is not run as SYSTEM.
-//
-// Revision History:
-//
-//     vxiiduu              09-Feb-2024  Initial creation.
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #include "buildcfg.h"
 #include "kexcfg.h"
 #include "resource.h"

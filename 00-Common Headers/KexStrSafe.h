@@ -1,36 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     KexStrSafe.h
-//
-// Abstract:
-//
-//     Safe string handling functions (extended).
-//     These functions are much faster than importing from shlwapi.dll
-//     or ntdll.dll. The shlwapi functions especially are incredibly slow,
-//     about 20-100x slower than these.
-//
-//     These functions are inlined in the header because their performance
-//     is often important (unlike, say, ContextMenu or CriticalErrorBoxF),
-//     and their code size is generally small.
-//
-// Author:
-//
-//     vxiiduu (01-Oct-2022)
-//
-// Environment:
-//
-//     StringAllocPrintf family can be called only when the process heap is
-//     available.
-//     Other functions can be called anywhere.
-//
-// Revision History:
-//
-//     vxiiduu               01-Oct-2022  Initial creation.
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #pragma once
 
 #include <SafeAlloc.h>

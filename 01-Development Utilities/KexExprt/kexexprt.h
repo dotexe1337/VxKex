@@ -1,23 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// Module Name:
-//
-//     kexexprt.h
-//
-// Abstract:
-//
-//     Private header file for KexExprt
-//
-// Author:
-//
-//     vxiiduu (29-Oct-2022)
-//
-// Revision History:
-//
-//     vxiiduu               29-Oct-2022  Initial creation.
-//
-///////////////////////////////////////////////////////////////////////////////
-
 #pragma once
 #include "buildcfg.h"
 #include <KexComm.h>
