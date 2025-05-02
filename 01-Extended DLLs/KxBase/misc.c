@@ -14,3 +14,12 @@ KXBASEAPI BOOL WINAPI GetFirmwareType(
 	*FirmwareType = FirmwareTypeUnknown;
 	return TRUE;
 }
+
+// roblox studio patch part 2: redifine what this function does, this patch may help with other programs, not just roblox studio.
+KXBASEAPI BOOL WINAPI VerifyVersionInfoRedifined(
+	IN LPOSVERSIONINFOEXW lpVersionInformation,
+	IN DWORD              dwTypeMask,
+	IN DWORDLONG          dwlConditionMask
+) {
+	return TRUE;
+}

@@ -45,6 +45,7 @@ EXPORTS
 	;; misc.c
 	GetOsSafeBootMode
 	GetFirmwareType
+	VerifyVersionInfoW = VerifyVersionInfoRedifined
 
 	;; geoname.c
 	GetUserDefaultGeoName
