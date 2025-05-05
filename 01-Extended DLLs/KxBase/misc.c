@@ -15,11 +15,17 @@ KXBASEAPI BOOL WINAPI GetFirmwareType(
 	return TRUE;
 }
 
-// roblox studio patch part 2: redifine what this function does, this patch may help with other programs, not just roblox studio.
-KXBASEAPI BOOL WINAPI VerifyVersionInfoRedifined(
-	IN LPOSVERSIONINFOEXW lpVersionInformation,
-	IN DWORD              dwTypeMask,
-	IN DWORDLONG          dwlConditionMask
+// roblox studio patch part 2: APPHACK this
+// credit: murdle cuz he deshittified my apphack which we wont get into how it was before
+KXBASEAPI BOOL WINAPI KexVerifyVersionInfoW(
+ IN LPOSVERSIONINFOEXW lpVersionInformation,
+ IN DWORD              dwTypeMask,
+ IN DWORDLONG          dwlConditionMask
 ) {
-	return TRUE;
+	if(AshExeBaseNameIs(L"RobloxStudioBeta.exe"))
+	{
+		return TRUE;
+	}
+
+	return VerifyVersionInfoW(lpVersionInformation, dwTypeMask, dwlConditionMask);
 }
