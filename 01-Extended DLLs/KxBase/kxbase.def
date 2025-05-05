@@ -45,7 +45,7 @@ EXPORTS
 	;; misc.c
 	GetOsSafeBootMode
 	GetFirmwareType
-	VerifyVersionInfoW = VerifyVersionInfoRedifined
+	VerifyVersionInfoW = KexVerifyVersionInfoW
 
 	;; geoname.c
 	GetUserDefaultGeoName
