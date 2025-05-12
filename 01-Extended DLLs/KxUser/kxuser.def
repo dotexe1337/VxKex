@@ -96,3 +96,8 @@ EXPORTS
 	;;
 
 	SetCoalescableTimer
+
+	;;
+	;; window.c
+	;;
+	IsWindowArranged

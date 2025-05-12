@@ -234,6 +234,7 @@
     <ClCompile Include="..\..\..\VxKex-NEXT-main\01-Extended DLLs\KxUser\scaling.c" />
     <ClCompile Include="..\..\..\VxKex-NEXT-main\01-Extended DLLs\KxUser\sysmetrc.c" />
     <ClCompile Include="..\..\..\VxKex-NEXT-main\01-Extended DLLs\KxUser\timer.c" />
+    <ClCompile Include="window.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\VxKex-NEXT-main\01-Extended DLLs\KxUser\buildcfg.h" />

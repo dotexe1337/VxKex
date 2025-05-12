@@ -50,6 +50,9 @@
     <ClCompile Include="..\..\..\VxKex-NEXT-main\01-Extended DLLs\KxUser\pwrnotfy.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="window.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\VxKex-NEXT-main\01-Extended DLLs\KxUser\buildcfg.h">
