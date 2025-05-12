@@ -26,3 +26,5 @@ EXPORTS
 	;; mfplat.c
 	MFMapDXGIFormatToDX9Format
 	MFMapDX9FormatToDXGIFormat
+	MFCreateDXGIDeviceManager
+	MFCreateDXGISurfaceBuffer

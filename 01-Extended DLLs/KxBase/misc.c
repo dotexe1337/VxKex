@@ -14,3 +14,18 @@ KXBASEAPI BOOL WINAPI GetFirmwareType(
 	*FirmwareType = FirmwareTypeUnknown;
 	return TRUE;
 }
+
+// roblox studio patch part 2: APPHACK this
+// credit: murdle cuz he deshittified my apphack which we wont get into how it was before
+KXBASEAPI BOOL WINAPI KexVerifyVersionInfoW(
+ IN LPOSVERSIONINFOEXW lpVersionInformation,
+ IN DWORD              dwTypeMask,
+ IN DWORDLONG          dwlConditionMask
+) {
+	if(AshExeBaseNameIs(L"RobloxStudioBeta.exe"))
+	{
+		return TRUE;
+	}
+
+	return VerifyVersionInfoW(lpVersionInformation, dwTypeMask, dwlConditionMask);
+}
