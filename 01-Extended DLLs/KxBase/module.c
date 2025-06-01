@@ -51,7 +51,6 @@ KXBASEAPI FARPROC WINAPI Ext_GetProcAddress(
 	IN  HMODULE hModule,
 	IN  LPCSTR lpProcName)
 {
-	NTSTATUS Status;
 	PPEB Peb;
 	Peb = NtCurrentPeb();
 
@@ -60,12 +59,11 @@ KXBASEAPI FARPROC WINAPI Ext_GetProcAddress(
 	// by the Chromium V8 sandbox, and Chromium is incapable of gracefully handling
 	// the error, so we will return NULL if this function is requested.
 	//
-	Status = AshPerformChromiumDetectionFromModuleExports(Peb->ImageBaseAddress);
 
-	if(Status == STATUS_SUCCESS) {
+	if (KexData->Flags & KEXDATA_FLAG_CHROMIUM) {
 		if((unsigned)lpProcName > 0xFFFF) {
 			if(!lstrcmpA(lpProcName, "VirtualAlloc2")) {
-				SetLastError(STATUS_DLL_NOT_FOUND);
+				SetLastError(STATUS_ENTRYPOINT_NOT_FOUND);
 				return NULL;
 			}
 		}

@@ -243,10 +243,23 @@ STATIC NTSTATUS KexpRewriteImportTableDllNameInPlace(
 		// unexpected way).
 		//
 
+		//
+		// There seems to be a bug in KexLdrProtectImageImportSection. Maybe we will
+		// remove that function since the performance impact of manually taking
+		// control of the memory each time seems to be negligable? It is
+		// more reliable to do it this way anyways. 20250530
+		//
+		ULONG OldProtect;
+		PVOID Address = AnsiDllName->Buffer;
+		SIZE_T Size = AnsiDllName->Length;
+		Status = NtProtectVirtualMemory(NtCurrentProcess(), &Address, &Size, PAGE_READWRITE, &OldProtect);
+
 		Status = RtlUnicodeStringToAnsiString(
 			AnsiDllName,
 			&RewrittenDllName,
 			FALSE);
+
+		Status = NtProtectVirtualMemory(NtCurrentProcess(), &Address, &Size, OldProtect, &OldProtect);
 
 		ASSERT (NT_SUCCESS(Status));
 

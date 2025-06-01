@@ -497,6 +497,33 @@ KEXAPI VOID NTAPI KexRtlRetreatUnicodeString(
 	String->MaximumLength += RetreatCb;
 }
 
+KEXAPI NTSTATUS NTAPI KexRtlSetUnicodeStringBufferEnd(
+	OUT	PUNICODE_STRING	String,
+	IN	PCWCHAR			NewEnd)
+{
+	if (!WELL_FORMED_UNICODE_STRING(String) || String->Buffer == NULL) {
+		return STATUS_INVALID_PARAMETER_1;
+	}
+
+	if (!NewEnd) {
+		return STATUS_INVALID_PARAMETER_2;
+	}
+
+	if (String->Buffer > NewEnd) {
+		return STATUS_INTEGER_OVERFLOW;
+	}
+
+	if (KexRtlEndOfUnicodeString(String) > NewEnd) {
+		return STATUS_INVALID_PARAMETER;
+	}
+
+	String->MaximumLength = ((USHORT) (NewEnd - String->Buffer)) * sizeof(WCHAR);
+	ASSERT (VALID_UNICODE_STRING(String));
+	ASSERT (KexRtlEndOfUnicodeStringBuffer(String) == NewEnd);
+
+	return STATUS_SUCCESS;
+}
+
 KEXAPI NTSTATUS NTAPI KexRtlShiftUnicodeString(
 	IN OUT	PUNICODE_STRING	String,
 	IN		USHORT			ShiftCch,

@@ -26,3 +26,16 @@ KXBASEAPI BOOL WINAPI Ext_GetVersionExA(
 
 	return Success;
 }
+
+KXBASEAPI BOOL WINAPI Ext_VerifyVersionInfoW(
+	IN LPOSVERSIONINFOEXW lpVersionInformation,
+	IN DWORD              dwTypeMask,
+	IN DWORDLONG          dwlConditionMask
+) {
+	if(AshExeBaseNameIs(L"RobloxStudioBeta.exe"))
+	{
+		return TRUE;
+	}
+
+	return VerifyVersionInfoW(lpVersionInformation, dwTypeMask, dwlConditionMask);
+}

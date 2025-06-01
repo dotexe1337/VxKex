@@ -20,6 +20,8 @@ STATIC CONST UNICODE_STRING DllRedirects[][2] = {
 	DLL_REDIRECT("BluetoothApis",								"kxuser"			)
 	DLL_REDIRECT("shcore",										"kxuser"			)
 	DLL_REDIRECT("user32",										"kxuser"			)
+
+	DLL_REDIRECT("wintrust",									"kxtrust"			)
 	
 	DLL_REDIRECT("combase",										"kxcom"				)
 	DLL_REDIRECT("ole32",										"kxcom"				)
@@ -27,11 +29,9 @@ STATIC CONST UNICODE_STRING DllRedirects[][2] = {
 	DLL_REDIRECT("msvcrt",										"kxcrt"				)
 	
 	DLL_REDIRECT("d3d11",										"kxdx"				)
-	DLL_REDIRECT("d3d12",										"kxdx"				)
 	DLL_REDIRECT("dcomp",										"kxdx"				)
 	DLL_REDIRECT("dxgi",										"kxdx"				)
 	DLL_REDIRECT("MFPlat",										"kxdx"				)
-	DLL_REDIRECT("xinput1_4",									"xinput1_3"			)
 
 	DLL_REDIRECT("powrprof",									"kxmi"				)
 	DLL_REDIRECT("userenv",										"kxmi"				)
@@ -45,6 +45,9 @@ STATIC CONST UNICODE_STRING DllRedirects[][2] = {
 	DLL_REDIRECT("advapi32",									"kxadvapi"			)
 
 	DLL_REDIRECT("UIAutomationCore",							"kxuia"				)
+
+	DLL_REDIRECT("xinput1_4",									"xinput1_3"			)
+	DLL_REDIRECT("XAudio2_8",									"XAudio2_9"			)
 
 	//
 	// The DLL rewriting routine strips the -lX-Y-Z suffix from the API set name to

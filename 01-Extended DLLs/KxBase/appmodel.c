@@ -175,3 +175,20 @@ KXBASEAPI LONG WINAPI AppPolicyGetThreadInitializationType(
 	*InitializationType = AppPolicyThreadInitializationType_None;
 	return ERROR_SUCCESS;
 }
+
+KXBASEAPI LONG WINAPI GetCurrentPackageFamilyName(
+	IN OUT	PULONG	NameLength,
+	OUT		PWSTR	PackageFamilyName OPTIONAL)
+{
+	if (!NameLength || *NameLength && !PackageFamilyName) {
+		return ERROR_INVALID_PARAMETER;
+	}
+
+	*NameLength = 0;
+
+	if (PackageFamilyName) {
+		PackageFamilyName[0] = '\0';
+	}
+
+	return APPMODEL_ERROR_NO_PACKAGE;
+}

@@ -52,6 +52,7 @@ copy ..\..\%DBGREL%\KxNet.dll Archive\Kex32\ >nul
 copy ..\..\%DBGREL%\KxUia.dll Archive\Kex32\ >nul
 copy ..\..\%DBGREL%\KxNt.dll Archive\Kex32\ >nul
 copy ..\..\%DBGREL%\KxUser.dll Archive\Kex32\ >nul
+copy ..\..\%DBGREL%\KxTrust.dll Archive\Kex32\ >nul
 
 REM
 REM 64-bit Core
@@ -79,6 +80,7 @@ copy ..\..\x64\%DBGREL%\KxNet.dll Archive\Kex64\ >nul
 copy ..\..\x64\%DBGREL%\KxUia.dll Archive\Kex64\ >nul
 copy ..\..\x64\%DBGREL%\KxNt.dll Archive\Kex64\ >nul
 copy ..\..\x64\%DBGREL%\KxUser.dll Archive\Kex64\ >nul
+copy ..\..\x64\%DBGREL%\KxTrust.dll Archive\Kex64\ >nul
 
 REM
 REM Prebuilt DLLs
@@ -110,6 +112,7 @@ if %DBGREL%==Debug (
 	copy ..\..\%DBGREL%\KxUia.pdb Archive\Kex32\ >nul
 	copy ..\..\%DBGREL%\KxNt.pdb Archive\Kex32\ >nul
 	copy ..\..\%DBGREL%\KxUser.pdb Archive\Kex32\ >nul
+	copy ..\..\%DBGREL%\KxTrust.pdb Archive\Kex32\ >nul
 
 	copy ..\..\x64\%DBGREL%\KexDll.pdb Archive\Core64\ >nul
 	copy ..\..\x64\%DBGREL%\KexShlEx.pdb Archive\Core64\ >nul
@@ -129,6 +132,7 @@ if %DBGREL%==Debug (
 	copy ..\..\x64\%DBGREL%\KxUia.pdb Archive\Kex64\ >nul
 	copy ..\..\x64\%DBGREL%\KxNt.pdb Archive\Kex64\ >nul
 	copy ..\..\x64\%DBGREL%\KxUser.pdb Archive\Kex64\ >nul
+	copy ..\..\x64\%DBGREL%\KxTrust.pdb Archive\Kex64\ >nul
 
 	copy "..\..\02-Prebuilt DLLs\x86\*.pdb" Archive\Kex32\ >nul
 	copy "..\..\02-Prebuilt DLLs\x64\*.pdb" Archive\Kex64\ >nul
@@ -149,7 +153,7 @@ REM FOR FINAL RELEASE: switch to the upper command for higher compression
 REM ===========================================================================
 
 REM 7zr a -y Archive.7z .\Archive\* -mmt1 -mx9 -m0=LZMA:d32
-7zr a -y Archive.7z .\Archive\* -mmt1 -mx1 -m0=LZMA:d32
+7zr a -y Archive.7z .\Archive\* -mx=1 -mmt=1 -m0=lzma2
 
 if %errorlevel% neq 0 (
 	pause

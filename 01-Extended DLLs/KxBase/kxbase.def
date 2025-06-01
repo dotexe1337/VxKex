@@ -100,6 +100,7 @@ EXPORTS
 	MapViewOfFile3
 	MapViewOfFile3FromApp
 	VirtualAlloc2
+	VirtualAlloc2FromApp
 
 	;; KexPathCch
 	PathAllocCanonicalize
@@ -159,6 +160,8 @@ EXPORTS
 
 	;; verspoof.c
 	GetVersionExA						= Ext_GetVersionExA
+	VerifyVersionInfoW					= Ext_VerifyVersionInfoW
+
 
 	;; stubs.c
 	DuplicateHandle						= Ext_DuplicateHandle

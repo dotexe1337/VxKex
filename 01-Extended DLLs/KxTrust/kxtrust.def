@@ -1,0 +1,4 @@
+LIBRARY KxDx
+EXPORTS
+	;; trust.c
+	WinVerifyTrust = WinVerifyTrust_Ext

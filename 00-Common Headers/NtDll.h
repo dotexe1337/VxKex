@@ -493,7 +493,7 @@ typedef struct DECLSPEC_ALIGN(8) _MEM_EXTENDED_PARAMETER {
 
 typedef struct _MEM_ADDRESS_REQUIREMENTS {
 	PVOID	LowestStartingAddress;
-	PVOID	HighestStartingAddress;
+	PVOID	HighestEndingAddress;
 	SIZE_T	Alignment;
 } TYPEDEF_TYPE_NAME(MEM_ADDRESS_REQUIREMENTS);
 

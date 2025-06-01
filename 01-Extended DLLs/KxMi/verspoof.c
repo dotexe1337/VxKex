@@ -50,7 +50,7 @@ KXMIAPI BOOL WINAPI Ext_GetFileVersionInfoW(
 
 			// 10.0.10240.0 (Windows 10 1504, aka "RTM")
 			VerHead->vsf.dwFileVersionMS = 0x000A0000;
-			VerHead->vsf.dwFileVersionLS = 0x28000000;
+			VerHead->vsf.dwFileVersionLS = 0x4A640000;
 		}
 	}
 

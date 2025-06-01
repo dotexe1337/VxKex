@@ -462,32 +462,145 @@ KXBASEAPI PVOID WINAPI VirtualAlloc2(
 	IN OUT MEM_EXTENDED_PARAMETER *ExtendedParameters OPTIONAL,
 	IN ULONG ParameterCount)
 {
-	if(Process == NULL) Process = GetCurrentProcess();
+	NTSTATUS Status;
+	MEM_ADDRESS_REQUIREMENTS AddressRequirements;
+	ULONG NumaNode;
 
-	if(AllocationType & (MEM_REPLACE_PLACEHOLDER | MEM_RESERVE_PLACEHOLDER | MEM_64K_PAGES)) {
-		//TODO: support this
-		KexLogWarningEvent(L"Unsupported AllocationType was specified to VirtualAlloc2");
-		BaseSetLastNTError(STATUS_INVALID_PARAMETER);
+	if (Process == NULL) {
+		Process = NtCurrentProcess();
+	}
+
+	ASSERT (Process == NtCurrentProcess() || VALID_HANDLE(Process));
+
+	if (BaseAddress != NULL && (ULONG_PTR) BaseAddress < 0x10000) {
+		RtlSetLastWin32Error(ERROR_INVALID_PARAMETER);
 		return NULL;
 	}
 
-	if(ExtendedParameters) {
+	RtlZeroMemory(&AddressRequirements, sizeof(AddressRequirements));
+
+	NumaNode = -1;
+
+	if (ExtendedParameters) {
 		ULONG Index;
 
-		for(Index = 0; Index < ParameterCount; ++Index) {
+		for (Index = 0; Index < ParameterCount; ++Index) {
 			switch(ExtendedParameters[Index].Type) {
 			case MemExtendedParameterAddressRequirements:
-				KexLogWarningEvent(L"Address requirements were specified to VirtualAlloc2");
-				BaseSetLastNTError(STATUS_INVALID_PARAMETER);
-				return NULL;
+				AddressRequirements = *((PMEM_ADDRESS_REQUIREMENTS) ExtendedParameters[Index].Pointer);
+				break;
+
 			case MemExtendedParameterNumaNode:
-				return VirtualAllocExNuma(Process, BaseAddress, Size, AllocationType, PageProtection, ExtendedParameters[Index].ULong);
+				NumaNode = ExtendedParameters[Index].ULong;
+				break;
+
+			case MemExtendedParameterAttributeFlags:
+
+				if ((ExtendedParameters[Index].ULong64 &
+					 ~(MEM_EXTENDED_PARAMETER_NONPAGED |
+					   MEM_EXTENDED_PARAMETER_NONPAGED_LARGE |
+					   MEM_EXTENDED_PARAMETER_NONPAGED_HUGE)) == 0) {
+
+					KexLogWarningEvent(
+						L"An attempt to allocate non-paged memory was ignored\r\n\r\n"
+						L"ULong64 = 0x%016llx", ExtendedParameters[Index].ULong64);
+
+					break;
+				} else { }
+
 			default:
+				KexLogWarningEvent(
+					L"Unimplemented extended parameters passed to VirtualAlloc2\r\n\r\n"
+					L"Type = %llu\r\n"
+					L"ULong64/Pointer/Size/Handle/ULong = 0x%016llx",
+					ExtendedParameters[Index].Type,
+					ExtendedParameters[Index].ULong64);
+
+				KexDebugCheckpoint();
+
 				BaseSetLastNTError(STATUS_INVALID_PARAMETER);
 				return NULL;
 			}
 		}
 	}
 
-	return VirtualAllocEx(Process, BaseAddress, Size, AllocationType, PageProtection);
+	AllocationType &= ~0x3F;
+
+	if (NumaNode != -1) {
+		ULONG MaxNumaNode;
+
+		if (KexRtlCurrentProcessBitness() == 64) {
+			MaxNumaNode = 0x3F;
+		} else {
+			MaxNumaNode = 0x0F;
+		}
+
+		if (NumaNode > MaxNumaNode) {
+			RtlSetLastWin32Error(ERROR_INVALID_PARAMETER);
+			return NULL;
+		}
+
+		AllocationType |= NumaNode + 1;
+	}
+
+	if (AddressRequirements.LowestStartingAddress != 0 ||
+		AddressRequirements.HighestEndingAddress != 0) {
+
+		KexLogWarningEvent(
+			L"Address requirements were rejected\r\n\r\n"
+			L"LowestStartingAddress = 0x%p\r\n"
+			L"HighestEndingAddress = 0x%p\r\n",
+			AddressRequirements.LowestStartingAddress,
+			AddressRequirements.HighestEndingAddress);
+
+		KexDebugCheckpoint();
+
+		BaseSetLastNTError(STATUS_NOT_SUPPORTED);
+		return NULL;
+	}
+
+	try {
+		Status = NtAllocateVirtualMemory(
+			Process,
+			&BaseAddress,
+			AddressRequirements.Alignment,
+			&Size,
+			AllocationType,
+			PageProtection);
+	} except (EXCEPTION_EXECUTE_HANDLER) {
+		Status = GetExceptionCode();
+	}
+
+	if (!NT_SUCCESS(Status)) {
+		BaseSetLastNTError(Status);
+		return NULL;
+	}
+
+	return BaseAddress;
+}
+
+KXBASEAPI PVOID WINAPI VirtualAlloc2FromApp(
+	IN		HANDLE					Process OPTIONAL,
+	IN		PVOID					BaseAddress OPTIONAL,
+	IN		SIZE_T					Size,
+	IN		ULONG					AllocationType,
+	IN		ULONG					PageProtection,
+	IN OUT	PMEM_EXTENDED_PARAMETER	ExtendedParameters OPTIONAL,
+	IN		ULONG					ParameterCount)
+{
+	if (PageProtection & (PAGE_EXECUTE | PAGE_EXECUTE_READ |
+						  PAGE_EXECUTE_READWRITE | PAGE_EXECUTE_WRITECOPY)) {
+
+		RtlSetLastWin32Error(ERROR_INVALID_PARAMETER);
+		return NULL;
+	}
+
+	return VirtualAlloc2(
+		Process,
+		BaseAddress,
+		Size,
+		AllocationType,
+		PageProtection,
+		ExtendedParameters,
+		ParameterCount);
 }

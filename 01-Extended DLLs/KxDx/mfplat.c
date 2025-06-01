@@ -182,3 +182,19 @@ KXDXAPI DXGI_FORMAT WINAPI MFMapDX9FormatToDXGIFormat(
 			return DXGI_FORMAT_UNKNOWN;
 	}
 }
+
+KXDXAPI HRESULT WINAPI MFCreateDXGIDeviceManager(
+	OUT UINT* resetToken,
+	OUT IMFDXGIDeviceManager** ppDeviceManager
+) {
+	return S_OK;
+}
+
+KXDXAPI HRESULT WINAPI MFCreateDXGISurfaceBuffer(
+    REFIID riid,
+    IUnknown* punkSurface,
+    UINT uSubresourceIndex,
+    BOOL fBottomUpWhenLinear,
+    IMFMediaBuffer** ppBuffer){
+    	return S_OK;
+}
