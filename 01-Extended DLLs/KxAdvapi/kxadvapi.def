@@ -5,6 +5,12 @@ EXPORTS
 
 	;; Forwarders to KxBase
 	CreateWellKnownSid			= KxBase.CreateWellKnownSid
+	RegOpenKeyExA				= KxBase.RegOpenKeyExA
+	RegOpenKeyExW				= KxBase.RegOpenKeyExW
+	RegEnumKeyExA				= KxBase.RegEnumKeyExA
+	RegEnumKeyExW				= KxBase.RegEnumKeyExW
+	GetDynamicTimeZoneInformationEffectiveYears = KxBase.GetDynamicTimeZoneInformationEffectiveYears
+	EnumDynamicTimeZoneInformation = KxBase.EnumDynamicTimeZoneInformation
 
 	;; ORIGINAL DLL
 	RegOpenKeyEx				= RegOpenKeyExW

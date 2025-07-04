@@ -102,8 +102,7 @@
       <ModuleDefinitionFile>kxbase.def</ModuleDefinitionFile>
       <AdditionalLibraryDirectories>$(TargetDir);$(SolutionDir)\00-Import Libraries</AdditionalLibraryDirectories>
       <SetChecksum>true</SetChecksum>
-      <AdditionalDependencies>
-      </AdditionalDependencies>
+      <AdditionalDependencies>shlwapi.lib</AdditionalDependencies>
       <DelayLoadDLLs>
       </DelayLoadDLLs>
     </Link>
@@ -232,6 +231,7 @@
     <ClCompile Include="module.c" />
     <ClCompile Include="process.c" />
     <ClCompile Include="pssapi.c" />
+    <ClCompile Include="registry.c" />
     <ClCompile Include="security.c" />
     <ClCompile Include="stubs.c" />
     <ClCompile Include="support.c" />

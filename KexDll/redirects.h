@@ -16,6 +16,7 @@ STATIC CONST UNICODE_STRING DllRedirects[][2] = {
 	DLL_REDIRECT("bcrypt",										"kxcryp"			)
 	DLL_REDIRECT("bcryptprimitives",							"kxcryp"			)
 	DLL_REDIRECT("secur32",										"kxcryp"			)
+	DLL_REDIRECT("crypt32",										"kxcryp"			)
 	
 	DLL_REDIRECT("BluetoothApis",								"kxuser"			)
 	DLL_REDIRECT("shcore",										"kxuser"			)
@@ -41,6 +42,7 @@ STATIC CONST UNICODE_STRING DllRedirects[][2] = {
 	DLL_REDIRECT("dnsapi",										"kxnet"				)
 	DLL_REDIRECT("winhttp",										"kxnet"				)
 	DLL_REDIRECT("ws2_32",										"kxnet"				)
+	DLL_REDIRECT("netapi32",									"kxnet"				)
 
 	DLL_REDIRECT("advapi32",									"kxadvapi"			)
 
@@ -48,6 +50,8 @@ STATIC CONST UNICODE_STRING DllRedirects[][2] = {
 
 	DLL_REDIRECT("xinput1_4",									"xinput1_3"			)
 	DLL_REDIRECT("XAudio2_8",									"XAudio2_9"			)
+
+	DLL_REDIRECT("gamingtcui",									"kxgaming"			)
 
 	//
 	// The DLL rewriting routine strips the -lX-Y-Z suffix from the API set name to
@@ -154,6 +158,7 @@ STATIC CONST UNICODE_STRING DllRedirects[][2] = {
 	DLL_REDIRECT("api-ms-win-downlevel-ole32",					"kxcom"				)
 	DLL_REDIRECT("api-ms-win-eventing-classicprovider",			"kxadvapi"			)
 	DLL_REDIRECT("api-ms-win-eventing-provider",				"kxadvapi"			)
+	DLL_REDIRECT("api-ms-win-gaming-tcui",						"kxgaming"			)
 	DLL_REDIRECT("api-ms-win-kernel32-package-current",			"kxbase"			)
 	DLL_REDIRECT("api-ms-win-mm-time",							"winmm"				)
 	DLL_REDIRECT("api-ms-win-ntuser-sysparams",					"kxuser"			)
@@ -191,6 +196,7 @@ STATIC CONST UNICODE_STRING DllRedirects[][2] = {
 	DLL_REDIRECT("ext-ms-win-gdi-draw",							"gdi32"				)
 	DLL_REDIRECT("ext-ms-win-gdi-font",							"gdi32"				)
 	DLL_REDIRECT("ext-ms-win-gdi-path",							"gdi32"				)
+	DLL_REDIRECT("ext-ms-win-ntuser-draw",						"kxuser"			)
 	DLL_REDIRECT("ext-ms-win-ntuser-message",					"kxuser"			)
 	DLL_REDIRECT("ext-ms-win-ntuser-rotationmanager",			"kxuser"			)
 	DLL_REDIRECT("ext-ms-win-ntuser-window",					"kxuser"			)

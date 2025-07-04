@@ -19,6 +19,7 @@ EXPORTS
 	SetThreadpoolTimerEx
 	GetSystemCpuSetInformation
 
+
 	;; process.c
 	GetProcessInformation
 	SetProcessInformation
@@ -45,6 +46,7 @@ EXPORTS
 	;; misc.c
 	GetOsSafeBootMode
 	GetFirmwareType
+	InitializeCriticalSectionEx		= InitializeCriticalSectionEx_Ext
 
 	;; geoname.c
 	GetUserDefaultGeoName
@@ -60,6 +62,8 @@ EXPORTS
 	;; time.c
 	GetSystemTimePreciseAsFileTime
 	QueryUnbiasedInterruptTimePrecise
+	GetDynamicTimeZoneInformationEffectiveYears
+	EnumDynamicTimeZoneInformation
 
 	;; appmodel.c
 	AppPolicyGetProcessTerminationMethod
@@ -75,6 +79,8 @@ EXPORTS
 	GetPackageFullName
 	GetPackagesByPackageFamily
 	PackageFamilyNameFromFullName
+	PackageIdFromFullName
+	GetPackagePath
 
 	;; synch.c
 	WaitOnAddress
@@ -168,6 +174,12 @@ EXPORTS
 
 	;; heap.c
 	HeapCreate							= Ext_HeapCreate
+
+	;; registry.c
+	RegOpenKeyExA						= RegOpenKeyExA_Ext
+	RegOpenKeyExW						= RegOpenKeyExW_Ext
+	RegEnumKeyExA						= RegEnumKeyExA_Ext
+	RegEnumKeyExW						= RegEnumKeyExW_Ext
 
 	;; ORIGINAL DLL
 	GetEnvironmentVariable				= GetEnvironmentVariableW

@@ -84,6 +84,38 @@ KXBASEAPI LONG WINAPI GetPackagesByPackageFamily(
 	return ERROR_SUCCESS;
 }
 
+KXBASEAPI LONG WINAPI PackageIdFromFullName(
+	IN PCWSTR packageFullName,
+	IN const UINT32 flags,
+	IN OUT UINT32 *bufferLength,
+	OUT OPTIONAL BYTE *buffer)
+{
+	if(!bufferLength || !buffer) {
+		return ERROR_INVALID_PARAMETER;
+	}
+
+	bufferLength = 0;
+	buffer = 0;
+	
+	return ERROR_NOT_FOUND;
+}
+
+KXBASEAPI LONG WINAPI GetPackagePath(
+	IN const PACKAGE_ID *packageID,
+	const UINT32 reserved,
+	IN OUT UINT32 *pathLength,
+	OUT OPTIONAL PWSTR path)
+{
+	if(!pathLength || !path) {
+		return ERROR_INVALID_PARAMETER;
+	}
+
+	pathLength = 0;
+	path = 0;
+
+	return ERROR_NOT_FOUND;
+}
+
 KXBASEAPI LONG WINAPI AppPolicyGetProcessTerminationMethod(
 	IN	HANDLE	ProcessToken,
 	OUT	PULONG	Policy)

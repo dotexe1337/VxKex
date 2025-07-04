@@ -47,6 +47,7 @@ copy ..\..\%DBGREL%\KxCom.dll Archive\Kex32\ >nul
 copy ..\..\%DBGREL%\KxCrt.dll Archive\Kex32\ >nul
 copy ..\..\%DBGREL%\KxCryp.dll Archive\Kex32\ >nul
 copy ..\..\%DBGREL%\KxDx.dll Archive\Kex32\ >nul
+copy ..\..\%DBGREL%\KxGaming.dll Archive\Kex32\ >nul
 copy ..\..\%DBGREL%\KxMi.dll Archive\Kex32\ >nul
 copy ..\..\%DBGREL%\KxNet.dll Archive\Kex32\ >nul
 copy ..\..\%DBGREL%\KxUia.dll Archive\Kex32\ >nul
@@ -75,6 +76,7 @@ copy ..\..\x64\%DBGREL%\KxCom.dll Archive\Kex64\ >nul
 copy ..\..\x64\%DBGREL%\KxCrt.dll Archive\Kex64\ >nul
 copy ..\..\x64\%DBGREL%\KxCryp.dll Archive\Kex64\ >nul
 copy ..\..\x64\%DBGREL%\KxDx.dll Archive\Kex64\ >nul
+copy ..\..\x64\%DBGREL%\KxGaming.dll Archive\Kex64\ >nul
 copy ..\..\x64\%DBGREL%\KxMi.dll Archive\Kex64\ >nul
 copy ..\..\x64\%DBGREL%\KxNet.dll Archive\Kex64\ >nul
 copy ..\..\x64\%DBGREL%\KxUia.dll Archive\Kex64\ >nul
@@ -107,6 +109,7 @@ if %DBGREL%==Debug (
 	copy ..\..\%DBGREL%\KxCrt.pdb Archive\Kex32\ >nul
 	copy ..\..\%DBGREL%\KxCryp.pdb Archive\Kex32\ >nul
 	copy ..\..\%DBGREL%\KxDx.pdb Archive\Kex32\ >nul
+	copy ..\..\%DBGREL%\KxGaming.pdb Archive\Kex32\ >nul
 	copy ..\..\%DBGREL%\KxMi.pdb Archive\Kex32\ >nul
 	copy ..\..\%DBGREL%\KxNet.pdb Archive\Kex32\ >nul
 	copy ..\..\%DBGREL%\KxUia.pdb Archive\Kex32\ >nul
@@ -127,6 +130,7 @@ if %DBGREL%==Debug (
 	copy ..\..\x64\%DBGREL%\KxCrt.pdb Archive\Kex64\ >nul
 	copy ..\..\x64\%DBGREL%\KxCryp.pdb Archive\Kex64\ >nul
 	copy ..\..\x64\%DBGREL%\KxDx.pdb Archive\Kex64\ >nul
+	copy ..\..\x64\%DBGREL%\KxGaming.pdb Archive\Kex64\ >nul
 	copy ..\..\x64\%DBGREL%\KxMi.pdb Archive\Kex64\ >nul
 	copy ..\..\x64\%DBGREL%\KxNet.pdb Archive\Kex64\ >nul
 	copy ..\..\x64\%DBGREL%\KxUia.pdb Archive\Kex64\ >nul

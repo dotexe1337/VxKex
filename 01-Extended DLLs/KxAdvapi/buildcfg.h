@@ -37,6 +37,7 @@
 #define _UXTHEME_H_
 
 #pragma comment(lib, "KexDll.lib")
+#pragma comment(lib, "KxBase.lib")
 
 #define KEX_COMPONENT L"KxAdvapi"
 #define KEX_ENV_WIN32

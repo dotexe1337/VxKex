@@ -1,5 +1,8 @@
 LIBRARY KxNet
 EXPORTS
+	;; addr.c
+	GetAddrInfoExOverlappedResult
+
 	;; dns.c
 	DnsQueryEx
 	DnsServiceBrowse
@@ -22,3 +25,7 @@ EXPORTS
 
 	;; ORIGINAL DLL FORWARDS
 	GetAddrInfoExCancel = GetAddrInfoExW
+
+	;; domain.c
+	NetFreeAadJoinInformation
+	NetGetAadJoinInformation

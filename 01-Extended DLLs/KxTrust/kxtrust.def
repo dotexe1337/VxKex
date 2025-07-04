@@ -1,4 +1,4 @@
-LIBRARY KxDx
+LIBRARY KxTrust
 EXPORTS
 	;; trust.c
 	WinVerifyTrust = WinVerifyTrust_Ext

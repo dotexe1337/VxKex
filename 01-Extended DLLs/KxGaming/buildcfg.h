@@ -3,7 +3,6 @@
 #define WIN32_LEAN_AND_MEAN
 #define NOGDICAPMASKS
 #define NOVIRTUALKEYCODES
-#define NOWINMESSAGES
 #define NOWINSTYLES
 #define NOSYSMETRICS
 #define NOMENUS
@@ -15,15 +14,12 @@
 #define NOATOM
 #define NOCLIPBOARD
 #define NOCOLOR
-#define NOCTLMGR
 #define NODRAWTEXT
 #define NOGDI
 #define NOKERNEL
-#define NOUSER
 #define NONLS
 #define NOMB
 #define NOMEMMGR
-#define NOMSG
 #define NOOPENFILE
 #define NOSCROLL
 #define NOTEXTMETRIC
@@ -39,9 +35,10 @@
 #define NOMETAFILE
 #define NOSERVICE
 #define NOSOUND
+#define _UXTHEME_H_
 
-#define KXNTAPI
+#define KXGAMINGAPI
 
-#define KEX_ENV_NATIVE
+#define KEX_ENV_WIN32
 #define KEX_TARGET_TYPE_DLL
-#define KEX_COMPONENT L"KxNt"
+#define KEX_COMPONENT L"KxGaming"

@@ -122,3 +122,5 @@ typedef struct _DNS_QUERY_INFO {
 // Undocumented function from dnsapi.dll
 DNS_STATUS WINAPI DnsQueryExW(
 	IN OUT	PDNS_QUERY_INFO	QueryInfo);
+
+typedef void* PDSREG_JOIN_INFO;

@@ -215,6 +215,7 @@
   <ItemGroup>
     <ClInclude Include="buildcfg.h" />
     <ClInclude Include="kxtrustp.h" />
+    <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.c" />

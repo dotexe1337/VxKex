@@ -163,3 +163,9 @@ KXCOMAPI BOOL WINAPI RoTransformError(
 
 	return RoOriginateError(NewError, Message);
 }
+
+KXCOMAPI HRESULT WINAPI RoSetErrorReportingFlags(
+	IN UINT32 flags)
+{
+	return S_OK;
+}

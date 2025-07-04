@@ -60,7 +60,7 @@
     <ClCompile Include="launcher.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="firefox_fix.c">
+    <ClCompile Include="co.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

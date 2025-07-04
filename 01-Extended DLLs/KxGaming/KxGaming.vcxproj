@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{A5627E7A-6C18-4D04-A7DE-5445F39E1CAB}</ProjectGuid>
+    <ProjectGuid>{1FD67D3C-6A15-47D3-B713-113266AF157A}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>KxCom</RootNamespace>
+    <RootNamespace>KxDx</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -80,11 +80,10 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <PrecompiledHeader>
-      </PrecompiledHeader>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;KXCOM_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;KXDX_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>$(SolutionDir)\00-Common Headers</AdditionalIncludeDirectories>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <TreatWarningAsError>true</TreatWarningAsError>
@@ -99,14 +98,12 @@
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ModuleDefinitionFile>kxgaming.def</ModuleDefinitionFile>
       <AdditionalLibraryDirectories>$(TargetDir);$(SolutionDir)\00-Import Libraries</AdditionalLibraryDirectories>
       <AdditionalDependencies>
       </AdditionalDependencies>
       <EntryPointSymbol>DllMain</EntryPointSymbol>
       <SetChecksum>true</SetChecksum>
-      <ModuleDefinitionFile>kxcom.def</ModuleDefinitionFile>
-      <AdditionalOptions>/ignore:4104 %(AdditionalOptions)</AdditionalOptions>
-      <DelayLoadDLLs>urlmon.dll;shell32.dll</DelayLoadDLLs>
     </Link>
     <ResourceCompile>
       <AdditionalIncludeDirectories>$(SolutionDir)\00-Common Headers</AdditionalIncludeDirectories>
@@ -114,11 +111,10 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <PrecompiledHeader>
-      </PrecompiledHeader>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;KXCOM_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;KXDX_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>$(SolutionDir)\00-Common Headers</AdditionalIncludeDirectories>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <TreatWarningAsError>true</TreatWarningAsError>
@@ -133,14 +129,12 @@
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ModuleDefinitionFile>kxgaming.def</ModuleDefinitionFile>
       <AdditionalLibraryDirectories>$(TargetDir);$(SolutionDir)\00-Import Libraries</AdditionalLibraryDirectories>
       <AdditionalDependencies>
       </AdditionalDependencies>
       <EntryPointSymbol>DllMain</EntryPointSymbol>
       <SetChecksum>true</SetChecksum>
-      <ModuleDefinitionFile>kxcom.def</ModuleDefinitionFile>
-      <AdditionalOptions>/ignore:4104 %(AdditionalOptions)</AdditionalOptions>
-      <DelayLoadDLLs>urlmon.dll;shell32.dll</DelayLoadDLLs>
     </Link>
     <ResourceCompile>
       <AdditionalIncludeDirectories>$(SolutionDir)\00-Common Headers</AdditionalIncludeDirectories>
@@ -149,12 +143,11 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
-      <PrecompiledHeader>
-      </PrecompiledHeader>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <Optimization>MinSpace</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;KXCOM_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;KXDX_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>$(SolutionDir)\00-Common Headers</AdditionalIncludeDirectories>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <TreatWarningAsError>true</TreatWarningAsError>
@@ -174,14 +167,12 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
+      <ModuleDefinitionFile>kxgaming.def</ModuleDefinitionFile>
       <AdditionalLibraryDirectories>$(TargetDir);$(SolutionDir)\00-Import Libraries</AdditionalLibraryDirectories>
       <AdditionalDependencies>
       </AdditionalDependencies>
       <EntryPointSymbol>DllMain</EntryPointSymbol>
       <SetChecksum>true</SetChecksum>
-      <ModuleDefinitionFile>kxcom.def</ModuleDefinitionFile>
-      <AdditionalOptions>/ignore:4104 %(AdditionalOptions)</AdditionalOptions>
-      <DelayLoadDLLs>urlmon.dll;shell32.dll</DelayLoadDLLs>
     </Link>
     <ResourceCompile>
       <AdditionalIncludeDirectories>$(SolutionDir)\00-Common Headers</AdditionalIncludeDirectories>
@@ -190,12 +181,11 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
-      <PrecompiledHeader>
-      </PrecompiledHeader>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <Optimization>MinSpace</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;KXCOM_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;KXDX_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>$(SolutionDir)\00-Common Headers</AdditionalIncludeDirectories>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <TreatWarningAsError>true</TreatWarningAsError>
@@ -215,47 +205,33 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
+      <ModuleDefinitionFile>kxgaming.def</ModuleDefinitionFile>
       <AdditionalLibraryDirectories>$(TargetDir);$(SolutionDir)\00-Import Libraries</AdditionalLibraryDirectories>
       <AdditionalDependencies>
       </AdditionalDependencies>
       <EntryPointSymbol>DllMain</EntryPointSymbol>
       <SetChecksum>true</SetChecksum>
-      <ModuleDefinitionFile>kxcom.def</ModuleDefinitionFile>
-      <AdditionalOptions>/ignore:4104 %(AdditionalOptions)</AdditionalOptions>
-      <DelayLoadDLLs>urlmon.dll;shell32.dll</DelayLoadDLLs>
     </Link>
     <ResourceCompile>
       <AdditionalIncludeDirectories>$(SolutionDir)\00-Common Headers</AdditionalIncludeDirectories>
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="actfact.c" />
-    <ClCompile Include="co.c" />
-    <ClCompile Include="glprstat.c" />
+    <ClInclude Include="buildcfg.h" />
+    <ClInclude Include="kxgaming.h" />
+    <ClInclude Include="kxgamingp.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
     <ClCompile Include="dllmain.c" />
     <ClCompile Include="forwards.c" />
-    <ClCompile Include="launcher.c" />
-    <ClCompile Include="mta.c" />
-    <ClCompile Include="roapi.c" />
-    <ClCompile Include="robuffer.c" />
-    <ClCompile Include="roerror.c" />
-    <ClCompile Include="rofactry.c" />
-    <ClCompile Include="roinit.c" />
-    <ClCompile Include="uisettings.c" />
-    <ClCompile Include="uiview.c" />
-    <ClCompile Include="uri.c" />
-    <ClCompile Include="winrt.c" />
+    <ClCompile Include="gameui.c" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="kxcom.def" />
+    <None Include="kxgaming.def" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\00-Common Headers\KxCom.h" />
-    <ClInclude Include="buildcfg.h" />
-    <ClInclude Include="kxcomp.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="KxCom.rc" />
+    <ResourceCompile Include="KxGaming.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

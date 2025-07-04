@@ -24,6 +24,13 @@ KXBASEAPI BOOL WINAPI Ext_GetVersionExA(
 		VersionInfo->dwBuildNumber = 7601;
 	}
 
+	if(Success && (AshExeBaseNameIs(L"RobloxPlayerBeta.exe") || AshModuleBaseNameIs(ReturnAddress(), L"RobloxPlayerBeta.dll")))
+	{
+		VersionInfo->dwMajorVersion = 10;
+		VersionInfo->dwMinorVersion = 0;
+		VersionInfo->dwBuildNumber = 19044;
+	}
+
 	return Success;
 }
 

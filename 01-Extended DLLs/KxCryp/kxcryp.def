@@ -9,3 +9,7 @@ EXPORTS
 	;; schannel.c
 ;	AcquireCredentialsHandleA					= Ext_AcquireCredentialsHandleA
 	AcquireCredentialsHandleW					= Ext_AcquireCredentialsHandleW
+	
+	;; cert.c
+	;CertGetCertificateChain						= CertGetCertificateChain_Ext
+	;CertVerifyCertificateChainPolicy			= CertVerifyCertificateChainPolicy_Ext

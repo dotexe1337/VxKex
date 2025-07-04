@@ -221,8 +221,10 @@
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="addr.c" />
     <ClCompile Include="dllmain.c" />
     <ClCompile Include="dns.c" />
+    <ClCompile Include="domain.c" />
     <ClCompile Include="forwards.c" />
     <ClCompile Include="winhttp.c" />
     <ClCompile Include="winsock.c" />

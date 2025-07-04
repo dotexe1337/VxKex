@@ -556,7 +556,30 @@ typedef enum _FILE_INFO_BY_NAME_CLASS {
 	MaximumFileInfoByNameClass
 } TYPEDEF_TYPE_NAME(FILE_INFO_BY_NAME_CLASS);
 
+typedef struct PACKAGE_VERSION {
+  union {
+    UINT64 Version;
+    struct {
+      USHORT Revision;
+      USHORT Build;
+      USHORT Minor;
+      USHORT Major;
+    } DUMMYSTRUCTNAME;
+  } DUMMYUNIONNAME;
+} PACKAGE_VERSION;
+
+typedef struct PACKAGE_ID {
+  UINT32          reserved;
+  UINT32          processorArchitecture;
+  PACKAGE_VERSION version;
+  PWSTR           name;
+  PWSTR           publisher;
+  PWSTR           resourceId;
+  PWSTR           publisherId;
+} PACKAGE_ID;
+
 #pragma endregion
+
 
 #if defined(KEX_ENV_WIN32)
 

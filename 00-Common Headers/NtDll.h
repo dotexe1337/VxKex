@@ -1574,7 +1574,7 @@ typedef struct _TEB {
 	// to me and there were shitloads of structures to copy so I gave up.
 	PVOID								ActivationContextStackPointer;
 
-	UCHAR								SpareBytes[0x24];
+	UCHAR								SpareBytes[24];
 	ULONG								TxFsContext;
 	
 	GDI_TEB_BATCH						GdiTebBatch;

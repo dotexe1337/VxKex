@@ -30,6 +30,12 @@
     <ClCompile Include="winsock.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="addr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="domain.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="buildcfg.h">

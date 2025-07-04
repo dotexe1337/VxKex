@@ -63,3 +63,34 @@ KXBASEAPI VOID WINAPI QueryUnbiasedInterruptTimePrecise(
 {
 	QueryUnbiasedInterruptTime(UnbiasedInterruptTimePrecise);
 }
+
+KXBASEAPI DWORD WINAPI GetDynamicTimeZoneInformationEffectiveYears(
+	IN const PDYNAMIC_TIME_ZONE_INFORMATION lpTimeZoneInformation,
+	OUT LPDWORD FirstYear,
+	OUT LPDWORD LastYear)
+{
+	if(!lpTimeZoneInformation || !FirstYear || !LastYear) {
+		return ERROR_INVALID_PARAMETER;
+	}
+
+	*FirstYear = 1900;
+	*LastYear = 9999;
+
+	return ERROR_SUCCESS;
+}
+
+KXBASEAPI DWORD WINAPI EnumDynamicTimeZoneInformation(
+	IN CONST DWORD dwIndex,
+	OUT PDYNAMIC_TIME_ZONE_INFORMATION lpTimeZoneInformation)
+{
+	DYNAMIC_TIME_ZONE_INFORMATION timeZoneInformation;
+
+	if(!dwIndex || !lpTimeZoneInformation) {
+		return ERROR_INVALID_PARAMETER;
+	}
+
+	GetDynamicTimeZoneInformation(&timeZoneInformation);
+	*lpTimeZoneInformation = timeZoneInformation;
+	
+	return ERROR_SUCCESS;
+}

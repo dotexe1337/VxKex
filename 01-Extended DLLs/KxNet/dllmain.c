@@ -8,10 +8,10 @@ BOOL WINAPI DllMain(
 	IN	ULONG		Reason,
 	IN	PCONTEXT	Context)
 {
-	if (Reason == DLL_PROCESS_ATTACH) {
-		LdrDisableThreadCalloutsForDll(DllHandle);
-		KexDataInitialize(&KexData);
-	}
+		if (Reason == DLL_PROCESS_ATTACH) {
+			LdrDisableThreadCalloutsForDll(DllHandle);
+			KexDataInitialize(&KexData);
+		}
 
 	return TRUE;
 }
