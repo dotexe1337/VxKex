@@ -301,12 +301,6 @@ STATIC VOID AddProgram(
 	ASSERT (DirectoryNameCch != 0);
 	ASSERT (DirectoryNameCch < MAX_PATH);
 
-	if (StringBeginsWithI(DirectoryName, SharedUserData->NtSystemRoot)) {
-		// program(s) are in the Windows directory - do not allow
-		ErrorBoxF(L"You cannot enable VxKex for programs in the Windows directory.");
-		return;
-	}
-
 	KxCfgGetKexDir(KexDir, ARRAYSIZE(KexDir));
 
 	if (StringBeginsWithI(DirectoryName, KexDir)) {

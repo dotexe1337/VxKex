@@ -1,0 +1,4 @@
+LIBRARY KxRpc
+EXPORTS
+	;; rpc.c
+	RpcServerRegisterIf3

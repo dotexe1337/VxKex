@@ -9,3 +9,18 @@ KXMIAPI HRESULT WINAPI WldpQueryWindowsLockdownMode(
 	*LockdownMode = WLDP_WINDOWS_LOCKDOWN_MODE_UNLOCKED;
 	return S_OK;
 }
+
+KXMIAPI HRESULT WINAPI WldpGetLockdownPolicy(
+ IN PVOID  HostInformation,
+ OUT PULONG  LockdownState,
+ IN ULONG  LockdownFlags)
+{
+ ASSERT (LockdownState != NULL);
+
+ if (!LockdownState) {
+  return E_POINTER;
+ }
+
+ *LockdownState = 0x80000000;
+ return S_OK;
+}

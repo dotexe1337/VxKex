@@ -2,3 +2,4 @@ LIBRARY KxUia
 EXPORTS
 	;; uia.c
 	UiaRaiseNotificationEvent
+	UiaDisconnectProvider

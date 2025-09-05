@@ -62,40 +62,48 @@ NTSTATUS KexRtlInitializeRandomNumberGenerator(
 #define IOCTL_KSEC_RANDOM_FILL_BUFFER CTL_CODE(FILE_DEVICE_KSEC, 0x02, METHOD_BUFFERED, FILE_ANY_ACCESS)
 
 KEXAPI NTSTATUS NTAPI KexRtlGenerateRandomData(
-	OUT	PVOID	RandomBuffer,
-	IN	ULONG	NumberOfBytesToGenerate)
+    OUT    PVOID    RandomBuffer,
+    IN    ULONG    NumberOfBytesToGenerate)
 {
-	NTSTATUS Status;
-	IO_STATUS_BLOCK IoStatusBlock;
+    NTSTATUS Status;
+    IO_STATUS_BLOCK IoStatusBlock;
 
-	ASSUME (RandomBuffer != NULL);
-	ASSUME (KexData != NULL);
+    if (NumberOfBytesToGenerate == 0) {
+        // NumberOfBytesToGenerate can be zero sometimes (when called from ProcessPrng).
+        // In this case we should just return without doing anything, because apparently
+        // ProcessPrng accepts an argument of zero and at least one application
+        // (cloudflared) does this.
+        return STATUS_SUCCESS;
+    }
 
-	if (!KexData->KsecDD) {
-		Status = KexRtlInitializeRandomNumberGenerator();
-		if (!NT_SUCCESS(Status)) {
-			return Status;
-		}
-	}
+    ASSUME (RandomBuffer != NULL);
+    ASSUME (KexData != NULL);
 
-	ASSERT (VALID_HANDLE(KexData->KsecDD));
+    if (!KexData->KsecDD) {
+        Status = KexRtlInitializeRandomNumberGenerator();
+        if (!NT_SUCCESS(Status)) {
+            return Status;
+        }
+    }
 
-	if (!VALID_HANDLE(KexData->KsecDD)) {
-		return STATUS_UNSUCCESSFUL;
-	}
+    ASSERT (VALID_HANDLE(KexData->KsecDD));
 
-	Status = NtDeviceIoControlFile(
-		KexData->KsecDD,
-		NULL,
-		NULL,
-		NULL,
-		&IoStatusBlock,
-		IOCTL_KSEC_RANDOM_FILL_BUFFER,
-		NULL,
-		0,
-		RandomBuffer,
-		NumberOfBytesToGenerate);
+    if (!VALID_HANDLE(KexData->KsecDD)) {
+        return STATUS_UNSUCCESSFUL;
+    }
 
-	ASSERT (NT_SUCCESS(Status));
-	return Status;
+    Status = NtDeviceIoControlFile(
+        KexData->KsecDD,
+        NULL,
+        NULL,
+        NULL,
+        &IoStatusBlock,
+        IOCTL_KSEC_RANDOM_FILL_BUFFER,
+        NULL,
+        0,
+        RandomBuffer,
+        NumberOfBytesToGenerate);
+
+    ASSERT (NT_SUCCESS(Status));
+    return Status;
 }

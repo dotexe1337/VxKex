@@ -47,8 +47,6 @@
 #pragma comment(linker, "/EXPORT:CryptSIPPutSignedDataMsg=wintrust.CryptSIPPutSignedDataMsg,@52")
 #pragma comment(linker, "/EXPORT:CryptSIPRemoveSignedDataMsg=wintrust.CryptSIPRemoveSignedDataMsg,@53")
 #pragma comment(linker, "/EXPORT:CryptSIPVerifyIndirectData=wintrust.CryptSIPVerifyIndirectData,@54")
-//#pragma comment(linker, "/EXPORT:DllRegisterServer=wintrust.DllRegisterServer,@55")
-//#pragma comment(linker, "/EXPORT:DllUnregisterServer=wintrust.DllUnregisterServer,@56")
 #pragma comment(linker, "/EXPORT:DriverCleanupPolicy=wintrust.DriverCleanupPolicy,@57")
 #pragma comment(linker, "/EXPORT:DriverFinalPolicy=wintrust.DriverFinalPolicy,@58")
 #pragma comment(linker, "/EXPORT:DriverInitializePolicy=wintrust.DriverInitializePolicy,@59")

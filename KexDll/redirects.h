@@ -53,6 +53,8 @@ STATIC CONST UNICODE_STRING DllRedirects[][2] = {
 
 	DLL_REDIRECT("gamingtcui",									"kxgaming"			)
 
+	DLL_REDIRECT("RPCRT4",										"kxrpc"				)
+
 	//
 	// The DLL rewriting routine strips the -lX-Y-Z suffix from the API set name to
 	// avoid excessive duplication.
@@ -67,6 +69,7 @@ STATIC CONST UNICODE_STRING DllRedirects[][2] = {
 	DLL_REDIRECT("api-ms-win-core-com",							"kxcom"				)
 	DLL_REDIRECT("api-ms-win-core-com-midlproxystub",			"kxcom"				)
 	DLL_REDIRECT("api-ms-win-core-com-private",					"kxcom"				)
+	DLL_REDIRECT("api-ms-win-core-comm",						"kxbase"			)
 	DLL_REDIRECT("api-ms-win-core-console",						"kxbase"			)
 	DLL_REDIRECT("api-ms-win-core-datetime",					"kxbase"			)
 	DLL_REDIRECT("api-ms-win-core-debug",						"kxbase"			)

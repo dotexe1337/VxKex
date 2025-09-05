@@ -81,6 +81,7 @@ EXPORTS
 	PackageFamilyNameFromFullName
 	PackageIdFromFullName
 	GetPackagePath
+	GetPackagePathByFullName
 
 	;; synch.c
 	WaitOnAddress
