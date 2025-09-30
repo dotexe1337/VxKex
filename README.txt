@@ -1,10 +1,8 @@
-VxKex is a third-party system update for Windows 7
+THIS REPOSITORY HAS BEEN ARCHIVED:
 
-Developed by:
-vxiiduu 2022-2024
-dotexe1337 2024+
+VxKex is now available from my website & FTP server at:
+http://thrashnet.org
+(no HTTPS)
 
-Future goals:
-Support for other Windows versions (Vista, 8, 8.1... XP???)
-DirectX 12
-TLS 1.3
+I am no longer active on GitHub. Please E-Mail me if you would like to report issues, need support, etc:
+kryptik@thrashnet.org
